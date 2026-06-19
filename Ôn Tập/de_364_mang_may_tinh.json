@@ -1,0 +1,429 @@
+{
+  "id": "de_364",
+  "title": "Đề 364 - Mạng máy tính (Đề 2)",
+  "subject": "Mạng máy tính",
+  "duration_minutes": 60,
+  "source_note": "Được dựng từ 3 ảnh người dùng gửi. Hiện mới có 38 câu nhìn rõ từ 3 trang ảnh; trang 4 chưa được cung cấp nên đề này đang là bản 38 câu. Một vài câu có nội dung/đáp án được suy luận do ảnh hơi mờ.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Mô hình TCP/IP có mấy tầng",
+      "options": {
+        "A": "7",
+        "B": "5",
+        "C": "6",
+        "D": "4"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "text": "Đơn vị dữ liệu ở tầng mạng là gì?",
+      "options": {
+        "A": "Gói (packet)",
+        "B": "Khung (frame)",
+        "C": "Bit",
+        "D": "Đoạn (segment)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "text": "Địa chỉ IP 214.42.7.163 này là địa chỉ thuộc lớp nào?",
+      "options": {
+        "A": "Lớp D",
+        "B": "Lớp B",
+        "C": "Lớp A",
+        "D": "Lớp C"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 4,
+      "text": "Nêu đặc điểm đúng của cáp quang?",
+      "options": {
+        "A": "Cáp quang tốn điện hơn cáp đồng",
+        "B": "Cáp quang truyền sóng ánh sáng",
+        "C": "Cáp quang có đường kính lớn hơn cáp đồng",
+        "D": "Cáp quang dễ lắp đặt hơn cáp đồng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "text": "Dịch vụ DNS Server có chức năng chính là gì?",
+      "options": {
+        "A": "Phân giải tên miền (địa chỉ IP sang tên và ngược lại)",
+        "B": "Phân giải địa chỉ MAC",
+        "C": "Phân giải tên NETBIOS",
+        "D": "Tất cả các đáp án còn lại đều sai"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "text": "Giao thức truyền tin siêu văn bản viết tắt là:",
+      "options": {
+        "A": "WWW",
+        "B": "HTTP",
+        "C": "HTML",
+        "D": "TCP/IP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "text": "Mô hình tham chiếu OSI được chia thành mấy lớp?",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "8",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "text": "Trong mạng có phương thức truyền nào?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Broadcast",
+        "C": "Unicast",
+        "D": "Multicast"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "text": "Địa chỉ IP 142.42.7.163 thuộc lớp nào?",
+      "options": {
+        "A": "Lớp D",
+        "B": "Lớp A",
+        "C": "Lớp B",
+        "D": "Lớp C"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "text": "Giá trị byte đầu tiên trong địa chỉ IP lớp A nằm trong dải nào?",
+      "options": {
+        "A": "128-191",
+        "B": "224-239",
+        "C": "0-127",
+        "D": "192-223"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "text": "Cho một mạng có địa chỉ 212.12.12.0 và độ dài mặt nạ mạng là 24 bit. Mạng này được chia thành 4 mạng con. Xác định mạng con hợp lệ trong 4 mạng con sau:",
+      "options": {
+        "A": "212.12.12.132",
+        "B": "212.12.12.64",
+        "C": "212.12.12.164",
+        "D": "212.12.12.32"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "text": "Trong quá trình bắt tay trong giao thức TCP, máy A gửi yêu cầu kết nối tới máy B, máy B muốn chấp nhận kết nối thì nó trả lời cho A bằng cách gửi gói tin đến A và bật các cờ",
+      "options": {
+        "A": "Các phương án còn lại đều sai",
+        "B": "ACK=0 / SYN=1",
+        "C": "FIN=1 / ACK=0",
+        "D": "ACK=1 / SYN=1"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 13,
+      "text": "Cho mạng con có địa chỉ host 164.83.250.97/17. Xác định địa chỉ quảng bá.",
+      "options": {
+        "A": "164.83.250.255",
+        "B": "164.83.255.255",
+        "C": "164.83.128.0",
+        "D": "164.83.250.0"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "text": "Các loại cáp sử dụng phương thức gì để chống nhiễu?",
+      "options": {
+        "A": "Cáp quang sử dụng hai sợi song song",
+        "B": "Cáp xoắn đôi không cần chống nhiễu",
+        "C": "Các loại cáp đồng sử dụng lõi kim loại lớn",
+        "D": "Cáp đồng trục sử dụng lớp lưới đồng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 15,
+      "text": "Giao thức nào cung cấp tính năng truyền dữ liệu theo hướng có kết nối, phân phát dữ liệu tin cậy, sắp xếp dữ liệu theo đúng thứ tự, điều khiển luồng",
+      "options": {
+        "A": "TCP",
+        "B": "Các phương án còn lại đều sai",
+        "C": "UDP",
+        "D": "IPv6"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "text": "Câu phát biểu nào sau đây là sai về phương tiện truyền dẫn?",
+      "options": {
+        "A": "Truyền dẫn không dây thường bị tác động bởi môi trường xung quanh",
+        "B": "Phương tiện truyền dẫn không dây có tính thuận tiện và thẩm mỹ tốt hơn các loại dây cáp",
+        "C": "Truyền dẫn có dây cho phép tốc độ thấp hơn truyền dẫn không dây",
+        "D": "Truyền dẫn có dây không bị tác động bởi môi trường xung quanh"
+      },
+      "answer": "C",
+      "note": "Câu này có khả năng mơ hồ do trong ảnh có thể dẫn tới hơn một phương án chưa thật chặt. Tạm gán đáp án C theo suy luận kỹ thuật phổ biến."
+    },
+    {
+      "id": 17,
+      "text": "Cho một mạng có địa chỉ 212.12.12.0 và độ dài mặt nạ mạng là 24 bit. Mạng này được chia thành 4 mạng con. Xác định mạng con hợp lệ trong 4 mạng con sau:",
+      "options": {
+        "A": "212.12.12.162",
+        "B": "212.12.12.72",
+        "C": "212.12.12.192",
+        "D": "212.12.12.48"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "text": "Port number trong header của giao thức TCP dùng để",
+      "options": {
+        "A": "Điều khiển luồng",
+        "B": "Phân biệt các luồng dữ liệu của các ứng dụng khác nhau đang hoạt động trên host",
+        "C": "Sắp xếp lại gói tin theo đúng thứ tự ở đầu nhận",
+        "D": "Các phương án còn lại đều sai"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "text": "Các loại cáp sử dụng phương thức gì để chống nhiễu?",
+      "options": {
+        "A": "Cáp quang sử dụng nguồn sáng laze",
+        "B": "Cáp xoắn đôi sử dụng lớp lưới đồng",
+        "C": "Cáp đồng trục sử dụng lõi kim loại lớn",
+        "D": "Các loại cáp đồng sử dụng lớp vỏ bọc"
+      },
+      "answer": "B",
+      "note": "Câu này ảnh hơi mờ và nội dung đề có vẻ chưa chặt. Tạm gán đáp án B vì đây là phương án gần nhất với cơ chế chống nhiễu có thật trong cáp có vỏ chống nhiễu (shielded cable)."
+    },
+    {
+      "id": 20,
+      "text": "Lý do phân tầng/lớp giao thức mạng là gì?",
+      "options": {
+        "A": "Giảm độ phức tạp",
+        "B": "Giảm chi phí",
+        "C": "Tăng tốc độ truyền tải",
+        "D": "Tăng hiệu suất làm việc"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "text": "Đơn vị dữ liệu của tầng Physical là",
+      "options": {
+        "A": "Packet",
+        "B": "Bit",
+        "C": "Frame",
+        "D": "Segment"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "text": "Phát biểu nào dưới đây là đúng?",
+      "options": {
+        "A": "TCP và HTTP là những giao thức được cài đặt ở tầng giao vận (Transport Layer)",
+        "B": "IP là giao thức được cài đặt ở tầng liên kết dữ liệu (Datalink Layer)",
+        "C": "TCP/IP là giao thức được cài đặt ở tầng ứng dụng (Application Layer)",
+        "D": "Telnet, HTTP, SMTP, FTP là những giao thức làm việc ở tầng ứng dụng (Application Layer)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 23,
+      "text": "Mô hình OSI có 7 tầng lần lượt là:",
+      "options": {
+        "A": "NetworkLayer - ApplicationLayer - PresentationLayer - SessionLayer - TransportLayer - DatalinkLayer - PhysicalLayer",
+        "B": "PhysicalLayer - DatalinkLayer - NetworkLayer - TransportLayer - SessionLayer - PresentationLayer - ApplicationLayer",
+        "C": "ApplicationLayer - PresentationLayer - SessionLayer - TransportLayer - NetworkLayer - DatalinkLayer - PhysicalLayer",
+        "D": "ApplicationLayer - PresentationLayer - TransportLayer - NetworkLayer - DatalinkLayer - PhysicalLayer - SessionLayer"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "text": "Nêu đặc điểm đúng của cáp quang?",
+      "options": {
+        "A": "Cáp quang bị ảnh hưởng nhiễu nhiều hơn cáp đồng",
+        "B": "Cáp quang tốn điện hơn cáp đồng",
+        "C": "Cáp quang có hai chế độ: đơn chế độ (single mode) và đa chế độ (multi mode)",
+        "D": "Cáp quang dễ lắp đặt hơn cáp đồng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "text": "Mạng dùng để nối kết nhiều máy tính với nhau trong phạm vi một văn phòng gọi là:",
+      "options": {
+        "A": "WAN",
+        "B": "MAN",
+        "C": "LAN",
+        "D": "Internet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 26,
+      "text": "Phương thức truyền point to point là tên khác của kiểu truyền nào?",
+      "options": {
+        "A": "Broadcast",
+        "B": "Multicast",
+        "C": "Unicast",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "text": "Các loại cáp sử dụng phương thức gì để chống nhiễu?",
+      "options": {
+        "A": "Cáp quang sử dụng lớp cách điện",
+        "B": "Cáp đồng trục sử dụng lớp lưới nhựa",
+        "C": "Cáp xoắn đôi xoắn hai dây vào nhau",
+        "D": "Cáp quang sử dụng đèn diode"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 28,
+      "text": "Cho mạng có địa chỉ 192.168.73.0/24. Mượn 1 bit để chia mạng này thành 2 mạng con. Xác định mặt nạ mạng của các mạng con?",
+      "options": {
+        "A": "255.255.255.255",
+        "B": "192.168.73.255",
+        "C": "192.168.73.128",
+        "D": "255.255.255.128"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 29,
+      "text": "Cho một mạng có địa chỉ 212.12.12.0 và độ dài mặt nạ mạng là 24 bit. Mạng này được chia thành 4 mạng con. Xác định mạng con hợp lệ trong 4 mạng con sau:",
+      "options": {
+        "A": "212.12.12.48",
+        "B": "212.12.12.60",
+        "C": "212.12.12.96",
+        "D": "212.12.12.128"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 30,
+      "text": "Mạng có địa chỉ 212.12.12.0/24 sẽ có địa chỉ quảng bá là gì?",
+      "options": {
+        "A": "212.12.12.255",
+        "B": "212.255.255.255",
+        "C": "212.12.255.255",
+        "D": "212.255.12.255"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "text": "Để chia một mạng lớp B thành 12 mạng con thì cần mượn ít nhất bao nhiêu bit để chia mạng con?",
+      "options": {
+        "A": "4 bit",
+        "B": "6 bit",
+        "C": "12 bit",
+        "D": "3 bit"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 32,
+      "text": "Cho mạng con có địa chỉ host 172.160.3.6/22. Xác định địa chỉ quảng bá.",
+      "options": {
+        "A": "255.255.252.0",
+        "B": "172.160.0.1",
+        "C": "172.160.0.0",
+        "D": "172.160.3.255"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 33,
+      "text": "Trong giao thức TCP, máy A muốn ngắt kết nối với máy B thì đầu tiên nó gửi gói tin đến B và bật cờ",
+      "options": {
+        "A": "FIN=0",
+        "B": "FIN=1",
+        "C": "ACK=1",
+        "D": "Các phương án còn lại đều sai"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "text": "Cho host có địa chỉ IP 172.16.99.99, subnet mask 255.255.192.0. Xác định địa chỉ quảng bá.",
+      "options": {
+        "A": "172.16.255.255",
+        "B": "172.16.99.255",
+        "C": "172.16.127.255",
+        "D": "172.16.64.127"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 35,
+      "text": "Giao thức UDP có chức năng nào",
+      "options": {
+        "A": "Cơ chế truyền lại",
+        "B": "Sắp xếp các gói tin đúng thứ tự",
+        "C": "Điều khiển luồng",
+        "D": "Phân luồng các tiến trình nhờ port number"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 36,
+      "text": "Cho mạng có địa chỉ 192.168.175.0/24. Mượn 1 bit để chia mạng này thành 2 mạng con. Xác định địa chỉ quảng bá của mạng con có địa chỉ mạng 192.168.175.128/25.",
+      "options": {
+        "A": "192.168.175.15",
+        "B": "192.168.175.255",
+        "C": "192.168.175.127",
+        "D": "192.168.175.128"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "text": "Cho mạng có địa chỉ 192.168.54.0/24. Mượn 1 bit để chia mạng này thành 2 mạng con. Xác định địa chỉ IP hợp lệ trong các mạng con.",
+      "options": {
+        "A": "192.168.0.73/24",
+        "B": "192.168.54.81/24",
+        "C": "192.168.54.120/25",
+        "D": "192.168.54.273/25"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "text": "Cáp thẳng không được dùng để nối giữa?",
+      "options": {
+        "A": "PC với PC",
+        "B": "Switch với Router",
+        "C": "PC với Switch",
+        "D": "PC với Hub"
+      },
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "id": "chuong3",
+  "title": "CHƯƠNG 3",
+  "subject": "Mạng máy tính CSE101",
+  "duration_minutes": 45,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Trong modem, kỹ thuật điều biến nào không phải là điều biến số (digital modulation)?",
+      "options": {
+        "A": "Amplitude Modulation",
+        "B": "Quadrature Phase Shift Keying",
+        "C": "Frequency Shift Keying",
+        "D": "Phase Shift Keying"
+      },
+      "answer": ""
+    },
+    {
+      "id": 2,
+      "text": "Nếu đang gọi điện thoại ta nghe được một cuộc gọi khác xen vào đường dây, đó là do",
+      "options": {
+        "A": "Nhiễu từ",
+        "B": "Nhiễu xuyên âm",
+        "C": "Nhiễu xung",
+        "D": "Nhiễu nhiệt"
+      },
+      "answer": ""
+    },
+    {
+      "id": 3,
+      "text": "Câu phát biểu nào sau đây là sai về phương tiện truyền dẫn?",
+      "options": {
+        "A": "Phương tiện truyền dẫn không dây có tính thuận tiện và thẩm mỹ tốt hơn các loại dây cáp",
+        "B": "Truyền dẫn có dây cho phép tốc độ thấp hơn truyền dẫn không dây",
+        "C": "Truyền dẫn có dây không bị tác động bởi môi trường xung quanh",
+        "D": "Truyền dẫn không dây thường bị tác động bởi môi trường xung quanh"
+      },
+      "answer": ""
+    },
+    {
+      "id": 4,
+      "text": "Phương tiện kết nối mạng phổ biến cho máy tính xách tay là?",
+      "options": {
+        "A": "Kết nối wifi",
+        "B": "Kết nối bluetooth",
+        "C": "Kết nối cáp xoắn đôi",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 5,
+      "text": "Nêu đặc điểm đúng của cáp đồng?",
+      "options": {
+        "A": "Cáp đồng rẻ hơn cáp quang",
+        "B": "Cáp đồng có đường kính nhỏ hơn cáp quang",
+        "C": "Cáp đồng ít bị nhiễu hơn cáp quang",
+        "D": "Cáp quang sử dụng hai sợi song song để chống nhiễu"
+      },
+      "answer": ""
+    },
+    {
+      "id": 6,
+      "text": "Môi trường không dây nào phù hợp với mạng PAN hiện nay?",
+      "options": {
+        "A": "Sóng ánh sáng",
+        "B": "Sóng hồng ngoại",
+        "C": "Bluetooth",
+        "D": "Sóng viba"
+      },
+      "answer": ""
+    },
+    {
+      "id": 7,
+      "text": "Phương tiện truyền dẫn của dịch vụ Kênh thuê riêng (leased line) kết nối Internet là?",
+      "options": {
+        "A": "Cáp đồng trục",
+        "B": "Cáp quang",
+        "C": "Vệ tinh",
+        "D": "Cáp điện thoại"
+      },
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "text": "Đặc điểm nào về chuyển mạch gói (packet-switching) là sai?",
+      "options": {
+        "A": "Giới hạn kích thước gói dữ liệu",
+        "B": "Giảm độ trễ",
+        "C": "Chuyển tiếp ngay gói dữ liệu khi xử lý xong, trong khi đang nhận gói dữ liệu tiếp theo",
+        "D": "Xử lý lưu lượng tĩnh"
+      },
+      "answer": ""
+    },
+    {
+      "id": 9,
+      "text": "Phát biểu nào sau đây là đúng về truyền dữ liệu qua mạng?",
+      "options": {
+        "A": "Các bit thông tin được đóng gói thành các đơn vị dữ liệu",
+        "B": "Các bit thông tin di chuyển theo một phương tiện truyền dẫn nào đó",
+        "C": "Các bit dữ liệu di chuyển qua lại bên trong hệ thống máy tính",
+        "D": "Các bit dữ liệu được chuyển đổi từ dạng analog sang digital và ngược lại"
+      },
+      "answer": ""
+    },
+    {
+      "id": 10,
+      "text": "Trong modem, kiểu điều biến nào không phải là điều biến tương tự (analog modulation)?",
+      "options": {
+        "A": "Frequency Modulation",
+        "B": "Amplitude Modulation",
+        "C": "Phase Modulation",
+        "D": "Frequency Shift Keying"
+      },
+      "answer": ""
+    },
+    {
+      "id": 11,
+      "text": "Các loại cáp sử dụng phương thức gì để chống nhiễu?",
+      "options": {
+        "A": "Cáp đồng trục sử dụng lớp lưới nhựa",
+        "B": "Cáp quang sử dụng đèn diode",
+        "C": "Cáp xoắn đôi xoắn hai dây vào nhau",
+        "D": "Cáp quang sử dụng lớp cách điện"
+      },
+      "answer": ""
+    },
+    {
+      "id": 12,
+      "text": "Đơn vị đo của băng thông (bandwidth) là gì?",
+      "options": {
+        "A": "Gbps",
+        "B": "Mbps",
+        "C": "Kbps",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 13,
+      "text": "Phương tiện kết nối mạng phổ biến cho máy tính để bàn là?",
+      "options": {
+        "A": "Kết nối wifi",
+        "B": "Kết nối với cáp quang",
+        "C": "Kết nối bluetooth",
+        "D": "Kết nối với cáp xoắn đôi"
+      },
+      "answer": ""
+    },
+    {
+      "id": 14,
+      "text": "Phát biểu nào sau đây là sai về sóng vô tuyến và bluetooth?",
+      "options": {
+        "A": "Tốc độ dữ liệu của sóng vô tuyến cao hơn bluetooth",
+        "B": "Tích hợp sẵn trong các thiết bị di động",
+        "C": "Cả hai loại đều sử dụng hai dải tần số",
+        "D": "Cả hai loại đều truyền vô hướng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 15,
+      "text": "Câu phát biểu nào sau đây là đúng về cáp đồng trục?",
+      "options": {
+        "A": "Cáp đồng trục chống nhiễu bằng lớp vỏ bọc dày",
+        "B": "Cáp đồng trục sử dụng phổ biến cho mạng LAN",
+        "C": "Cáp đồng trục chống nhiễu bằng lớp lưới đồng",
+        "D": "Cáp đồng trục có chi phí thấp nhất"
+      },
+      "answer": ""
+    },
+    {
+      "id": 16,
+      "text": "Trong modem, kỹ thuật điều biến nào không phải là điều biến số (digital modulation)?",
+      "options": {
+        "A": "Quadrature Phase Shift Keying",
+        "B": "Frequency Modulation",
+        "C": "Frequency Shift Keying",
+        "D": "Amplitude Shift Keying"
+      },
+      "answer": ""
+    },
+    {
+      "id": 17,
+      "text": "Trong mạch trunk của hệ thống điện thoại, không có kỹ thuật ghép kênh nào?",
+      "options": {
+        "A": "Ghép kênh phân chia theo tần số",
+        "B": "Ghép kênh phân chia theo tín hiệu",
+        "C": "Ghép kênh phân chia theo bước sóng",
+        "D": "Ghép kênh phân chia theo thời gian"
+      },
+      "answer": ""
+    },
+    {
+      "id": 18,
+      "text": "Trong vòng nội bộ của hệ thống điện thoại, đường truyền thường bị ảnh hưởng bởi tác động xấu nào?",
+      "options": {
+        "A": "Sự suy giảm",
+        "B": "Sai lệch do độ trễ",
+        "C": "Nhiễu",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 19,
+      "text": "Phương tiện truyền dẫn của dịch vụ ADSL kết nối Internet là?",
+      "options": {
+        "A": "Cáp quang",
+        "B": "Cáp đồng trục",
+        "C": "Cáp điện thoại",
+        "D": "Vệ tinh"
+      },
+      "answer": ""
+    },
+    {
+      "id": 20,
+      "text": "Thành phần nào không thuộc cấu trúc cơ bản của hệ thống điện thoại?",
+      "options": {
+        "A": "ISP",
+        "B": "Switching office",
+        "C": "Trunk",
+        "D": "Local loop"
+      },
+      "answer": ""
+    },
+    {
+      "id": 21,
+      "text": "Các loại cáp sử dụng phương thức gì để chống nhiễu?",
+      "options": {
+        "A": "Cáp quang sử dụng lớp cách điện",
+        "B": "Các loại cáp đồng sử dụng đèn diode",
+        "C": "Cáp quang không cần sử dụng phương thức nào",
+        "D": "Cáp xoắn đôi sử dụng sợi thủy tinh xoắn vào nhau"
+      },
+      "answer": ""
+    },
+    {
+      "id": 22,
+      "text": "Trong vòng nội bộ của hệ thống điện thoại, khi nói đến sự mất năng lượng trong quá trình truyền tín hiệu, đó là?",
+      "options": {
+        "A": "Độ trễ",
+        "B": "Độ suy giảm",
+        "C": "Nhiễu",
+        "D": "Sai lệch do độ trễ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 23,
+      "text": "Dịch vụ kết nối Internet phổ biến dành cho người dùng cá nhân là?",
+      "options": {
+        "A": "WiFi",
+        "B": "ADSL",
+        "C": "Vệ tinh",
+        "D": "Kênh thuê riêng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 24,
+      "text": "Câu phát biểu nào sau đây là sai về cáp quang?",
+      "options": {
+        "A": "Chất liệu truyền tia sáng bằng kim loại",
+        "B": "Cần hai dây để truyền song song",
+        "C": "Truyền đi xa hàng trăm km với tốc độ cao",
+        "D": "Sử dụng nguyên lý khúc xạ ánh sáng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 25,
+      "text": "Trong modem, kỹ thuật điều biến nào không phải là điều biến số (digital modulation)?",
+      "options": {
+        "A": "Quadrature Amplitude Modulation",
+        "B": "Amplitude Shift Keying",
+        "C": "Frequency Shift Keying",
+        "D": "Phase Shift Keying"
+      },
+      "answer": ""
+    },
+    {
+      "id": 26,
+      "text": "Trong mạch trunk của hệ thống điện thoại, kỹ thuật ghép kênh nào chuyên dụng cho dữ liệu số?",
+      "options": {
+        "A": "Ghép kênh phân chia theo bước sóng",
+        "B": "Tất cả đều đúng",
+        "C": "Ghép kênh phân chia theo tần số",
+        "D": "Ghép kênh phân chia theo thời gian"
+      },
+      "answer": ""
+    },
+    {
+      "id": 27,
+      "text": "Nêu đặc điểm đúng của cáp quang?",
+      "options": {
+        "A": "Cáp quang ít nhiễu hơn cáp đồng",
+        "B": "Cáp quang tốn điện hơn cáp đồng",
+        "C": "Cáp quang dễ lắp đặt hơn cáp đồng",
+        "D": "Cáp quang có hai chế độ: đơn chế độ và đa chế độ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 28,
+      "text": "Trong mạch trunk của hệ thống điện thoại, kỹ thuật ghép kênh nào được sử dụng cho cáp quang?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Ghép kênh phân chia theo thời gian",
+        "C": "Ghép kênh phân chia theo bước sóng",
+        "D": "Ghép kênh phân chia theo tần số"
+      },
+      "answer": ""
+    },
+    {
+      "id": 29,
+      "text": "Nêu đặc điểm đúng của cáp đồng?",
+      "options": {
+        "A": "Cáp đồng dễ lắp đặt hơn cáp quang",
+        "B": "Cáp đồng sử dụng lõi kim loại lớn để chống nhiễu",
+        "C": "Cáp đồng sử dụng đèn LED",
+        "D": "Cáp đồng có độ suy giảm tín hiệu thấp hơn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 30,
+      "text": "Câu phát biểu nào sau đây là đúng về cáp xoắn đôi?",
+      "options": {
+        "A": "Cáp UTP được sử dụng phổ biến nhất",
+        "B": "Cáp STP được sử dụng nhiều hơn UTP",
+        "C": "Truyền đi được khoảng cách trên 10 km",
+        "D": "Cáp UTP đắt tiền hơn STP"
+      },
+      "answer": ""
+    },
+    {
+      "id": 31,
+      "text": "Phương tiện truyền dẫn nào cho phép tốc độ truyền dữ liệu cao nhất?",
+      "options": {
+        "A": "Cáp quang",
+        "B": "Cáp đồng trục",
+        "C": "Vệ tinh",
+        "D": "Cáp xoắn đôi"
+      },
+      "answer": ""
+    },
+    {
+      "id": 32,
+      "text": "Các loại cáp sử dụng phương thức gì để chống nhiễu?",
+      "options": {
+        "A": "Cáp xoắn đôi không cần chống nhiễu",
+        "B": "Các loại cáp đồng sử dụng lõi kim loại lớn",
+        "C": "Cáp đồng trục sử dụng lớp lưới đồng",
+        "D": "Cáp quang sử dụng hai sợi song song"
+      },
+      "answer": ""
+    },
+    {
+      "id": 33,
+      "text": "Trong modem, kiểu điều biến nào không phải là điều biến tương tự (analog modulation)?",
+      "options": {
+        "A": "Amplitude Modulation",
+        "B": "Frequency Modulation",
+        "C": "Quadrature Phase Shift Keying",
+        "D": "Phase Modulation"
+      },
+      "answer": ""
+    },
+    {
+      "id": 34,
+      "text": "Câu phát biểu nào sau đây là đúng về cáp đồng trục?",
+      "options": {
+        "A": "Cáp đồng trục cho phép băng thông tối đa 512 Mbps",
+        "B": "Cáp đồng trục sử dụng phổ biến trong mạng truyền hình cáp",
+        "C": "Cáp đồng trục truyền đi xa vài trăm mét",
+        "D": "Cáp đồng trục dễ bị nhiễu hơn các loại cáp khác"
+      },
+      "answer": ""
+    },
+    {
+      "id": 35,
+      "text": "Trong modem, kỹ thuật điều biến nào không phải là điều biến số (digital modulation)?",
+      "options": {
+        "A": "Quadrature Phase Shift Keying",
+        "B": "Amplitude Shift Keying",
+        "C": "Phase Modulation",
+        "D": "Frequency Shift Keying"
+      },
+      "answer": ""
+    },
+    {
+      "id": 36,
+      "text": "Đặc điểm nào về chuyển mạch gói (packet-switching) là sai?",
+      "options": {
+        "A": "Cho phép giữ độc quyền đường truyền giữa các nút mạng",
+        "B": "Giới hạn kích thước gói dữ liệu",
+        "C": "Giảm độ trễ",
+        "D": "Xử lý lưu lượng tương tác"
+      },
+      "answer": ""
+    },
+    {
+      "id": 37,
+      "text": "Câu phát biểu nào sau đây là đúng về cáp xoắn đôi?",
+      "options": {
+        "A": "Chỉ truyền tín hiệu analog",
+        "B": "Xoắn đôi dây đồng nhằm làm giảm nhiễu điện từ",
+        "C": "Truyền băng thông thấp dưới 1 Mbps",
+        "D": "Chi phí cao"
+      },
+      "answer": ""
+    },
+    {
+      "id": 38,
+      "text": "Trong modem, kỹ thuật điều biến nào không phải là điều biến tương tự (analog modulation)?",
+      "options": {
+        "A": "Amplitude Shift Keying",
+        "B": "Phase Modulation",
+        "C": "Amplitude Modulation",
+        "D": "Frequency Modulation"
+      },
+      "answer": ""
+    },
+    {
+      "id": 39,
+      "text": "Đặc điểm nào về chuyển thông điệp (message-switching) là sai?",
+      "options": {
+        "A": "Không thiết lập kết nối",
+        "B": "Kỹ thuật lưu và chuyển tiếp",
+        "C": "Giới hạn kích thước gói dữ liệu",
+        "D": "Nhận toàn bộ gói dữ liệu để xử lý trước khi truyền đi tại mỗi nút mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 40,
+      "text": "Câu phát biểu nào sau đây là sai về cáp quang?",
+      "options": {
+        "A": "Sử dụng nguyên lý khúc xạ ánh sáng",
+        "B": "Bộ phận bắt sáng nằm ở đầu bên nhận",
+        "C": "Truyền đi xa hàng trăm km với tốc độ cao",
+        "D": "Nguồn sáng nằm ở đầu bên nhận"
+      },
+      "answer": ""
+    },
+    {
+      "id": 41,
+      "text": "Những phương tiện truyền dẫn nào là thuộc cùng một nhóm?",
+      "options": {
+        "A": "Wifi, bluetooth, hồng ngoại, vệ tinh",
+        "B": "Cáp điện thoại, wifi, cáp quang",
+        "C": "Cáp đồng trục, cáp quang, vệ tinh",
+        "D": "Cáp xoắn đôi, cáp quang, wifi"
+      },
+      "answer": ""
+    },
+    {
+      "id": 42,
+      "text": "Các loại cáp sử dụng phương thức gì để chống nhiễu?",
+      "options": {
+        "A": "Cáp đồng trục sử dụng lõi kim loại lớn",
+        "B": "Các loại cáp đồng sử dụng lớp vỏ bọc",
+        "C": "Cáp xoắn đôi sử dụng lớp lưới đồng",
+        "D": "Cáp quang sử dụng nguồn sáng laze"
+      },
+      "answer": ""
+    },
+    {
+      "id": 43,
+      "text": "Đặc điểm nào về chuyển mạch kênh (circuit-switching) là sai?",
+      "options": {
+        "A": "Lập tuyến đường từ điểm cuối đến điểm cuối",
+        "B": "Thực hiện báo nhận ACK đầy đủ",
+        "C": "Thực hiện kết nối nhanh chóng",
+        "D": "Không tắc nghẽn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 44,
+      "text": "Phương tiện truyền dẫn của dịch vụ dial-up (quay số) kết nối Internet là?",
+      "options": {
+        "A": "Cáp quang",
+        "B": "Cáp xoắn đôi",
+        "C": "Cáp đồng trục",
+        "D": "Cáp điện thoại"
+      },
+      "answer": ""
+    },
+    {
+      "id": 45,
+      "text": "Nêu đặc điểm đúng của cáp quang?",
+      "options": {
+        "A": "Cáp quang truyền sóng ánh sáng",
+        "B": "Cáp quang có đường kính lớn hơn cáp đồng",
+        "C": "Cáp quang dễ lắp đặt hơn cáp đồng",
+        "D": "Cáp quang tốn điện hơn cáp đồng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 46,
+      "text": "Câu phát biểu nào sau đây là đúng về cáp xoắn đôi?",
+      "options": {
+        "A": "Truyền được cả tín hiệu analog và digital",
+        "B": "Truyền băng thông thấp dưới 1 Mbps",
+        "C": "Lõi sử dụng sợi thủy tinh",
+        "D": "Truyền đi được khoảng cách trên 10 km"
+      },
+      "answer": ""
+    },
+    {
+      "id": 47,
+      "text": "Câu phát biểu nào sau đây là đúng về đầu nối cáp quang?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Đầu nối quang mất ít ánh sáng nhất",
+        "C": "Hàn quang là cách tốt nhất",
+        "D": "Đầu nối ghép cơ học mất nhiều ánh sáng nhất"
+      },
+      "answer": ""
+    },
+    {
+      "id": 48,
+      "text": "Trong modem, kiểu điều biến nào không phải là điều biến tương tự (analog modulation)?",
+      "options": {
+        "A": "Phase Modulation",
+        "B": "Phase Shift Keying",
+        "C": "Amplitude Modulation",
+        "D": "Frequency Modulation"
+      },
+      "answer": ""
+    },
+    {
+      "id": 49,
+      "text": "Dịch vụ kết nối Internet nào có tốc độ thấp nhất?",
+      "options": {
+        "A": "Dial-up (quay số)",
+        "B": "ADSL",
+        "C": "FTTH",
+        "D": "Leased line (kênh thuê riêng)"
+      },
+      "answer": ""
+    },
+    {
+      "id": 50,
+      "text": "Phương tiện truyền dẫn của dịch vụ FTTH kết nối Internet là?",
+      "options": {
+        "A": "Cáp đồng trục",
+        "B": "Cáp điện thoại",
+        "C": "Vệ tinh",
+        "D": "Cáp quang"
+      },
+      "answer": ""
+    },
+    {
+      "id": 51,
+      "text": "Phát biểu nào sau đây là đúng về sóng vô tuyến và bluetooth?",
+      "options": {
+        "A": "Sóng vô tuyến không dễ dàng đi xuyên qua tòa nhà",
+        "B": "Bluetooth cho phép tốc độ dữ liệu lớn hơn sóng vô tuyến",
+        "C": "Bluetooth hoạt động trong phạm vi 100m",
+        "D": "Sóng vô tuyến sử dụng tần số cao hơn bluetooth"
+      },
+      "answer": ""
+    },
+    {
+      "id": 52,
+      "text": "Dịch vụ kết nối Internet nào cho phép tốc độ cao nhất?",
+      "options": {
+        "A": "FTTH",
+        "B": "ADSL",
+        "C": "Dial-up (quay số)",
+        "D": "Leased line (kênh thuê riêng)"
+      },
+      "answer": ""
+    },
+    {
+      "id": 53,
+      "text": "Thành phần nào không thuộc cấu trúc cơ bản của hệ thống điện thoại?",
+      "options": {
+        "A": "Virtual circuit",
+        "B": "Local loop",
+        "C": "Switching office",
+        "D": "Trunk"
+      },
+      "answer": ""
+    }
+  ]
+}

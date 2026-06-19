@@ -1,0 +1,206 @@
+{
+  "id": "chuong6",
+  "title": "CHƯƠNG 6",
+  "subject": "Mạng máy tính CSE101",
+  "duration_minutes": 45,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Địa chỉ TCP và UDP là?",
+      "options": {
+        "A": "Port",
+        "B": "Sequence Number",
+        "C": "TPDU",
+        "D": "Acknowledgenment Number"
+      },
+      "answer": ""
+    },
+    {
+      "id": 2,
+      "text": "TCP thực hiện chức năng nào?",
+      "options": {
+        "A": "Đảm báo truyền tải dữ liệu đáng tin cậy",
+        "B": "Sử dụng socket để tách và nhập kênh",
+        "C": "Tất cả đều đúng",
+        "D": "Kiểm soát luồng bằng cửa sổ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 3,
+      "text": "Phát biểu nào sau đây là đúng về giải phóng kết nối của TCP?",
+      "options": {
+        "A": "Chỉ cần một phía báo hiệu bằng cờ FIN",
+        "B": "Ngắt kết nối thông qua 3 bước",
+        "C": "Sử dụng cờ FIN để báo hiệu ngắt kết nối từ cả hai phía",
+        "D": "Không cần sử dụng ACK"
+      },
+      "answer": ""
+    },
+    {
+      "id": 4,
+      "text": "Thiết lập kết nối của tầng giao vận là?",
+      "options": {
+        "A": "Connection Release",
+        "B": "Connection Accepted",
+        "C": "Connection Request",
+        "D": "Connection ACK"
+      },
+      "answer": ""
+    },
+    {
+      "id": 5,
+      "text": "Phát biểu nào sau đây là đúng về giải phóng kết nối tầng giao vận?",
+      "options": {
+        "A": "Giải phóng kết nối không cần tuân theo quy trình nào",
+        "B": "Giải phóng kết nối đơn giản hơn thiết lập kết nối",
+        "C": "Giải phóng kết nối dễ bị mất dữ liệu",
+        "D": "Khi truyền hết dữ liệu thì tự động thực hiện giải phóng kết nối"
+      },
+      "answer": ""
+    },
+    {
+      "id": 6,
+      "text": "Qúa trình thiết lập kết nối bắt tay 3 bước của TCP diễn ra giữa Host A và Host B như sau: Bước 1: Host A gửi segment SYN ( seq = 100 ) đến Host B Bước 2: Host B gửi segment báo nhận SYN, ACK (seq = 300, ACK = 101) đến Host A Bước 3: Host A gửi segment xác nhận ACK ( seq =?, ACK =?) gửi tới Host B Hãy cho biết trường seq của segment ACK lấy giá trị bằng bao nhiêu?",
+      "options": {
+        "A": "101",
+        "B": "300",
+        "C": "100",
+        "D": "301"
+      },
+      "answer": ""
+    },
+    {
+      "id": 7,
+      "text": "Địa chỉ tầng giao vận là?",
+      "options": {
+        "A": "Transport Connection Number",
+        "B": "Transport Service Access Point",
+        "C": "Transport Address",
+        "D": "Transport Protocol ID"
+      },
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "text": "Phát biểu nào sau đây là sai về kiểm soát luồng của TCP?",
+      "options": {
+        "A": "Sử dụng ACK để báo hiệu dung lượng đường truyền",
+        "B": "Kích thước cửa sổ báo hiệu thông tin về lượng buffer còn trống",
+        "C": "Giá trị ACK lấy giá trị của số byte mong muốn nhận được tiếp theo",
+        "D": "Sử dụng cửa sổ trượt với kích thước cửa sổ động"
+      },
+      "answer": ""
+    },
+    {
+      "id": 9,
+      "text": "Ứng dụng nào sử dụng dịch vụ của UDP?",
+      "options": {
+        "A": "Online game",
+        "B": "Streaming media",
+        "C": "DNS",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 10,
+      "text": "Qúa trình thiết lập kết nối bắt tay 3 bước của TCP diễn ra giữa Host A và Host B như sau: Bước 1: Host A gửi segment SYN ( seq = 100 ) đến Host B Bước 2: Host B gửi segment báo nhận SYN, ACK (seq = 300, ACK = 101) đến Host A Bước 3: Host A gửi segment xác nhận ACK ( seq =?, ACK =?) gửi tới Host B Hãy cho biết trường ACK của segment ACK lấy giá trị bằng bao nhiêu?",
+      "options": {
+        "A": "101",
+        "B": "300",
+        "C": "100",
+        "D": "301"
+      },
+      "answer": ""
+    },
+    {
+      "id": 11,
+      "text": "Giao thức nào sử dụng dịch vụ của TCP?",
+      "options": {
+        "A": "HTTP",
+        "B": "SMTP",
+        "C": "Telnet",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 12,
+      "text": "TCP sử dụng bắt tay 3 bước ( three – way handshake) cho giai đoạn nào?",
+      "options": {
+        "A": "Truyền tải dữ liệu",
+        "B": "Thiết lập kết nối",
+        "C": "Giải phóng kết nối",
+        "D": "Khắc phục sự cố"
+      },
+      "answer": ""
+    },
+    {
+      "id": 13,
+      "text": "Phát biểu nào sau đây là đúng về giải phóng kết nối tầng giao vận?",
+      "options": {
+        "A": "Giải phóng kết nối đồng bộ cùng với timer được gọi là giải phóng kết nối 4 chiều",
+        "B": "Giải phóng kết nối dị bộ cần hai bên cùng hợp tác ngắt kết nối",
+        "C": "Giải phóng kết nối đồng bộ chỉ cần một bên ngắt kết nối là hoàn thành",
+        "D": "Khi truyền hết dữ liệu thì tự động thực hiện giải phóng kết nối"
+      },
+      "answer": ""
+    },
+    {
+      "id": 14,
+      "text": "Phát biểu nào sau đây là đúng về giải phóng kết nối tầng giao vận?",
+      "options": {
+        "A": "Khi truyền hết dữ liệu thì tự động thực hiện giải phóng kết nối",
+        "B": "Giải phóng kết nối phức tạp hơn thiết lập kết nối",
+        "C": "Giải phóng kết nối không cần tuân theo quy trình nào",
+        "D": "Giải phóng kết nối gồm hai loại: Đồng bộ và dị bộ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 15,
+      "text": "Thao tác nào không thuộc về quy trình bắt tay ba bước giữa host 1 và host 2?",
+      "options": {
+        "A": "Host 1 gửi báo nhận kết nối kèm theo trong gói dữ liệu đến Host 2",
+        "B": "Host 1 gửi yêu cầu kết nối đến Host 2",
+        "C": "Host 2 gửi báo nhận kết nối đến Host 1",
+        "D": "Host 2 gửi báo nhận dữ liệu đến Host 1"
+      },
+      "answer": ""
+    },
+    {
+      "id": 16,
+      "text": "Phát biểu nào sau đây là đúng về giải phóng kết nối tầng giao vận?",
+      "options": {
+        "A": "Giải phóng kết nối đồng bộ chỉ cần một bên ngắt kết nối là hoàn thành",
+        "B": "Giải phóng kết nối phức tạp hơn thiết lập kết nối",
+        "C": "Cả hai loại giải phóng kết nối đều được sử dụng bộ định giờ ( timer)",
+        "D": "Giải phóng kết nối dị bộ có thể làm mất dữ liệu"
+      },
+      "answer": ""
+    },
+    {
+      "id": 17,
+      "text": "Phát biểu nào sau đây là sai về port của TCP và UDP?",
+      "options": {
+        "A": "Một số port có thể sử dụng tạm thời",
+        "B": "Số hiệu port và IP tạo thành socket cho tầng ứng dụng sử dụng",
+        "C": "Độ dài 16 bit",
+        "D": "Giá trị lớn nhất là 65505"
+      },
+      "answer": ""
+    },
+    {
+      "id": 18,
+      "text": "Tầng giao vận sử dụng địa chỉ để làm gì?",
+      "options": {
+        "A": "Xác định tiến trình tham gia kết nối",
+        "B": "Xác định mạng tham gia kết nối",
+        "C": "Xác định ứng dụng tham gia kết nối",
+        "D": "Xác định host tham gia kết nối"
+      },
+      "answer": ""
+    }
+  ]
+}

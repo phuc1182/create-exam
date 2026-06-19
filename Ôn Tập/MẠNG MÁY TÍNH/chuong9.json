@@ -1,0 +1,624 @@
+{
+  "id": "chuong9",
+  "title": "CHƯƠNG 9",
+  "subject": "Mạng máy tính CSE101",
+  "duration_minutes": 45,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Thiết bị Switch xử lý ở tầng nào trong mô hình OSI?",
+      "options": {
+        "A": "Tầng 1: Physical",
+        "B": "Tầng 4 trở lên",
+        "C": "Tầng 2: Data Link",
+        "D": "Tầng 3: Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 2,
+      "text": "Khi so sánh mạng gam dữ liệu ( datagram subnet ) và mạng con mạch ảo ( vitrual circuit subnet ), câu phát biểu nào sau đây là đúng?",
+      "options": {
+        "A": "Mạng con mạch ảo cho phép gói tin đi theo nhiều đường khác nhau đến đích",
+        "B": "Mạng con mạch ảo yêu cầu thiết lập kết nối, mạng con gam dữ liệu thì không",
+        "C": "Mạng con mạch ảo yêu cầu đầy đủ địa chỉ gửi và nhận để truyền gói tin từ nguồn đến đích thành công",
+        "D": "Router hỏng sẽ làm hỏng kết nối từ nguồn đến đích trên cả hai mạng con"
+      },
+      "answer": ""
+    },
+    {
+      "id": 3,
+      "text": "Phương tiện kết nối mạng phổ biến cho máy tính xách tay là?",
+      "options": {
+        "A": "Kết nối cáp xoắn đôi",
+        "B": "Kết nối wifi",
+        "C": "Tất cả đều đúng",
+        "D": "Kết nối bluetooth"
+      },
+      "answer": ""
+    },
+    {
+      "id": 4,
+      "text": "Khi so sánh mạng gam dữ liệu ( datagram subnet ) và mạng con mạch ảo ( vitrual circuit subnet ), câu phát biểu nào sau đây là sai?",
+      "options": {
+        "A": "Mạng con datagram yêu cầu router lưu thông tin về tuyến đường của toàn bộ các gói",
+        "B": "Tắc nghẽn thường xảy ra trong giai đoạn bắt đầu tìm tuyến đường đi cho dữ liệu trong mạng con mạch ảo",
+        "C": "Địa chỉ máy gửi và nhận không quan trọng đối với mạng con datagram",
+        "D": "Dễ dàng duy trì chất lượng dịch vụ tốt với mạng con mạch ảo khi tài nguyên hạn hẹp"
+      },
+      "answer": ""
+    },
+    {
+      "id": 5,
+      "text": "Ví dụ về tải xuống ( download ) là gì?",
+      "options": {
+        "A": "Nghe nhạc",
+        "B": "Xem phim",
+        "C": "Tất cả đều đúng",
+        "D": "Lướt web"
+      },
+      "answer": ""
+    },
+    {
+      "id": 6,
+      "text": "Phát biểu nào là đúng với Fram Relay?",
+      "options": {
+        "A": "Frame Relay là dịch vụ đắt tiền",
+        "B": "Frame Relay thực hiện kiểm soát luồng",
+        "C": "Frame Relay không xử lý lỗi truyền",
+        "D": "Khung dữ liệu có kích thước không quá 1600 byte"
+      },
+      "answer": ""
+    },
+    {
+      "id": 7,
+      "text": "Quan sát các thiết bị, biết rằng: -Đối với thiết bị A, gói tin Broadcast chỉ hoạt động trong mỗi port của nó -Đối với thiết bị B,C xác định đường đi của gói tin sẽ được quyết định dựa vào địa chỉ MAC. Thiết bị B có hai cổng, thiết bị C có nhiều hơn 2 cổng -Đối với thiết bị D chỉ đơn thuần chuyển gói tin dựa vào tín hiệu được nhận trên port của nó Hãy cho biết trong các thiết bị trên, thiết bị nào là Bridge?",
+      "options": {
+        "A": "Thiết bị A",
+        "B": "Thiết bị C",
+        "C": "Thiết bị B",
+        "D": "Thiết bị D"
+      },
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "text": "Tầng mạng có cơ chế truyền tin cho phép các gói tin đi theo nhiều đường, không cần thiết lập kết nối trước khi truyền, router không cần lưu trạng thái kết nối. Đây là cơ chế truyền tin nào?",
+      "options": {
+        "A": "Mạng con datagram",
+        "B": "Mạng con đáng tin cậy",
+        "C": "Mạng con mạch ảo",
+        "D": "Mạng con không đáng tin cậy"
+      },
+      "answer": ""
+    },
+    {
+      "id": 9,
+      "text": "Để có thể kết nối mạng, máy tính cần phải có?",
+      "options": {
+        "A": "Card mạng",
+        "B": "Hệ điều hành",
+        "C": "Dây mạng",
+        "D": "Trình duyệt"
+      },
+      "answer": ""
+    },
+    {
+      "id": 10,
+      "text": "Quan sát các thiết bị, biết rằng: -Đối với thiết bị A, gói tin Broadcast chỉ hoạt động trong mỗi port của nó -Đối với thiết bị B,C xác định đường đi của gói tin sẽ được quyết định dựa vào địa chỉ MAC. Thiết bị B có hai cổng, thiết bị C có nhiều hơn 2 cổng -Đối với thiết bị D chỉ đơn thuần chuyển gói tin dựa vào tín hiệu được nhận trên port của nó Hãy cho biết trong các thiết bị trên, thiết bị nào là Router?",
+      "options": {
+        "A": "Thiết bị B",
+        "B": "Thiết bị C",
+        "C": "Thiết bị D",
+        "D": "Thiết bị A"
+      },
+      "answer": ""
+    },
+    {
+      "id": 11,
+      "text": "Thiết bị Repeater xử lý ở tầng nào trong mô hình OSI?",
+      "options": {
+        "A": "Tầng 2: Data Link",
+        "B": "Tầng 4 trở lên",
+        "C": "Tầng 1: Physical",
+        "D": "Tầng 3: Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 12,
+      "text": "Ví dụ về tải xuống ( download ) là gì?",
+      "options": {
+        "A": "Nghe nhạc",
+        "B": "Xem phim",
+        "C": "Tất cả đều đúng",
+        "D": "Lướt web"
+      },
+      "answer": ""
+    },
+    {
+      "id": 13,
+      "text": "Tải xuống ( download ) là gì?",
+      "options": {
+        "A": "Sao chép thông tin từ máy chủ này sang máy chủ khác",
+        "B": "Tất cả đều sai",
+        "C": "Sao chép thông tin từ máy chủ về máy khách",
+        "D": "Sao chép thông tin từ máy khách này sang máy khách khác"
+      },
+      "answer": ""
+    },
+    {
+      "id": 14,
+      "text": "Khi lựa chọn card mạng, cần xem xét yếu tố nào?",
+      "options": {
+        "A": "Cơ chế hoạt động của router trong mạng",
+        "B": "Loại giao thức sử dụng trong mạng",
+        "C": "Địa chỉ IP sử dụng trong mạng",
+        "D": "Loại bộ nhớ lắp đặt trên mỗi máy tính"
+      },
+      "answer": ""
+    },
+    {
+      "id": 15,
+      "text": "Loại cáp nào được sử dụng để kết nối router với switch?",
+      "options": {
+        "A": "Crossover cable ( cáp chéo )",
+        "B": "Console cable ( cáp điều khiển )",
+        "C": "Rollover cable ( cáp đảo đầu )",
+        "D": "Straight – throught cable ( cáp thẳng )"
+      },
+      "answer": ""
+    },
+    {
+      "id": 16,
+      "text": "Router là thiết bị được sử dụng để làm gì?",
+      "options": {
+        "A": "Tìm đường và chuyển tiếp các gói tin",
+        "B": "Kết nối máy tính và Internet thông qua đường truyền ADSL",
+        "C": "Biến đổi tín hiệu tương tự thành tín hiệu số và ngược lại",
+        "D": "Ghép kênh dữ liệu và thoại"
+      },
+      "answer": ""
+    },
+    {
+      "id": 17,
+      "text": "Khi so sánh mạng gam dữ liệu ( datagram subnet ) và mạng con mạch ảo ( vitrual circuit subnet ), câu phát biểu nào sau đây là đúng?",
+      "options": {
+        "A": "Mạng con mạch ảo cho phép gói tin đi theo nhiều đường khác nhau đến đích",
+        "B": "Mạng con mạch ảo yêu cầu đầy đủ địa chỉ gửi và nhận để truyền gói tin từ nguồn đến đích thành công",
+        "C": "Mạng con gam dữ liệu cho phép chất lượng dịch vụ kém hơn mạch ảo",
+        "D": "Mạng con gam dữ liệu xử lý tắc nghẽn hiệu quả"
+      },
+      "answer": ""
+    },
+    {
+      "id": 18,
+      "text": "Phát biểu nào sau đây là đúng về thiết bị Gateway?",
+      "options": {
+        "A": "Công suất tương tự thiết bị Router khác",
+        "B": "Kết nối các mạng LAN với nhau",
+        "C": "Thực hiện chuyển đổi từ tầng vật lý đến tầng ứng dụng",
+        "D": "Được sử dụng để mở rộng mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 19,
+      "text": "Phát biểu nào là đúng với Fram Relay?",
+      "options": {
+        "A": "Frame Relay là dịch vụ đáng tin cậy",
+        "B": "Frame Relay thực hiện kiểm soát luồng",
+        "C": "Frame Relay không xử lý lỗi truyền",
+        "D": "Frame Relay sử dụng 10 bit để đánh số mạch ảo"
+      },
+      "answer": ""
+    },
+    {
+      "id": 20,
+      "text": "Phát biểu nào là đúng với Fram Relay?",
+      "options": {
+        "A": "Frame Relay là không kết nối",
+        "B": "Frame Relay thực hiện kiểm soát luồng",
+        "C": "Frame Relay sử dụng mã phát hiện lỗi",
+        "D": "Dịch vụ đắt tiền"
+      },
+      "answer": ""
+    },
+    {
+      "id": 21,
+      "text": "Phát biểu nào là đúng với Fram Relay?",
+      "options": {
+        "A": "Frame Relay sử dụng mã phát hiện lỗi",
+        "B": "Frame Relay sử dụng 10 bit để đánh số mạch ảo",
+        "C": "Tất cả đều đúng",
+        "D": "Khung dữ liệu có kích thước không quá 1600 byte"
+      },
+      "answer": ""
+    },
+    {
+      "id": 22,
+      "text": "Hiện nay, thiết bị nào có thể kết nối Internet?",
+      "options": {
+        "A": "Tivi",
+        "B": "Máy tính bảng",
+        "C": "Điện thoại di động",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 23,
+      "text": "Phát biểu nào là đúng với X.25?",
+      "options": {
+        "A": "X.25 bảo đảm tính nguyên vẹn của dữ liệu chuyển giao",
+        "B": "X.25 là hướng kết nối",
+        "C": "X.25 đánh địa chỉ gói tin và sử dụng thông tin sửa lỗi",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 24,
+      "text": "Phát biểu nào là đúng với ATM?",
+      "options": {
+        "A": "Kích thước gói tin rất nhỏ",
+        "B": "ATM là dịch vụ không tin cậy",
+        "C": "ATM không thực hiện kiểm soát luồng",
+        "D": "ATM không xử lý lỗi truyền"
+      },
+      "answer": ""
+    },
+    {
+      "id": 25,
+      "text": "Modem là thiết bị được sử dụng nhằm mục đích gì?",
+      "options": {
+        "A": "Kết nối máy tính với Internet",
+        "B": "Ghép kênh dữ liệu và thoại",
+        "C": "Kết nối các máy tính với nhau",
+        "D": "Biến đổi tín hiệu tương tự thành tín hiệu số và ngược lại"
+      },
+      "answer": ""
+    },
+    {
+      "id": 26,
+      "text": "Khi so sánh Frame Relay và ATM, phát biểu nào là sai?",
+      "options": {
+        "A": "ATM ghép kênh cho phép tốc độ cao hơn Frame Relay",
+        "B": "Cả hai đều là dịch vụ hướng kết nối",
+        "C": "Cả hai đều là mạng chuyển mạch gói ( packet-switching )",
+        "D": "Dung lượng gói tin của cả hai tương tự nhau"
+      },
+      "answer": ""
+    },
+    {
+      "id": 27,
+      "text": "Thiết bị Bridge xử lý ở tầng nào trong mô hình OSI?",
+      "options": {
+        "A": "Tầng 2: Data Link",
+        "B": "Tầng 4 trở lên",
+        "C": "Tầng 1: Physical",
+        "D": "Tầng 3: Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 28,
+      "text": "Loại cáp nào được sử dụng để kết nối các Switch với nhau?",
+      "options": {
+        "A": "Crossover cable ( cáp chéo )",
+        "B": "Console cable ( cáp điều khiển )",
+        "C": "Rollover cable ( cáp đảo đầu )",
+        "D": "Straight – throught cable ( cáp thẳng )"
+      },
+      "answer": ""
+    },
+    {
+      "id": 29,
+      "text": "Tầng mạng có cơ chế truyền tin cho phép các gói tin đi theo cùng một đường, không cần phải đánh số thứ tự, trước mỗi lần truyền tin đều cần thiết lập kết nối. Đây là cơ chế truyền tin nào?",
+      "options": {
+        "A": "Mạng con mạch ảo",
+        "B": "Mạng con datagram",
+        "C": "Mạng con không đáng tin cậy",
+        "D": "Mạng con đáng tin cậy"
+      },
+      "answer": ""
+    },
+    {
+      "id": 30,
+      "text": "Trong phần cứng máy tính, NIC là từ viết tắt của?",
+      "options": {
+        "A": "Network Initalization Change",
+        "B": "Network Interface Card",
+        "C": "Network Information Computer",
+        "D": "Network Information Check"
+      },
+      "answer": ""
+    },
+    {
+      "id": 31,
+      "text": "Khi lựa chọn card mạng, cần xem xét yếu tố nào?",
+      "options": {
+        "A": "Loại ứng dụng đang sử dụng trên mạng",
+        "B": "Model của switch kết nối với máy tính",
+        "C": "Cách sắp xếp vật lý của các host trong mạng",
+        "D": "Loại bus hệ thống của máy tính trong mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 32,
+      "text": "Ví dụ về tải lên (upload) là gì?",
+      "options": {
+        "A": "Xem phim",
+        "B": "Nghe nhạc",
+        "C": "Gửi thư điện tử",
+        "D": "Đọc thư điện tử"
+      },
+      "answer": ""
+    },
+    {
+      "id": 33,
+      "text": "Loại cáp nào được sử dụng để kết nối PC với PC?",
+      "options": {
+        "A": "Crossover cable ( cáp chéo )",
+        "B": "Console cable ( cáp điều khiển )",
+        "C": "Rollover cable ( cáp đảo đầu )",
+        "D": "Straight – throught cable ( cáp thẳng )"
+      },
+      "answer": ""
+    },
+    {
+      "id": 34,
+      "text": "Tải lên ( upload ) là gì?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Sao chép thông tin từ máy chủ này sang máy chủ khác",
+        "C": "Sao chép thông tin từ máy khách này sang máy khách khác",
+        "D": "Sao chép thông tin từ máy khách lên máy chủ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 35,
+      "text": "Switch chuyển frame dựa vào thông tin nào?",
+      "options": {
+        "A": "Dựa trên kích thước frame",
+        "B": "Địa chỉ IP",
+        "C": "Địa chỉ MAC đích",
+        "D": "Địa chỉ MAC nguồn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 36,
+      "text": "Thiết bị Router xử lý ở tầng nào trong mô hình OSI?",
+      "options": {
+        "A": "Tầng 2: Data Link",
+        "B": "Tầng 4 trở lên",
+        "C": "Tầng 1: Physical",
+        "D": "Tầng 3: Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 37,
+      "text": "Quan sát các thiết bị, biết rằng: -Đối với thiết bị A, gói tin Broadcast chỉ hoạt động trong mỗi port của nó -Đối với thiết bị B,C xác định đường đi của gói tin sẽ được quyết định dựa vào địa chỉ MAC. Thiết bị B có hai cổng, thiết bị C có nhiều hơn 2 cổng -Đối với thiết bị D chỉ đơn thuần chuyển gói tin dựa vào tín hiệu được nhận trên port của nó Hãy cho biết trong các thiết bị trên, thiết bị nào là Hub?",
+      "options": {
+        "A": "Thiết bị A",
+        "B": "Thiết bị C",
+        "C": "Thiết bị B",
+        "D": "Thiết bị D"
+      },
+      "answer": ""
+    },
+    {
+      "id": 38,
+      "text": "Phát biểu nào là đúng với ATM?",
+      "options": {
+        "A": "ATM cho phép tốc độ thấp",
+        "B": "ATM là dịch vụ không tin cậy",
+        "C": "ATM không thực hiện kiểm soát luồng",
+        "D": "ATM xử lý lỗi truyền"
+      },
+      "answer": ""
+    },
+    {
+      "id": 39,
+      "text": "Nhiệm vụ của NIC ( network interface card ) là?",
+      "options": {
+        "A": "Cung cấp khả năng kết nối mạng",
+        "B": "Cài đặt chồng giao thức TCP/IP",
+        "C": "Chuyển đổi tín hiệu số thành tương tự và ngược lại",
+        "D": "Cho phép truyền dữ liệu tới router"
+      },
+      "answer": ""
+    },
+    {
+      "id": 40,
+      "text": "Loại cáp nào được sử dụng để kết nối với switch với PC?",
+      "options": {
+        "A": "Crossover cable ( cáp chéo )",
+        "B": "Console cable ( cáp điều khiển )",
+        "C": "Rollover cable ( cáp đảo đầu )",
+        "D": "Straight – throught cable ( cáp thẳng )"
+      },
+      "answer": ""
+    },
+    {
+      "id": 41,
+      "text": "Phương tiện kết nối mạng phổ biến cho máy tín để bàn là?",
+      "options": {
+        "A": "Kết nối với cáp xoắn đôi",
+        "B": "Kết nối wifi",
+        "C": "Kết nối bluetooth",
+        "D": "Kết nối với cáp quang"
+      },
+      "answer": ""
+    },
+    {
+      "id": 42,
+      "text": "Khi so sánh mạng gam dữ liệu ( datagram subnet ) và mạng con mạch ảo ( vitrual circuit subnet ), câu phát biểu nào sau đây là đúng?",
+      "options": {
+        "A": "Mạng con mạch ảo cho phép gói tin đi theo nhiều đường khác nhau đến đích",
+        "B": "Mạng con mạch ảo yêu cầu đầy đủ địa chỉ gửi và nhận để truyền gói tin từ nguồn đến đích thành công",
+        "C": "Mạng con gam dữ liệu cho phép chất lượng dịch vụ kém hơn mạch ảo",
+        "D": "Mạng con gam dữ liệu xử lý tắc nghẽn hiệu quả"
+      },
+      "answer": ""
+    },
+    {
+      "id": 43,
+      "text": "Khi lựa chon card mạng, cần xem xét yếu tố nào?",
+      "options": {
+        "A": "Loại ứng dụng đang sử dụng trên mạng *",
+        "B": "Loại phương tiện truyền dẫn sử dụng trong topo mạng",
+        "C": "Topo vật lý của mạng *",
+        "D": "Địa chỉ ip sử dụng trong mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 44,
+      "text": "Phát biểu nào là đúng với X.25?",
+      "options": {
+        "A": "X.25 cho phép gói tin có kích thước 1600 byte",
+        "B": "X.25 là hướng kết nối",
+        "C": "X.25 không đáng tin cậy",
+        "D": "X.25 là không kết nối"
+      },
+      "answer": ""
+    },
+    {
+      "id": 45,
+      "text": "Loại cáp nào được sử dụng để kết nối các router với nhau?",
+      "options": {
+        "A": "Crossover cable ( cáp chéo )",
+        "B": "Console cable ( cáp điều khiển )",
+        "C": "Rollover cable ( cáp đảo đầu )",
+        "D": "Straight – throught cable ( cáp thẳng )"
+      },
+      "answer": ""
+    },
+    {
+      "id": 46,
+      "text": "Thiết bị Hub xử lý ở tầng nào trong mô hình OSI?",
+      "options": {
+        "A": "Tầng 2: Data Link",
+        "B": "Tầng 4 trở lên",
+        "C": "Tầng 1: Physical",
+        "D": "Tầng 3: Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 47,
+      "text": "Nhiệm vụ nào không phải của NIC ( network interface card )?",
+      "options": {
+        "A": "Gửi nhận dữ liệu",
+        "B": "Sửa lỗi truyền dữ liệu",
+        "C": "Chuyển đổi tín hiệu máy tính thành tín hiệu của phương tiện truyền dẫn và ngược lại",
+        "D": "Kiểm soát luồng dữ liệu"
+      },
+      "answer": ""
+    },
+    {
+      "id": 48,
+      "text": "Tải lên ( upload ) là gì?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Sao chép thông tin từ máy chủ này sang máy chủ khác",
+        "C": "Sao chép thông tin từ máy khách này sang máy khách khác",
+        "D": "Sao chép thông tin từ máy khách lên máy chủ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 49,
+      "text": "Loại cáp nào được sử dụng để kết nối cổng LAN với switch hoặc PC?",
+      "options": {
+        "A": "Crossover cable ( cáp chéo )",
+        "B": "Console cable ( cáp điều khiển )",
+        "C": "Rollover cable ( cáp đảo đầu )",
+        "D": "Straight – throught cable ( cáp thẳng )"
+      },
+      "answer": ""
+    },
+    {
+      "id": 50,
+      "text": "Tải xuống ( download ) là gì?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Sao chép thông tin từ máy chủ này sang máy chủ khác",
+        "C": "Sao chép thông tin từ máy khách này sang máy khách khác",
+        "D": "Sao chép thông tin từ máy khách về máy chủ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 51,
+      "text": "Ví dụ về tải lên (upload) là gì?",
+      "options": {
+        "A": "Xem phim",
+        "B": "Nghe nhạc",
+        "C": "Gửi thư điện tử",
+        "D": "Đọc thư điện tử"
+      },
+      "answer": ""
+    },
+    {
+      "id": 52,
+      "text": "Phát biểu nào là đúng với X.25?",
+      "options": {
+        "A": "X.25 không xử lý lỗi truyền",
+        "B": "X.25 không đáng tin cậy",
+        "C": "X.25 đánh địa chỉ gói tin và sử dụng thông tin sửa lỗi",
+        "D": "X.25 là không kết nối"
+      },
+      "answer": ""
+    },
+    {
+      "id": 53,
+      "text": "Quan sát các thiết bị, biết rằng: -Đối với thiết bị A, gói tin Broadcast chỉ hoạt động trong mỗi port của nó -Đối với thiết bị B,C xác định đường đi của gói tin sẽ được quyết định dựa vào địa chỉ MAC. Thiết bị B có hai cổng, thiết bị C có nhiều hơn 2 cổng -Đối với thiết bị D chỉ đơn thuần chuyển gói tin dựa vào tín hiệu được nhận trên port của nó Hãy cho biết trong các thiết bị trên, thiết bị nào là Switch?",
+      "options": {
+        "A": "Thiết bị A",
+        "B": "Thiết bị C",
+        "C": "Thiết bị B",
+        "D": "Thiết bị D"
+      },
+      "answer": ""
+    },
+    {
+      "id": 54,
+      "text": "Phát biểu nào là đúng với X.25?",
+      "options": {
+        "A": "X.25 bảo đảm tính nguyên vẹn của dữ liệu chuyển giao",
+        "B": "X.25 không xử lý lỗi truyền",
+        "C": "X.25 là không kết nối",
+        "D": "X.25 cho phép gói tin có kích thước 1600 byte"
+      },
+      "answer": ""
+    },
+    {
+      "id": 55,
+      "text": "Loại cáp nào được sử dụng để kết nối PC với router?",
+      "options": {
+        "A": "Crossover cable ( cáp chéo )",
+        "B": "Console cable ( cáp điều khiển )",
+        "C": "Rollover cable ( cáp đảo đầu )",
+        "D": "Straight – throught cable ( cáp thẳng )"
+      },
+      "answer": ""
+    },
+    {
+      "id": 56,
+      "text": "Khi so sánh mạng gam dữ liệu ( datagram subnet ) và mạng con mạch ảo ( vitrual circuit subnet ), câu phát biểu nào sau đây là đúng?",
+      "options": {
+        "A": "Mạng con mạch ảo cho phép gói tin đi theo nhiều đường khác nhau đến đích",
+        "B": "Mạng con mạch ảo yêu cầu đầy đủ địa chỉ gửi và nhận để truyền gói tin từ nguồn đến đích thành công",
+        "C": "Mạng con mạch ảo yêu cầu thiết lập kết nối, mạng con gam dữ liệu thì không",
+        "D": "Router hỏng sẽ làm hỏng kết nối từ nguồn đến đích trên cả hai mạng con"
+      },
+      "answer": ""
+    }
+  ]
+}

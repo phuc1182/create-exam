@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Phần mềm làm đề thi</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #131c31;
+      --card-2: #1a2540;
+      --line: #2f3b59;
+      --text: #edf2ff;
+      --muted: #aab6d3;
+      --blue: #59a6ff;
+      --green: #2fd17b;
+      --yellow: #f6c644;
+      --red: #ff6b6b;
+      --shadow: 0 12px 28px rgba(0,0,0,0.22);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: linear-gradient(160deg, #0b1220 0%, #0f1730 45%, #152244 100%);
+      color: var(--text);
+    }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 24px; }
+    .hero { display: grid; grid-template-columns: 1.2fr .8fr; gap: 20px; align-items: stretch; }
+    .panel { background: rgba(19,28,49,0.92); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .hero-main { padding: 26px; }
+    h1 { margin: 0 0 10px; font-size: 30px; line-height: 1.2; }
+    .sub { color: var(--muted); font-size: 15px; line-height: 1.6; }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 18px; }
+    .stat { background: var(--card-2); border: 1px solid var(--line); padding: 16px; border-radius: 14px; }
+    .stat b { display: block; font-size: 18px; margin-bottom: 6px; }
+    .side { padding: 20px; display: flex; flex-direction: column; gap: 14px; }
+    label { display:block; margin-bottom: 8px; font-weight: 600; }
+    select, input[type=file], button, textarea {
+      width: 100%; border-radius: 12px; border: 1px solid var(--line);
+      background: #0f1730; color: var(--text); padding: 12px 14px; font-size: 15px;
+    }
+    button { cursor: pointer; transition: transform .05s ease, opacity .15s ease; font-weight: 700; }
+    button:hover { opacity: .96; }
+    button:active { transform: translateY(1px); }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .btn-primary { background: linear-gradient(135deg, #2d7ff9, #59a6ff); border: none; }
+    .btn-secondary { background: var(--card-2); }
+    .btn-danger { background: linear-gradient(135deg, #d94b5e, #ff6b6b); border: none; }
+    .toolbar { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+    .app { display:none; margin-top: 22px; grid-template-columns: 300px 1fr; gap: 20px; }
+    .left, .right { min-height: 500px; }
+    .left { padding: 20px; }
+    .badge { display: inline-flex; gap: 6px; align-items: center; border: 1px solid var(--line); background: var(--card-2); padding: 8px 12px; border-radius: 999px; color: var(--muted); font-size: 13px; }
+
+    .progress { height: 10px; background: #0f1730; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+    .bar { height:100%; width:0%; background: linear-gradient(90deg, #2fd17b, #59a6ff); transition: width .2s ease; }
+    .nav-grid { display:grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 16px; }
+    .qbtn { aspect-ratio:1; border-radius: 12px; border:1px solid var(--line); background:#0f1730; color:var(--text); font-weight:700; }
+    .qbtn.answered { background:#143a2a; border-color:#1d6e48; }
+    .qbtn.correct { background:#143a2a; border-color:#1d6e48; }
+    .qbtn.wrong { background:#3a1620; border-color:#b84a5f; }
+    .qbtn.current { outline: 2px solid var(--blue); }
+    .right { padding: 24px; }
+    .qmeta { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:12px; }
+    .qtitle { font-size: 22px; margin: 0; }
+    .qtext { font-size: 18px; line-height: 1.6; margin: 4px 0 18px; }
+    .qtext, .review-question { white-space: pre-wrap; }
+    .options { display:grid; gap: 12px; }
+    .option { border:1px solid var(--line); background:var(--card-2); border-radius: 14px; padding: 14px 16px; cursor:pointer; display:flex; gap:12px; align-items:flex-start; }
+    .option:hover { border-color: var(--blue); }
+    .option.active { border-color: var(--blue); background: rgba(89,166,255,.13); }
+    .option.correct { border-color:#1d6e48; background: rgba(47, 209, 123, .13); }
+    .option.wrong { border-color:#b84a5f; background: rgba(255, 107, 107, .13); }
+    .option.locked { pointer-events: none; opacity: 0.9; }
+    .letter { width: 28px; height: 28px; flex: 0 0 28px; border-radius: 999px; display:grid; place-items:center; background:#0f1730; border:1px solid var(--line); font-weight:700; }
+    .actions { display:flex; gap: 12px; margin-top: 18px; flex-wrap:wrap; }
+    .footer-note { color: var(--muted); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+    .result { display:none; margin-top: 24px; padding: 22px; border-top:1px solid var(--line); }
+    .score { font-size: 40px; font-weight: 900; margin: 0; }
+    .review-item { margin: 12px 0; padding: 14px; background: var(--card-2); border-radius: 12px; border:1px solid var(--line); }
+    .ok { color: var(--green); }
+    .bad { color: var(--red); }
+    .muted { color: var(--muted); }
+    .codebox { background:#0f1730; border:1px dashed var(--line); padding:14px; border-radius:12px; color:var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 13px; white-space: pre-wrap; }
+    .table-wrapper { background: var(--card-2); border: 1px solid var(--line); border-radius: 12px; padding: 14px; margin: 12px 0; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--line); }
+    th { background: #0f1730; font-weight: 700; }
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
+      .app { grid-template-columns: 1fr; }
+      .nav-grid { grid-template-columns: repeat(8, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="panel hero-main">
+        <h1>Phần mềm làm đề thi tương tác</h1>
+        <div class="sub">
+          Hỗ trợ làm bài trắc nghiệm chuyên nghiệp, chấm điểm tự động, điều hướng nhanh theo câu, đếm thời gian và lưu trạng thái tạm thời.
+        </div>
+        <div class="stats">
+          <div class="stat"><b id="statsExams">02</b><span>Đề sẵn sàng</span></div>
+          <div class="stat"><b id="statsQuestions">40</b><span>Câu hỏi trong đề</span></div>
+          <div class="stat"><b>60 phút</b><span>Thời gian làm bài</span></div>
+        </div>
+        <div class="toolbar">
+          <button class="btn-primary" onclick="startExam()">Bắt đầu làm bài</button>
+        </div>
+      </div>
+      <div class="panel side">
+        <div>
+          <label for="examSelect">Chọn đề</label>
+          <select id="examSelect" onchange="updateStats()"></select>
+        </div>
+        <div>
+          <label for="jsonImport">📥 Thêm đề từ file JSON</label>
+          <input type="file" id="jsonImport" accept=".json" multiple onchange="importJSON()">
+        </div>
+        <div class="footer-note">
+          Chọn một đề từ danh sách trên để bắt đầu làm bài.
+        </div>
+      </div>
+    </section>
+
+    <section class="app" id="app">
+      <aside class="panel left">
+        <div class="badge" id="subjectBadge">Môn học</div>
+        <div class="progress"><div class="bar" id="bar"></div></div>
+        <div class="footer-note"><span id="doneCount">0</span>/<span id="totalCount">0</span> câu đã trả lời</div>
+        <div class="nav-grid" id="navGrid"></div>
+        <div class="actions">
+          <button class="btn-primary" onclick="submitExam()">Nộp bài</button>
+        </div>
+      </aside>
+
+      <main class="panel right">
+        <div class="qmeta">
+          <h2 class="qtitle" id="qtitle">Câu 1</h2>
+          <div class="badge" id="qindex">1 / 40</div>
+        </div>
+        <div class="qtext" id="qtext"></div>
+        <div id="tableContainer"></div>
+        <div class="options" id="options"></div>
+        <div class="footer-note" id="qnote"></div>
+        <div class="footer-note" id="answerHint" style="display:none; color: var(--yellow); margin-top: 12px;"></div>
+
+        <div class="actions">
+          <button class="btn-secondary" onclick="previousQuestion()" id="prevBtn">← Câu trước</button>
+          <button class="btn-secondary" onclick="nextQuestion()" id="nextBtn">Câu tiếp →</button>
+        </div>
+
+        <section class="result" id="result"></section>
+      </main>
+    </section>
+  </div>
+
+  <script>
+    let exams = [];
+    let currentExam = null;
+    let currentIndex = 0;
+    let answers = {};
+    let submissionState = null;
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function normalizeLineBreaks(text) {
+      return String(text ?? '').replace(/\/n/g, '\n');
+    }
+
+
+    function importJSON() {
+      const files = document.getElementById('jsonImport').files;
+      if (!files.length) return;
+
+      let loaded = 0;
+      for (let file of files) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            const data = JSON.parse(e.target.result);
+            console.log(`✅ Đã thêm: ${data.title} (${data.questions.length} câu)`);
+            exams.push(data);
+            loaded++;
+            
+            // Khi load xong tất cả file
+            if (loaded === files.length) {
+              loadExams();
+              document.getElementById('jsonImport').value = ''; // Reset input
+            }
+          } catch (err) {
+            console.error(`❌ Lỗi parse JSON:`, err);
+            alert(`Lỗi: File ${file.name} không phải JSON hợp lệ`);
+          }
+        };
+        reader.readAsText(file);
+      }
+    }
+
+    
+    
+    
+    function updateStats() {
+      const selected = getSelectedExam();
+      if (selected) {
+        document.getElementById('statsQuestions').textContent = selected.questions.length;
+      }
+    }
+
+    function getSelectedExam() {
+      const idx = Number(document.getElementById('examSelect').value || 0);
+      return exams[idx];
+    }
+
+    function startExam() {
+      if (!exams.length) {
+        alert('Chưa có đề nào. Hãy chọn một đề để tiếp tục.');
+        return;
+      }
+      currentExam = structuredClone(getSelectedExam());
+      currentIndex = 0;
+      answers = {};
+      submissionState = null;
+      document.getElementById('app').style.display = 'grid';
+      document.getElementById('result').style.display = 'none';
+      document.getElementById('subjectBadge').textContent = `${currentExam.subject} • ${currentExam.title}`;
+      document.getElementById('totalCount').textContent = currentExam.questions.length;
+      renderNav();
+      renderQuestion();
+      window.scrollTo({ top: document.getElementById('app').offsetTop - 10, behavior: 'smooth' });
+    }
+
+
+
+    function renderNav() {
+      const nav = document.getElementById('navGrid');
+      nav.innerHTML = currentExam.questions.map((q, idx) => {
+        const answered = answers[q.id] ? 'answered' : '';
+        const correctness = submissionState ? (submissionState[q.id]?.isCorrect ? 'correct' : 'wrong') : '';
+        const current = idx === currentIndex ? 'current' : '';
+        return `<button class="qbtn ${answered} ${correctness} ${current}" onclick="goToQuestion(${idx})">${idx+1}</button>`;
+      }).join('');
+      const done = Object.keys(answers).length;
+      document.getElementById('doneCount').textContent = done;
+      document.getElementById('bar').style.width = `${(done / currentExam.questions.length) * 100}%`;
+    }
+
+    function renderQuestion() {
+      const q = currentExam.questions[currentIndex];
+      document.getElementById('qtitle').textContent = `Câu ${q.id}`;
+      document.getElementById('qindex').textContent = `${currentIndex+1} / ${currentExam.questions.length}`;
+      document.getElementById('qtext').textContent = normalizeLineBreaks(q.text);
+      document.getElementById('qnote').textContent = normalizeLineBreaks(q.note || '');
+      
+      // Update navigation buttons
+      document.getElementById('prevBtn').disabled = currentIndex === 0;
+      document.getElementById('nextBtn').disabled = currentIndex === currentExam.questions.length - 1;
+      
+      // Clear answer hint when moving to new question
+      const answerHint = document.getElementById('answerHint');
+      const currentAns = answers[q.id];
+      if (currentAns && currentAns !== q.answer) {
+        answerHint.innerHTML = `⚠️ Sai! Đáp án đúng là: <b>${escapeHtml(q.answer)}</b>`;
+        answerHint.style.display = 'block';
+      } else {
+        answerHint.style.display = 'none';
+      }
+      
+      // Render table if exists
+      const tableContainer = document.getElementById('tableContainer');
+      if (q.table) {
+        const table = q.table;
+        let html = `<div class="table-wrapper"><table><thead><tr>`;
+        table.columns.forEach(col => html += `<th>${escapeHtml(col)}</th>`);
+        html += `</tr></thead><tbody>`;
+        table.rows.forEach(row => {
+          html += `<tr>`;
+          row.forEach(cell => html += `<td>${escapeHtml(cell)}</td>`);
+          html += `</tr>`;
+        });
+        html += `</tbody></table></div>`;
+        tableContainer.innerHTML = html;
+      } else {
+        tableContainer.innerHTML = '';
+      }
+      
+      const submitted = submissionState?.[q.id];
+      document.getElementById('options').innerHTML = Object.entries(q.options).map(([k, v]) => {
+        const optionClass = [
+          'option',
+          currentAns === k ? 'active' : '',
+          submitted && k === q.answer ? 'correct' : '',
+          submitted && currentAns === k && currentAns !== q.answer ? 'wrong' : '',
+          currentAns ? 'locked' : ''
+        ].filter(Boolean).join(' ');
+        // add tabindex and onkeydown to support keyboard Enter/Space when option is focused
+        return `
+        <div class="${optionClass}" tabindex="0" onclick="choose('${k}')" onkeydown="if(event.key==='Enter' || event.key===' '){ event.preventDefault(); choose('${k}'); }">
+          <div class="letter">${k}</div>
+          <div>${escapeHtml(v)}</div>
+        </div>
+      `;
+      }).join('');
+      renderNav();
+    }
+
+    function choose(letter) {
+      console.log('choose() called with', letter);
+      const q = currentExam.questions[currentIndex];
+      if (!q) return;
+      // Nếu đã chọn đáp án trước đó thì không cho sửa
+      if (answers[q.id]) return;
+      answers[q.id] = letter;
+      
+      // Kiểm tra nếu trả lời sai - hiển thị đáp án đúng
+      const answerHint = document.getElementById('answerHint');
+      if (letter !== q.answer) {
+        answerHint.innerHTML = `⚠️ Sai! Đáp án đúng là: <b>${escapeHtml(q.answer)}</b>`;
+        answerHint.style.display = 'block';
+      } else {
+        answerHint.style.display = 'none';
+      }
+      
+      renderQuestion();
+    }
+
+    function nextQuestion() {
+      if (currentIndex < currentExam.questions.length - 1) {
+        currentIndex++;
+        renderQuestion();
+        window.scrollTo({ top: document.getElementById('app').offsetTop - 10, behavior: 'smooth' });
+      }
+    }
+
+    function previousQuestion() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        renderQuestion();
+        window.scrollTo({ top: document.getElementById('app').offsetTop - 10, behavior: 'smooth' });
+      }
+    }
+
+    function goToQuestion(i) { currentIndex = i; renderQuestion(); }
+
+    function submitExam() {
+      if (!currentExam) return;
+      const total = currentExam.questions.length;
+      let correct = 0;
+      const review = [];
+      submissionState = {};
+      currentExam.questions.forEach(q => {
+        const user = answers[q.id] || '—';
+        const ok = user === q.answer;
+        submissionState[q.id] = { user, isCorrect: ok };
+        if (ok) correct += 1;
+        review.push(`
+          <div class="review-item">
+            <div class="review-question"><b>Câu ${q.id}.</b> ${escapeHtml(normalizeLineBreaks(q.text))}</div>
+            <div class="muted" style="margin-top:6px;">Bạn chọn: <b class="${ok ? 'ok' : 'bad'}">${user}</b> • Đáp án đúng: <b class="ok">${q.answer}</b></div>
+          </div>
+        `);
+      });
+      const percent = Math.round((correct / total) * 100);
+      const score10 = (correct * 10 / total).toFixed(2);
+      const result = document.getElementById('result');
+      result.style.display = 'block';
+      result.innerHTML = `
+        <p class="score">${correct} / ${total}</p>
+        <div class="footer-note">Tỷ lệ đúng: <b>${percent}%</b> • Điểm quy đổi thang 10: <b>${score10}</b></div>
+        <div class="footer-note">Bạn vẫn có thể cuộn lên để xem lại các câu và chỉnh sửa nếu muốn làm lại từ đầu.</div>
+        <div style="margin-top:18px;">${review.join('')}</div>
+      `;
+      window.scrollTo({ top: result.offsetTop - 10, behavior: 'smooth' });
+    }
+
+    function loadExams() {
+      const select = document.getElementById('examSelect');
+      select.innerHTML = exams.map((e, i) => `<option value="${i}">${e.title}</option>`).join('');
+      updateStats();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      // Khởi tạo: không nạp đề mặc định. Người dùng phải thêm đề qua file JSON.
+      exams = [];
+      loadExams();
+      // Hỗ trợ phím tắt: A/B/C/D chọn đáp án, mũi tên trái/phải điều hướng
+      window.addEventListener('keydown', (e) => {
+        const tag = document.activeElement?.tagName;
+        if (tag === 'INPUT' || tag === 'TEXTAREA' || document.activeElement?.isContentEditable) return;
+        if (!currentExam) return;
+        const k = e.key;
+        console.log('keydown', k, 'activeElement', document.activeElement?.tagName, document.activeElement);
+        if (/^[abcdABCD]$/.test(k)) {
+          choose(k.toUpperCase());
+        } else if (k === 'ArrowLeft') {
+          previousQuestion();
+        } else if (k === 'ArrowRight') {
+          nextQuestion();
+        }
+      });
+    });
+  </script>
+</body>
+</html>

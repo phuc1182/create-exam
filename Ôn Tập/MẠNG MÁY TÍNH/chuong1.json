@@ -1,0 +1,569 @@
+{
+  "id": "chuong1",
+  "title": "CHƯƠNG 1",
+  "subject": "Mạng máy tính CSE101",
+  "duration_minutes": 45,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Phát biểu nào sau đây là đúng về giao thức?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Giao thức định nghĩa hành động trong quá trình truyền dữ liệu",
+        "C": "Tất cả đều đúng",
+        "D": "Giao thức định nghĩa định dạng và thứ tự gửi đi của gói tin"
+      },
+      "answer": ""
+    },
+    {
+      "id": 2,
+      "text": "Phát biểu nào sau đây là đúng về network edge?",
+      "options": {
+        "A": "Kết nối nhiều mạng con trong doanh nghiệp",
+        "B": "Kết nối tới mạng xương sống",
+        "C": "Là máy chủ web",
+        "D": "Là ứng dụng quản lý mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 3,
+      "text": "Thành phần nào không phải là thành phần chính của mạng máy tính?",
+      "options": {
+        "A": "Network Core",
+        "B": "Network Edge",
+        "C": "Wifi",
+        "D": "Access Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 4,
+      "text": "Phương thức truyền point to point là tên khác của kiểu truyền nào?",
+      "options": {
+        "A": "Multicast",
+        "B": "Unicast",
+        "C": "Broadcast",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 5,
+      "text": "Phát biểu nào sau đây là đúng khi phân biệt mạng theo kỹ thuật truyền dữ liệu",
+      "options": {
+        "A": "Có hai kiểu mạng với nhau hai kiểu phương thức truyền khác nhau",
+        "B": "Có hai kiểu phương thức truyền dữ liệu",
+        "C": "Có ba kiểu phương thức truyền dữ liệu",
+        "D": "Có ba kiểu mạng với ba kiểu phương thức truyền khác nhau"
+      },
+      "answer": ""
+    },
+    {
+      "id": 6,
+      "text": "Phát biểu nào sau đây là đúng về giao thức",
+      "options": {
+        "A": "Giao thức không định nghĩa hành động trong quá trình truyền dữ liệu",
+        "B": "Tất cả đều đúng",
+        "C": "Tất cả đều sai",
+        "D": "Giao thức định nghĩa định dạng và thứ tự gửi đi của gói tin"
+      },
+      "answer": ""
+    },
+    {
+      "id": 7,
+      "text": "MAN là viết tắt của?",
+      "options": {
+        "A": "Metro And Networking",
+        "B": "Metropolitan And Networking",
+        "C": "Metro Area Network",
+        "D": "Metropolitan Area Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "text": "Người sử dụng kết nối Iternet bằng dịch vụ FTTH tại nhà là ví dụ về loại mạng truy cập nào?",
+      "options": {
+        "A": "Mạng truy cập di động",
+        "B": "Mạng truy cập toàn cầu",
+        "C": "Mạng truy cập công sở",
+        "D": "Mạng truy cập dân cư"
+      },
+      "answer": ""
+    },
+    {
+      "id": 9,
+      "text": "Phát biểu nào sau đây là đúng về mạng phân biệt theo phạm vi địa lý?",
+      "options": {
+        "A": "WAN bao phủ một đất nước",
+        "B": "MAN bao phủ từ ba thành phố trở lên",
+        "C": "LAN nhỏ nhất có phạm vi sử dụng một cá nhân",
+        "D": "GAN bao phủ một lục địa"
+      },
+      "answer": ""
+    },
+    {
+      "id": 10,
+      "text": "Khi phân loại theo phạm vi địa lý, mạng nào là lớn nhất?",
+      "options": {
+        "A": "GAN",
+        "B": "CAN",
+        "C": "WAN",
+        "D": "MAN"
+      },
+      "answer": ""
+    },
+    {
+      "id": 11,
+      "text": "Phát biểu nào sau đây là sai về mạng phân biệt theo phạm vi địa lý?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Ví dụ về mạng MAN là truyền hình cáp thành phố",
+        "C": "Ví dụ về mạng CAN là mạng của trường Đại học Mỏ - Địa Chất",
+        "D": "Ví dụ về mạng GAN là mạng Iternet"
+      },
+      "answer": ""
+    },
+    {
+      "id": 12,
+      "text": "Có những loại mạng truy cập nào?",
+      "options": {
+        "A": "Mạng truy cập dân cư",
+        "B": "Mạng truy cập công sở",
+        "C": "Mạng truy cập di động",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 13,
+      "text": "GAN là viết tắt của?",
+      "options": {
+        "A": "Great Area Network",
+        "B": "Global Area Networking",
+        "C": "Great Area Networking",
+        "D": "Global Area Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 14,
+      "text": "Theo kỹ thuật truyền tin thì có loại mạng nào?",
+      "options": {
+        "A": "Multicast",
+        "B": "Unicast",
+        "C": "Broadcast",
+        "D": "Point to Multipoint"
+      },
+      "answer": ""
+    },
+    {
+      "id": 15,
+      "text": "Phát biểu nào sau đây là đúng về kỹ thuật truyền tin của mạng?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Tất cả đều sai",
+        "C": "Còn gọi là công nghệ truyền tin",
+        "D": "Có hai loại: quảng bá và điểm-điểm"
+      },
+      "answer": ""
+    },
+    {
+      "id": 16,
+      "text": "CAN viết đầy đủ như thế nào?",
+      "options": {
+        "A": "Campus Area Network",
+        "B": "Campus And Network",
+        "C": "Coorperation Area Network",
+        "D": "Coorperation And Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 17,
+      "text": "Dịch vụ 3G/4G kết nối Internet cho máy tính bảng là ví dụ về loại mạng truy cập nào?",
+      "options": {
+        "A": "Mạng truy cập công sở",
+        "B": "Mạng truy cập di động",
+        "C": "Mạng truy cập toàn cầu",
+        "D": "Mạng truy cập dân cư"
+      },
+      "answer": ""
+    },
+    {
+      "id": 18,
+      "text": "Có mấy cách mô tả Internet?",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "3",
+        "D": "1"
+      },
+      "answer": ""
+    },
+    {
+      "id": 19,
+      "text": "Phát biểu nào sau đây là đúng về mô tả Internet?",
+      "options": {
+        "A": "World Wide Web là một mạng riêng biệt",
+        "B": "Thành phần router thuộc về mô tả chi tiết",
+        "C": "Internet không cung cấp dịch vụ phân tán",
+        "D": "Thành phần di động thuộc về mô tả dịch vụ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 20,
+      "text": "Thành phần nào không phải là thành phần chính của mạng máy tính?",
+      "options": {
+        "A": "Internet",
+        "B": "Network Edge",
+        "C": "Access Network",
+        "D": "Network Core"
+      },
+      "answer": ""
+    },
+    {
+      "id": 21,
+      "text": "Phát biểu nào sau đây là đúng về mô tả Internet?",
+      "options": {
+        "A": "Đường liên kết truyền thông không được coi là một thành phần của mô tả Internet",
+        "B": "Mô tả chi tiết Internet cho thấy cấu trúc hết sức chặt chẽ",
+        "C": "Internet không phải là cơ sở hạ tầng làm nền tảng cho ứng dụng",
+        "D": "World Wide Web là một dịch vụ phân tán"
+      },
+      "answer": ""
+    },
+    {
+      "id": 22,
+      "text": "Lĩnh vực gì nhờ mạng máy tính mới phát triển mạnh mẽ cho cả doanh nghiệp và cá nhân người sử dụng?",
+      "options": {
+        "A": "Giải trí tương tác",
+        "B": "Khả năng mở rộng",
+        "C": "Thương mại điện tử",
+        "D": "Truy cập thông tin từ xa"
+      },
+      "answer": ""
+    },
+    {
+      "id": 23,
+      "text": "PAN viết đầy đủ như thế nào?",
+      "options": {
+        "A": "Person And Network",
+        "B": "Person Area Network",
+        "C": "Personal Area Network",
+        "D": "Personal And Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 24,
+      "text": "Phương thức truyền point to multipoint là tên khác của kiểu truyền nào?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Broadcast",
+        "C": "Multicast",
+        "D": "Unicast"
+      },
+      "answer": ""
+    },
+    {
+      "id": 25,
+      "text": "Khái niệm mạng máy tính bao gồm?",
+      "options": {
+        "A": "Máy tính độc lập",
+        "B": "Tất cả đều đúng",
+        "C": "Quy ước truyền thông",
+        "D": "Đường truyền vật lý"
+      },
+      "answer": ""
+    },
+    {
+      "id": 26,
+      "text": "Có những loại kỹ thuật truyền tin nào?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Quảng bá và điểm-điểm",
+        "C": "Điểm-điểm",
+        "D": "Quảng bá"
+      },
+      "answer": ""
+    },
+    {
+      "id": 27,
+      "text": "Mạng máy tính đem lại lợi ích gì cho cá nhân người sử dụng?",
+      "options": {
+        "A": "Truy cập thông tin từ xa",
+        "B": "Giải trí tương tác",
+        "C": "Liên lạc với người sử dụng khác",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 28,
+      "text": "Phát biểu nào sau đây là đúng về khái niệm máy tính?",
+      "options": {
+        "A": "Thông tin được truyền qua đường truyền vật lý",
+        "B": "Quy ước truyền thông tạo cơ sở cho máy tính trao đổi thông tin",
+        "C": "Máy tính hoạt động không phụ thuộc lẫn nhau",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 29,
+      "text": "Phát biểu nào sau đây là sai về network core?",
+      "options": {
+        "A": "Còn gọi là backbone",
+        "B": "Core router làm nhiệm vụ chọn đường và trao đổi thông tin giữa hai nhánh mạng xa nhau",
+        "C": "Sử dụng phương thức chuyển mạch kênh hoặc chuyển mạch gói",
+        "D": "Kết nối Internet cho các host"
+      },
+      "answer": ""
+    },
+    {
+      "id": 30,
+      "text": "Phát biểu nào sau đây là đúng về mô tả Internet?",
+      "options": {
+        "A": "Thành phần di động thuộc về mô tả dịch vụ",
+        "B": "World Wide Web là một mạng riêng biệt",
+        "C": "Internet không cung cấp dịch vụ phân tán",
+        "D": "Thành phần router thuộc về mô tả chi tiết"
+      },
+      "answer": ""
+    },
+    {
+      "id": 31,
+      "text": "Phát biểu nào sau đây là đúng khi phân biệt mạng theo kỹ thuật truyền dữ liệu",
+      "options": {
+        "A": "Mạng quảng bá kiểm tra lỗi cho tất cả các gói tin",
+        "B": "Mạng điểm-điểm sử dụng một kênh truyền duy nhất",
+        "C": "Mạng quảng bá phải sử dụng địa chỉ để phân biệt các host",
+        "D": "Mạng điểm-điểm gửi thông tin cho nhiều máy đồng thời"
+      },
+      "answer": ""
+    },
+    {
+      "id": 32,
+      "text": "Phát biểu nào sau đây là đúng khi phân biệt mạng theo kỹ thuật truyền dữ liệu",
+      "options": {
+        "A": "Mạng điểm-điểm cho phép truyền đến một nhóm máy bằng cách sao chép gói tin và gửi đi nhiều lần",
+        "B": "Mạng điểm-điểm cho phép truyền đồng thời tới tất cả các máy trong mạng",
+        "C": "Mạng quảng bá cho phép truyền đến một nhóm máy bằng cách sao chép gói tin và gửi đi nhiều lần",
+        "D": "Mạng quảng bá cho phép truyền đến đích qua nhiều máy trung gian"
+      },
+      "answer": ""
+    },
+    {
+      "id": 33,
+      "text": "Phát biểu nào sau đây là đúng về mạng được phân loại theo kỹ thuật truyền tin?",
+      "options": {
+        "A": "Mạng điểm-điểm cho phép truyền đến một nhóm máy",
+        "B": "Mạng điểm-điểm không được sử dụng để truyền dữ liệu với khoảng cách xa",
+        "C": "Mạng quảng bá phù hợp với phạm vi địa lý nhỏ",
+        "D": "Mạng quảng bá chỉ cho phép truyền giữa các cặp máy"
+      },
+      "answer": ""
+    },
+    {
+      "id": 34,
+      "text": "Phát biểu nào sau đây là sai về network core?",
+      "options": {
+        "A": "Còn gọi là backbone",
+        "B": "Sử dụng phương thức chuyển mạch kênh hoặc chuyển mạch gói",
+        "C": "Kết nối các router của ISP",
+        "D": "Dành cho người dùng đầu cuối"
+      },
+      "answer": ""
+    },
+    {
+      "id": 35,
+      "text": "Mạng máy tính đem lại lợi ích gì cho doanh nghiệp?",
+      "options": {
+        "A": "Thời gian thực",
+        "B": "Thương mại điện tử",
+        "C": "Tất cả đều đúng",
+        "D": "Chia sẻ tài nguyên"
+      },
+      "answer": ""
+    },
+    {
+      "id": 36,
+      "text": "Trong mạng có mấy loại phương thức truyền dữ liệu?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": ""
+    },
+    {
+      "id": 37,
+      "text": "WAN là viết tắt của?",
+      "options": {
+        "A": "Wide Area Networking",
+        "B": "World Area Networking",
+        "C": "Wide Area Network",
+        "D": "World Area Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 38,
+      "text": "Phát biểu nào sau đây là đúng về mạng máy tính?",
+      "options": {
+        "A": "Hệ thống máy tính được đặt gần nhau",
+        "B": "Quá trình đi dây cáp và cài đặt máy tính",
+        "C": "Hệ thống các máy tính được kết nối với nhau để truyền thông, chia sẻ tài nguyên và thực hiện công việc chung",
+        "D": "Hệ thống máy tính tính toán các bài toán rất lớn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 39,
+      "text": "Trong mạng máy tính, máy tính độc lập nghĩa là gì?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Máy tính đặt tại vị trí riêng, không ảnh hưởng đến thiết bị khác",
+        "C": "Máy tính hoạt động tự do không bị giới hạn",
+        "D": "Một máy tính không có quyền khởi động hay tắt bất kỳ máy nào khác"
+      },
+      "answer": ""
+    },
+    {
+      "id": 40,
+      "text": "Thành phần nào không phải là thành phần chính của mạng máy tính?",
+      "options": {
+        "A": "ISP",
+        "B": "Network Core",
+        "C": "Network Edge",
+        "D": "Access Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 41,
+      "text": "Sinh viên sử dụng laptop kết nối wifi tại thư viện của nhà trường là ví dụ về loại mạng truy cập nào?",
+      "options": {
+        "A": "Mạng truy cập dân cư",
+        "B": "Mạng truy cập di động",
+        "C": "Mạng truy cập công sở",
+        "D": "Mạng truy cập trường đại học"
+      },
+      "answer": ""
+    },
+    {
+      "id": 42,
+      "text": "Khi phân loại theo phạm vi địa lý, mạng nào là nhỏ nhất?",
+      "options": {
+        "A": "LAN",
+        "B": "PAN",
+        "C": "MAN",
+        "D": "CAN"
+      },
+      "answer": ""
+    },
+    {
+      "id": 43,
+      "text": "Trong mạng có phương thức truyền nào?",
+      "options": {
+        "A": "Broadcast",
+        "B": "Multicast",
+        "C": "Tất cả đều đúng",
+        "D": "Unicast"
+      },
+      "answer": ""
+    },
+    {
+      "id": 44,
+      "text": "Trong mạng máy tính, phương tiện truyền thông là gì?",
+      "options": {
+        "A": "Còn gọi là môi trường truyền dẫn",
+        "B": "Có hai loại phương tiện truyền thông: có dây và không dây",
+        "C": "Tất cả đều đúng",
+        "D": "Là phương tiện vật lý cho phép truyền tải tín hiệu giữa các thiết bị trong mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 45,
+      "text": "Phát biểu nào sau đây là đúng về giao thức?",
+      "options": {
+        "A": "Giao thức mạng là phần mềm của mạng",
+        "B": "Giao thức chỉ thuần túy là lý thuyết bổ sung",
+        "C": "Giao thức chỉ nói đến nghi thức giao tiếp của con người",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 46,
+      "text": "Phát biểu nào sau đây là sai về mạng phân biệt theo phạm vi địa lý?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Ví dụ về mạng CAN là mạng của trường Đại học Mỏ-Địa chất",
+        "C": "Ví dụ về mạng GAN là mạng Internet",
+        "D": "Ví dụ về mạng MAN là mạng truyền hình cáp của thành phố"
+      },
+      "answer": ""
+    },
+    {
+      "id": 47,
+      "text": "Mạng máy tính đem lại lợi ích gì cho doanh nghiệp?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Môi trường truyền thông",
+        "C": "Khả năng mở rộng",
+        "D": "Tiết kiệm chi phí"
+      },
+      "answer": ""
+    },
+    {
+      "id": 48,
+      "text": "Phát biểu nào sau đây là sai về khái niệm máy tính?",
+      "options": {
+        "A": "Các máy tính trao đổi được với nhau nhờ quy ước truyền thông",
+        "B": "Đường truyền vật lý bao gồm hữu tuyến và vô tuyến",
+        "C": "Máy tính hoạt động phụ thuộc lẫn nhau",
+        "D": "Tất cả đều sai"
+      },
+      "answer": ""
+    },
+    {
+      "id": 49,
+      "text": "Theo kỹ thuật truyền tin thì có loại mạng nào?",
+      "options": {
+        "A": "Multicast",
+        "B": "Unicast",
+        "C": "Point to Multipoint",
+        "D": "Point to Point"
+      },
+      "answer": ""
+    },
+    {
+      "id": 50,
+      "text": "Câu phát biểu nào sau đây là đúng về phương tiện truyền dẫn?",
+      "options": {
+        "A": "Phương tiện truyền dẫn bao gồm các loại dây cáp",
+        "B": "Có hai loại phương tiện truyền dẫn: không dây và có dây",
+        "C": "Các phương tiện truyền dẫn có tốc độ truyền dữ liệu giống nhau",
+        "D": "Phương tiện truyền dẫn truyền dữ liệu giữa hai card mạng của hai máy tính"
+      },
+      "answer": ""
+    },
+    {
+      "id": 51,
+      "text": "Phân biệt theo kỹ thuật truyền tin có mấy loại mạng?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "4",
+        "D": "2"
+      },
+      "answer": ""
+    }
+  ]
+}

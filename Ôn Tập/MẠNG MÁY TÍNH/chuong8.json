@@ -1,0 +1,173 @@
+{
+  "id": "chuong8",
+  "title": "CHƯƠNG 8",
+  "subject": "Mạng máy tính CSE101",
+  "duration_minutes": 45,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Băng thông là gì?",
+      "options": {
+        "A": "Khối lượng dữ liệu có thể truyền được trong một khoảng thời gian nhất định",
+        "B": "Khối lượng dữ liệu thấp nhất truyền được khi xét nhiều khoảng thời gian ngẫu nhiên",
+        "C": "Khoảng cách không gian một đơn vị dữ liệu truyền đi được trong khoảng thời gian cố định",
+        "D": "Độ dài đường dây một đơn vị dữ liệu truyền đi được trong một khoảng thời gian cố định"
+      },
+      "answer": ""
+    },
+    {
+      "id": 2,
+      "text": "Đặc trưng của mạng Intranet là gì?",
+      "options": {
+        "A": "Thông tin trên mạng chỉ được truy cập nội bộ",
+        "B": "Thông tin trên mạng được truy cập từ Internet",
+        "C": "Mạng cho phép số lượng truy cập hạn chế",
+        "D": "Mạng cho phép truy cập từ mạng LAN và WAN"
+      },
+      "answer": ""
+    },
+    {
+      "id": 3,
+      "text": "Địa chỉ nào được mạng Ethernet sử dụng để kết nối với nhiều thiết bị cùng một lúc?",
+      "options": {
+        "A": "Địa chỉ Broadcast",
+        "B": "Địa chỉ Unicast",
+        "C": "Địa chỉ IP",
+        "D": "Đia chỉ có sẵn trong thiết bị"
+      },
+      "answer": ""
+    },
+    {
+      "id": 4,
+      "text": "Chuẩn Wifi nào không sử dụng dải tần số 2.4GHz?",
+      "options": {
+        "A": "IEEE 802.11g",
+        "B": "IEEE 802.11a",
+        "C": "IEEE 802.11b",
+        "D": "IEEE 802.11n"
+      },
+      "answer": ""
+    },
+    {
+      "id": 5,
+      "text": "Chuẩn Wifi nào sử dụng cả hai dải tần số 2.4GHz và 5GHz?",
+      "options": {
+        "A": "IEEE 802.11a",
+        "B": "IEEE 802.11g",
+        "C": "IEEE 802.11n",
+        "D": "IEEE 802.11b"
+      },
+      "answer": ""
+    },
+    {
+      "id": 6,
+      "text": "Tốc độ truyền tối đa của một thiết bị không dây tương thích với chuẩn 802.11a là gì?",
+      "options": {
+        "A": "450 Mbps",
+        "B": "54 Mbps",
+        "C": "150 Mbps",
+        "D": "11 Mbps"
+      },
+      "answer": ""
+    },
+    {
+      "id": 7,
+      "text": "Các chuẩn 802.11a, b, g, n của Wifi do tổ chức nào quy định?",
+      "options": {
+        "A": "IEEE",
+        "B": "Intel",
+        "C": "ISO",
+        "D": "Microsoft"
+      },
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "text": "Tốc độ truyền tối thiểu của một thiết bị không dây tương thích với chuẩn 802.11n là gì?",
+      "options": {
+        "A": "450 Mbps",
+        "B": "300 Mbps",
+        "C": "150 Mbps",
+        "D": "100 Mbps"
+      },
+      "answer": ""
+    },
+    {
+      "id": 9,
+      "text": "Card mạng máy tính có thông số sau: 10/100/1000 Mbps LAN có nghĩa là gì?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Kết nối mạng thông qua cổng RJ45",
+        "C": "Tốc độ kết nối mạng tối đa là 1 Gbps",
+        "D": "Tương thích với ba chuẩn tốc độ kết nối mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 10,
+      "text": "Tốc độ truyền tối đa của một thiết bị không dây tương thích với chuẩn 802.11b là gì?",
+      "options": {
+        "A": "450 Mbps",
+        "B": "54 Mbps",
+        "C": "11 Mbps",
+        "D": "150 Mbps"
+      },
+      "answer": ""
+    },
+    {
+      "id": 11,
+      "text": "Địa chỉ nào được mạng Ethernet sử dụng để kết nối với nhiều thiết bị cùng một lúc?",
+      "options": {
+        "A": "Địa chỉ Unicast",
+        "B": "Địa chỉ Multicast",
+        "C": "Địa chỉ IP",
+        "D": "Địa chỉ có sẵn trong thiết bị"
+      },
+      "answer": ""
+    },
+    {
+      "id": 12,
+      "text": "Tốc độ truyền tối thiểu của một thiết bị không dây tương thích với chuẩn 802.11ac là gì?",
+      "options": {
+        "A": "300 Mbps",
+        "B": "450 Mbps",
+        "C": "600 Mbps",
+        "D": "950 Mbps"
+      },
+      "answer": ""
+    },
+    {
+      "id": 13,
+      "text": "Đặc trưng của mạng Extranet là gì?",
+      "options": {
+        "A": "Mạng cho phép truy cập từ mạng LAN và WAN",
+        "B": "Thông tin trên mạng được truy cập từ Internet",
+        "C": "Thông tin được truy cập từ mạng nội bộ và mở rộng tới một số đối tác làm việc",
+        "D": "Thông tin trên mạng chỉ được truy cập nội bộ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 14,
+      "text": "Tốc độ truyền tối đa của một thiết bị không dây tương thích với chuẩn 802.11g là gì?",
+      "options": {
+        "A": "54 Mbps",
+        "B": "450 Mbps",
+        "C": "150 Mbps",
+        "D": "11 Mbps"
+      },
+      "answer": ""
+    },
+    {
+      "id": 15,
+      "text": "Phát biểu nào là đúng về Intranet và Extranet?",
+      "options": {
+        "A": "Nhân viên có thể truy cập mạng Intranet khi làm việc tại nhà",
+        "B": "Đối tác kinh doanh có thể truy cập mạng Extranet khi đến làm việc tại doanh nghiệp",
+        "C": "Đối tác kinh doanh có thể truy cập toàn bộ thông tin của mạng Extranet doanh nghiệp",
+        "D": "Nhân viên chỉ truy cập được vào mạng Intranet khi đang làm việc tại doanh nghiệp"
+      },
+      "answer": ""
+    }
+  ]
+}

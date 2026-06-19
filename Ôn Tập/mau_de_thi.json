@@ -1,0 +1,30 @@
+{
+  "id": "de_moi",
+  "title": "Đề mới",
+  "subject": "Tên môn học",
+  "duration_minutes": 45,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Nội dung câu hỏi",
+      "options": {
+        "A": "Đáp án A",
+        "B": "Đáp án B",
+        "C": "Đáp án C",
+        "D": "Đáp án D"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "text": "Nội dung câu hỏi 2",
+      "options": {
+        "A": "Đáp án A",
+        "B": "Đáp án B",
+        "C": "Đáp án C",
+        "D": "Đáp án D"
+      },
+      "answer": "C"
+    }
+  ]
+}

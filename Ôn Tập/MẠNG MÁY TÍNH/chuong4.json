@@ -1,0 +1,393 @@
+{
+  "id": "chuong4",
+  "title": "CHƯƠNG 4",
+  "subject": "Mạng máy tính CSE101",
+  "duration_minutes": 45,
+  "questions": [
+    {
+      "id": 1,
+      "text": "HDLC ( High- Level Data Link Control ) sử dụng cơ chế phát triển lỗi nào cho khung của nó?",
+      "options": {
+        "A": "Kiểm tra thêm theo chiều dọc ( Longitudinal reduncy check )",
+        "B": "Kiểm tra phần dư tuần hoàn ( Cyclic redundancy check )",
+        "C": "Chuỗi kiểm tra khung ( Frame Check Squence )",
+        "D": "Kiểm tra chẵn lẻ ( Parity checks )"
+      },
+      "answer": ""
+    },
+    {
+      "id": 2,
+      "text": "Tầng liên kết dữ liệu phải quy định khuôn dạng của khung mà nó sử dụng. Câu nào dưới đây mô tả cách định khung chèn byte?",
+      "options": {
+        "A": "Byte đầu tiên có giá trị bằng 7 nghĩa là có 7 bit trong một khung",
+        "B": "Nếu trong phần dữ liệu xuất hiện giá trị cờ hiệu thì chèn ESC vào trước, nếu có ESC cũng chèn ESC vào trước",
+        "C": "Khi bị mất đồng bộ, không có cách nào để xác định phân cách của khung tiếp theo",
+        "D": "Dựa trên mẫu 8 bit đặc biệt làm cờ, xác định ngay từ đầu khung và cuối khung"
+      },
+      "answer": ""
+    },
+    {
+      "id": 3,
+      "text": "Tầng liên kết dữ liệu phải quy định khuôn dạng của khung mà nó sử dụng. Câu nào dưới đây mô tả cách định khung chèn bit?",
+      "options": {
+        "A": "Nếu trong phần dữ liệu xuất hiện giá trị cờ hiệu thì chèn ESC vào trước, nếu có ESC cũng chèn ESC vào trước",
+        "B": "Byte đầu tiên có giá trị bằng 7 nghĩa là có 7 bit trong một khung",
+        "C": "Cứ thấy năm bit 1 liên tiếp kiểm tra bit tiếp theo, nếu bit đó là 0 thì loại bỏ bit đó đi. Nếu mẫu bit 01111110 xuất hiện, đó là cờ",
+        "D": "Dựa trên byte cờ hiệu, xác định ngay đầu khung và cuối khung"
+      },
+      "answer": ""
+    },
+    {
+      "id": 4,
+      "text": "Phát biểu nào sau đây là đúng về kiểm soát luồng của tầng liên kết dữ liệu?",
+      "options": {
+        "A": "Cả hai phương thức đều có chi phí cao",
+        "B": "Cả hai phương thức cho phép mở rộng băng thông",
+        "C": "Phương thức tiếp cận dựa trên tốc độ cho phép tốc độ linh hoạt",
+        "D": "Phương thức tiếp cận dựa trên phản hồi tăng tải trên đường truyền"
+      },
+      "answer": ""
+    },
+    {
+      "id": 5,
+      "text": "Dịch vụ nào dưới đây không phải là dịch vụ của tầng liên kết dữ liệu, để cung cấp cho tầng mạng?",
+      "options": {
+        "A": "Unknowledged connection – oriented service",
+        "B": "Unknowledged connectionless service",
+        "C": "Knowledged connection – oriented service",
+        "D": "Knowledged connectionless service"
+      },
+      "answer": ""
+    },
+    {
+      "id": 6,
+      "text": "Đặc điểm của phương pháp định khung đếm ký tự nào là sai?",
+      "options": {
+        "A": "Dễ dàng bị sai lệch trường đếm",
+        "B": "Bit đầu tiên của khung biểu diễn số lượng ký tự của toàn bộ khung",
+        "C": "Lỗi xảy ra thì đích bị mất đồng bộ",
+        "D": "Xác định đầu và cuối khung đơn giản"
+      },
+      "answer": ""
+    },
+    {
+      "id": 7,
+      "text": "Thành phần nào của giao thức PPP (Point-to-Point Protocol) cho phép thiết lập, cấu hình, thương lượng về tùy chọn tầng mạng một cách độc lập với giao thức mạng?",
+      "options": {
+        "A": "Giao thức điều khiển liên kết (Link Control Protocol)",
+        "B": "Giao thức điều khiển mạng (Network Control Protocol)",
+        "C": "Giao thức điều khiển liên kết dữ liệu mức cao (High-Level Data Link Control)",
+        "D": "Giao thức cửa sổ trượt (Sliding Window Protocol)"
+      },
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "text": "Thành phần nào của giao thức PPP (Point-to-Point Protocol) cho phép thiết lập kênh giao tiếp, kiểm tra kênh, thỏa thuận về các thông số truyền tin và xóa kênh truyền?",
+      "options": {
+        "A": "Giao thức điều khiển mạng (Network Control Protocol)",
+        "B": "Giao thức điều khiển liên kết (Link Control Protocol)",
+        "C": "Giao thức cửa sổ trượt (Sliding Window Protocol)",
+        "D": "Giao thức điều khiển liên kết dữ liệu mức cao (High-Level Data Link Control)"
+      },
+      "answer": ""
+    },
+    {
+      "id": 9,
+      "text": "Tầng liên kết dữ liệu phải quy định khuôn dạng của khung mà nó sử dụng. Câu nào dưới đây mô tả cách định khung đếm ký tự?",
+      "options": {
+        "A": "Nếu trong phần dữ liệu xuất hiện giá trị cờ hiệu thì chèn ESC vào trước, nếu có ESC cũng chèn ESC vào trước",
+        "B": "Dựa trên cờ hiệu 8 bit, xác định ngay đầu khung và cuối khung",
+        "C": "Byte đầu tiên có giá trị bằng 7 nghĩa là khung đó có tổng cộng 7 byte",
+        "D": "Khi bị mất đồng bộ, dựa vào cờ hiệu để xác định phân cách của khung tiếp theo"
+      },
+      "answer": ""
+    },
+    {
+      "id": 10,
+      "text": "Phát biểu nào sau đây là sai về kiểm soát lỗi của tầng liên kết dữ liệu?",
+      "options": {
+        "A": "Mã phát hiện lỗi hiệu quả hơn mã sửa lỗi",
+        "B": "Mã sửa lỗi thường dùng cho môi trường truyền không ổn định",
+        "C": "Khi khả năng truyền liên tục có lỗi thì sử dụng mã phát hiện lỗi",
+        "D": "Kiểm soát lỗi nhằm tăng chất lượng dịch vụ truyền tải"
+      },
+      "answer": ""
+    },
+    {
+      "id": 11,
+      "text": "Khung của tầng liên kết dữ liệu gồm bao nhiêu trường?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "Tất cả đều sai"
+      },
+      "answer": ""
+    },
+    {
+      "id": 12,
+      "text": "Giao thức HDLC cho phép cấu hình đường nối kết nào?",
+      "options": {
+        "A": "Cấu hình không cân bằng",
+        "B": "Tất cả đều đúng",
+        "C": "Cấu hình cân bằng",
+        "D": "Tất cả đều sai"
+      },
+      "answer": ""
+    },
+    {
+      "id": 13,
+      "text": "Chức năng nào không phải là chức năng của tầng liên kết dữ liệu?",
+      "options": {
+        "A": "Cung cấp giao diện dịch vụ",
+        "B": "Khắc phục sự cố",
+        "C": "Xử lý lỗi truyền",
+        "D": "Kiểm soát luồng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 14,
+      "text": "Chức năng nào không phải là chức năng của tầng liên kết dữ liệu?",
+      "options": {
+        "A": "Cung cấp giao diện dịch vụ",
+        "B": "Xác định tuyến đường",
+        "C": "Kiểm soát luồng",
+        "D": "Xử lý lỗi truyền"
+      },
+      "answer": ""
+    },
+    {
+      "id": 15,
+      "text": "Để phân biệt đầu và cuối khung, giao thức HDLC sử dụng mẫu bit nào làm byte cờ?",
+      "options": {
+        "A": "10000001",
+        "B": "01111110",
+        "C": "01010101",
+        "D": "10101010"
+      },
+      "answer": ""
+    },
+    {
+      "id": 16,
+      "text": "Giao thức HDLC không định nghĩa loại trạm nào?",
+      "options": {
+        "A": "Trạm phụ",
+        "B": "Trạm hỗn hợp",
+        "C": "Trạm chính",
+        "D": "Trạm cộng tác"
+      },
+      "answer": ""
+    },
+    {
+      "id": 17,
+      "text": "Phương pháp định khung nào được sử dụng ít nhất?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Đếm ký tự (character count)",
+        "C": "Sử dụng cờ bắt đầu và kết thúc khung cùng với các bit độn (chèn bit)",
+        "D": "Sử dụng các byte làm cờ hiệu và các byte độn (chèn byte)"
+      },
+      "answer": ""
+    },
+    {
+      "id": 18,
+      "text": "Trong tầng liên kết dữ liệu, trường nào của khung chứa thông tin điều khiển khung?",
+      "options": {
+        "A": "Header",
+        "B": "Payload",
+        "C": "Tất cả đều sai",
+        "D": "Trailer"
+      },
+      "answer": ""
+    },
+    {
+      "id": 19,
+      "text": "Giao thức HDLC cho phép chế độ truyền tải nào?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Chế độ cân bằng bất đồng bộ",
+        "C": "Chế độ trả lời bất đồng bộ",
+        "D": "Chế độ trả lời bình thường"
+      },
+      "answer": ""
+    },
+    {
+      "id": 20,
+      "text": "Dịch vụ nào của tầng liên kết dữ liệu có chất lượng dịch vụ kém nhất?",
+      "options": {
+        "A": "Dịch vụ không kết nối có báo nhận",
+        "B": "Tất cả đều sai",
+        "C": "Dịch vụ hướng kết nối có báo nhận",
+        "D": "Dịch vụ không kết nối không báo nhận"
+      },
+      "answer": ""
+    },
+    {
+      "id": 21,
+      "text": "Đặc điểm nào của phương pháp định khung đếm ký tự là sai?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Byte đầu tiên của khung biểu diễn số lượng ký tự dữ liệu của khung",
+        "C": "Được sử dụng phổ biến",
+        "D": "Byte cuối cùng của khung biểu diễn số lượng ký tự của khung"
+      },
+      "answer": ""
+    },
+    {
+      "id": 22,
+      "text": "Để phân biệt đầu và cuối khung, giao thức PPP sử dụng mẫu bit nào làm cờ hiệu?",
+      "options": {
+        "A": "10000001",
+        "B": "01010101",
+        "C": "01111110",
+        "D": "10101010"
+      },
+      "answer": ""
+    },
+    {
+      "id": 23,
+      "text": "Chức năng nào không phải là chức năng của tầng liên kết dữ liệu?",
+      "options": {
+        "A": "Cung cấp giao diện dịch vụ",
+        "B": "Xử lý lỗi truyền",
+        "C": "Định dạng dữ liệu",
+        "D": "Kiểm soát luồng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 24,
+      "text": "Phát biểu nào sau đây là sai về cửa sổ trượt của tầng liên kết dữ liệu?",
+      "options": {
+        "A": "Kích thước tối đa của cửa sổ biểu thị dung lượng bộ nhớ đệm của máy nhận",
+        "B": "Máy nhận chỉ mở cửa trước khi gói bắt đầu truyền đến",
+        "C": "Máy gửi mở cửa trước khi bắt đầu truyền gói",
+        "D": "Khi cả hai cửa chập lại thì đều không cho phép gửi/nhận dữ liệu"
+      },
+      "answer": ""
+    },
+    {
+      "id": 25,
+      "text": "Trong tầng liên kết dữ liệu, trường nào của khung chứa thông tin xử lý lỗi?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Header",
+        "C": "Payload",
+        "D": "Trailer"
+      },
+      "answer": ""
+    },
+    {
+      "id": 26,
+      "text": "Trong tầng liên kết dữ liệu, trường nào của khung chứa thông tin điều khiển?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Payload",
+        "C": "Trailer",
+        "D": "Header"
+      },
+      "answer": ""
+    },
+    {
+      "id": 27,
+      "text": "Trong tầng liên kết dữ liệu, trường nào của khung chứa dữ liệu nhận được từ tầng trên?",
+      "options": {
+        "A": "Payload",
+        "B": "Trailer",
+        "C": "Header",
+        "D": "Tất cả đều sai"
+      },
+      "answer": ""
+    },
+    {
+      "id": 28,
+      "text": "Chức năng nào không phải là chức năng của tầng liên kết dữ liệu?",
+      "options": {
+        "A": "Cung cấp giao diện dịch vụ",
+        "B": "Ghép và tách kênh",
+        "C": "Kiểm soát luồng",
+        "D": "Xử lý lỗi truyền"
+      },
+      "answer": ""
+    },
+    {
+      "id": 29,
+      "text": "Đặc điểm nào của phương pháp định khung chèn byte là sai?",
+      "options": {
+        "A": "Dễ dàng bị sai lệch trường đếm",
+        "B": "Xác định đầu và cuối khung đơn giản",
+        "C": "Lỗi xảy ra thì đích bị mất đồng bộ",
+        "D": "Bit đầu tiên của khung biểu diễn số lượng ký tự của toàn bộ khung"
+      },
+      "answer": ""
+    },
+    {
+      "id": 30,
+      "text": "Phát biểu nào sau đây là sai về kiểm soát lỗi của tầng liên kết dữ liệu?",
+      "options": {
+        "A": "Kiểm soát lỗi nhằm tăng chất lượng dịch vụ truyền tải",
+        "B": "Kiểm soát lỗi nhằm để tăng tốc độ truyền",
+        "C": "Gồm hai loại: mã phát hiện lỗi và mã sửa lỗi",
+        "D": "Mã phát hiện lỗi hoạt động hiệu quả hơn mã sửa lỗi"
+      },
+      "answer": ""
+    },
+    {
+      "id": 31,
+      "text": "Tầng liên kết dữ liệu sử dụng phương pháp định khung nào?",
+      "options": {
+        "A": "Đếm ký tự",
+        "B": "Tất cả đều đúng",
+        "C": "Cờ bắt đầu và kết thúc khung, có chèn ký tự",
+        "D": "Ký tự bắt đầu và kết thúc khung, có chèn ký tự"
+      },
+      "answer": ""
+    },
+    {
+      "id": 32,
+      "text": "Chức năng cụ thể của tầng liên kết dữ liệu là?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Cung cấp giao diện dịch vụ",
+        "C": "Kiểm soát luồng",
+        "D": "Xử lý lỗi truyền"
+      },
+      "answer": ""
+    },
+    {
+      "id": 33,
+      "text": "Dịch vụ nào của tầng liên kết dữ liệu có chất lượng dịch vụ tốt nhất?",
+      "options": {
+        "A": "Tất cả đều sai",
+        "B": "Dịch vụ không kết nối có báo nhận",
+        "C": "Dịch vụ hướng kết nối có báo nhận",
+        "D": "Dịch vụ không kết nối không báo nhận"
+      },
+      "answer": ""
+    },
+    {
+      "id": 34,
+      "text": "Dịch vụ nào dưới đây không phải là dịch vụ của tầng liên kết dữ liệu, để cung cấp cho tầng mạng?",
+      "options": {
+        "A": "Dịch vụ hướng kết nối có báo nhận",
+        "B": "Dịch vụ không kết nối không báo nhận",
+        "C": "Dịch vụ hướng kết nối không báo nhận",
+        "D": "Dịch vụ không kết nối có báo nhận"
+      },
+      "answer": ""
+    },
+    {
+      "id": 35,
+      "text": "Chức năng nào không phải là chức năng của tầng liên kết dữ liệu?",
+      "options": {
+        "A": "Xử lí lỗi truyền",
+        "B": "Kiểm soát luồng",
+        "C": "Cung cấp giao diện dịch vụ",
+        "D": "Định dạng dữ liệu"
+      },
+      "answer": ""
+    }
+  ]
+}

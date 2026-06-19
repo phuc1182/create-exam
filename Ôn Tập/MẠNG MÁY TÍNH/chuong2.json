@@ -1,0 +1,547 @@
+{
+  "id": "chuong2",
+  "title": "CHƯƠNG 2",
+  "subject": "Mạng máy tính CSE101",
+  "duration_minutes": 45,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Tính chất nào không đúng với mạng gia đình?",
+      "options": {
+        "A": "Đa phương tiện",
+        "B": "Đào tạo chuyên nghiệp",
+        "C": "Dễ lắp đặt",
+        "D": "Dễ sử dụng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 2,
+      "text": "Mạng gia đình cần có tính chất nào?",
+      "options": {
+        "A": "Khả năng mở rộng trong nhiều năm",
+        "B": "Giá thành thấp",
+        "C": "Tất cả đều đúng",
+        "D": "Dễ sử dụng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 3,
+      "text": "Đặc điểm nào là sai về topo ring?",
+      "options": {
+        "A": "Có hai loại: topo vòng đơn và vòng đôi",
+        "B": "Một nút mạng bị lỗi gây ảnh hưởng đến toàn mạng",
+        "C": "Không cần sử dụng terminator",
+        "D": "Dễ xảy ra xung đột"
+      },
+      "answer": ""
+    },
+    {
+      "id": 4,
+      "text": "Khi nói về các topo mạng, câu phát biểu nào sau đây là sai?",
+      "options": {
+        "A": "Mạng bus sử dụng ít cáp nhất",
+        "B": "Chất lượng truyền dữ liệu của mạng ring là tốt nhất",
+        "C": "Mạng mesh có tính chuyên nghiệp cao",
+        "D": "Khó mở rộng quy mô mạng star"
+      },
+      "answer": ""
+    },
+    {
+      "id": 5,
+      "text": "Phát biểu nào sau đây là đúng về mạng WAN?",
+      "options": {
+        "A": "Công nghệ tương tự mạng MAN",
+        "B": "Phạm vi bao trùm một lục địa",
+        "C": "Tất cả đều đúng",
+        "D": "Thành phần mạng WAN chỉ bao gồm các server"
+      },
+      "answer": ""
+    },
+    {
+      "id": 6,
+      "text": "Phát biểu nào sau đây là đúng về LAN và WAN?",
+      "options": {
+        "A": "Tốc độ truyền dữ liệu của LAN nhỏ hơn WAN",
+        "B": "Tất cả đều đúng",
+        "C": "Mạng LAN và WAN đều do doanh nghiệp sở hữu",
+        "D": "Kích thước LAN thường nhỏ hơn WAN"
+      },
+      "answer": ""
+    },
+    {
+      "id": 7,
+      "text": "Topo mạng là gì?",
+      "options": {
+        "A": "Mô tả cấu tạo của thiết bị mạng",
+        "B": "Cơ chế truyền dữ liệu giữa các thiết bị trong mạng",
+        "C": "Mô tả hoạt động của giao thức mạng",
+        "D": "Mô tả sự sắp xếp đi dây, thiết bị và phương thức truyền dữ liệu"
+      },
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "text": "Hiện nay, thiết bị nào có thể kết nối Internet?",
+      "options": {
+        "A": "Tivi",
+        "B": "Máy tính bảng",
+        "C": "Tất cả đều đúng",
+        "D": "Điện thoại di động"
+      },
+      "answer": ""
+    },
+    {
+      "id": 9,
+      "text": "Phát biểu đúng về mạng không dây là?",
+      "options": {
+        "A": "Ví dụ về mạng LAN không dây là kết nối mạng thông qua RJ45",
+        "B": "Mạng không dây không sử dụng tại văn phòng cố định",
+        "C": "Ví dụ về mạng WAN không dây là dịch vụ 4G của điện thoại di động",
+        "D": "Mạng không dây không sử dụng rộng rãi bằng mạng có dây"
+      },
+      "answer": ""
+    },
+    {
+      "id": 10,
+      "text": "Đặc điểm nào là sai về topo bus?",
+      "options": {
+        "A": "Ít gặp sự cố nhất",
+        "B": "Dễ lắp đặt",
+        "C": "Sử dụng ít cáp",
+        "D": "Chi phí rẻ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 11,
+      "text": "Một kiến trúc được mô tả như sau: “Đây là kiến trúc dễ dàng lắp đặt và mở rộng mạng, mạng chỉ bị lỗi khi thiết bị trung tâm gặp sự cố”. Hãy cho biết đây là kiến trúc gì?",
+      "options": {
+        "A": "Bus",
+        "B": "Star",
+        "C": "Mesh",
+        "D": "Ring"
+      },
+      "answer": ""
+    },
+    {
+      "id": 12,
+      "text": "Đặc điểm nào là sai về topo star?",
+      "options": {
+        "A": "Thiết bị trung tâm bị lỗi thì toàn mạng ngừng hoạt động",
+        "B": "Hạn chế khả năng mở rộng mạng",
+        "C": "Chi phí cao hơn topo bus",
+        "D": "Sử dụng nhiều cáp"
+      },
+      "answer": ""
+    },
+    {
+      "id": 13,
+      "text": "Phát biểu nào sau đây là đúng về mạng MAN?",
+      "options": {
+        "A": "Phạm vi trong một thành phố",
+        "B": "Công nghệ tương tự mạng WAN",
+        "C": "Ví dụ về mạng MAN là phòng thực hành máy tính",
+        "D": "Mạng MAN không sử dụng phương tiện truyền dẫn không dây"
+      },
+      "answer": ""
+    },
+    {
+      "id": 14,
+      "text": "Phát biểu nào sau đây là sai về mạng MAN?",
+      "options": {
+        "A": "Ví dụ về mạng MAN là truyền hình cáp Hà Nội",
+        "B": "Công nghệ tương tự mạng LAN",
+        "C": "Mạng MAN không dây sử dụng chuẩn IEEE 802.11",
+        "D": "Mạng MAN hoạt động trong phạm vi một thành phố"
+      },
+      "answer": ""
+    },
+    {
+      "id": 15,
+      "text": "Khi nói về các topo mạng, câu phát biểu nào sau đây là sai?",
+      "options": {
+        "A": "Mạng mesh thường được sử dụng cho các mạng workstation",
+        "B": "Chất lượng truyền dữ liệu của mạng ring là tốt nhất",
+        "C": "Mạng bus sử dụng terminator ở hai đầu đoạn cáp chính",
+        "D": "LAN sử dụng kiến trúc star nhiều nhất"
+      },
+      "answer": ""
+    },
+    {
+      "id": 16,
+      "text": "Phát biểu nào sau đây là đúng về mô hình khách/chủ?",
+      "options": {
+        "A": "Máy khách và máy chủ có vai trò tương đương nhau",
+        "B": "Máy khách đáp ứng yêu cầu từ máy chủ",
+        "C": "Máy chủ đáp ứng các yêu cầu từ máy khách",
+        "D": "Máy chủ chỉ đáp ứng yêu cầu từ máy chủ khác"
+      },
+      "answer": ""
+    },
+    {
+      "id": 17,
+      "text": "Phát biểu nào sau đây là đúng về mạng WAN?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Thành phần mạng WAN bao gồm mạng con và các host",
+        "C": "Phạm vi giới hạn trong 100 km",
+        "D": "Công nghệ tương tự mạng LAN"
+      },
+      "answer": ""
+    },
+    {
+      "id": 18,
+      "text": "Phát biểu nào sau đây là đúng về mạng PAN?",
+      "options": {
+        "A": "Phạm vi hoạt động của PAN lớn nhất trong các mạng",
+        "B": "Thường sử dụng phương tiện truyền dẫn không dây",
+        "C": "Tốc độ truyền dữ liệu của PAN lớn hơn WAN",
+        "D": "Thuộc sở hữu của doanh nghiệp"
+      },
+      "answer": ""
+    },
+    {
+      "id": 19,
+      "text": "Những thiết bị nào có thể kết nối vào mạng gia đình?",
+      "options": {
+        "A": "Tivi",
+        "B": "Laptop",
+        "C": "Đồng hồ",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 20,
+      "text": "Mạng con truyền thông (communication subnet) gồm những thành phần gì?",
+      "options": {
+        "A": "Đường truyền và thành phần chuyển mạch",
+        "B": "Đường truyền không dây và có dây",
+        "C": "Đường truyền và dữ liệu",
+        "D": "Thành phần chuyển mạch và đóng gói dữ liệu"
+      },
+      "answer": ""
+    },
+    {
+      "id": 21,
+      "text": "Topo logic nào được sử dụng phổ biến nhất trong LAN?",
+      "options": {
+        "A": "Hybrid",
+        "B": "Broadcast",
+        "C": "Token passing",
+        "D": "Star ring"
+      },
+      "answer": ""
+    },
+    {
+      "id": 22,
+      "text": "Phát biểu nào sau đây là đúng khi so sánh mạng không dây và mạng có dây?",
+      "options": {
+        "A": "Mạng không dây có tính thẩm mỹ hơn",
+        "B": "Kết nối mạng có dây khó khăn hơn mạng không dây",
+        "C": "Mạng có dây không cồng kềnh như mạng không dây",
+        "D": "Mạng có dây chi phí cao hơn mạng không dây"
+      },
+      "answer": ""
+    },
+    {
+      "id": 23,
+      "text": "Những thiết bị nào có thể kết nối vào mạng gia đình?",
+      "options": {
+        "A": "Điều hoà",
+        "B": "Tất cả đều đúng",
+        "C": "Camera",
+        "D": "Máy in"
+      },
+      "answer": ""
+    },
+    {
+      "id": 24,
+      "text": "Đặc điểm nào là sai về topo mesh?",
+      "options": {
+        "A": "Một nút mạng bị lỗi không ảnh hưởng đến toàn mạng",
+        "B": "Dễ xảy ra xung đột",
+        "C": "Chi phí cao",
+        "D": "Kết nối dư thừa giữa các nút mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 25,
+      "text": "Ứng dụng của mạng không dây là?",
+      "options": {
+        "A": "Thao tác với máy tính từ xa",
+        "B": "Văn phòng di động",
+        "C": "Trên đất liền, trên biển hoặc trên không",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 26,
+      "text": "Thiết bị nào thường kết nối trong mạng PAN?",
+      "options": {
+        "A": "Tai nghe",
+        "B": "Tất cả đều đúng",
+        "C": "Thiết bị đo nhịp tim",
+        "D": "Máy in"
+      },
+      "answer": ""
+    },
+    {
+      "id": 27,
+      "text": "Đặc điểm nào là sai về topo bus?",
+      "options": {
+        "A": "Dễ dàng phát hiện nơi nào bị lỗi trong mạng",
+        "B": "Có khả năng mở rộng",
+        "C": "Dễ lắp đặt",
+        "D": "Khi một nút mạng bị lỗi thì toàn mạng ngừng hoạt động"
+      },
+      "answer": ""
+    },
+    {
+      "id": 28,
+      "text": "Một kiến trúc được mô tả như sau: “Đây là kiến trúc không bao giờ xảy ra xung đột dữ liệu tuy nhiên khi một nút mạng gặp sự cố thì gây ảnh hưởng đến toàn bộ mạng”. Hãy cho biết đây là kiến trúc gì?",
+      "options": {
+        "A": "Ring",
+        "B": "Mesh",
+        "C": "Star",
+        "D": "Bus"
+      },
+      "answer": ""
+    },
+    {
+      "id": 29,
+      "text": "Đặc điểm nào là sai về topo ring?",
+      "options": {
+        "A": "Không xảy ra xung đột",
+        "B": "Một nút mạng bị lỗi gây ảnh hưởng đến toàn mạng",
+        "C": "Nút mạng tùy ý gửi/nhận dữ liệu",
+        "D": "Các nút mạng nối với nhau thành một vòng khép kín"
+      },
+      "answer": ""
+    },
+    {
+      "id": 30,
+      "text": "Topo logic nào được sử dụng phổ biến trong WAN?",
+      "options": {
+        "A": "Hybrid",
+        "B": "Token passing",
+        "C": "Broadcast",
+        "D": "Star ring"
+      },
+      "answer": ""
+    },
+    {
+      "id": 31,
+      "text": "Phát biểu nào sau đây là đúng khi so sánh mạng không dây và mạng có dây?",
+      "options": {
+        "A": "Mạng không dây không tiện lợi như mạng có dây",
+        "B": "Mạng có dây không cồng kềnh như mạng không dây",
+        "C": "Mạng không dây có chi phí cao hơn",
+        "D": "Mạng có dây kém an toàn hơn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 32,
+      "text": "WAN (Wide Area Network) là gì?",
+      "options": {
+        "A": "Mạng cục bộ",
+        "B": "Mạng doanh nghiệp",
+        "C": "Mạng diện rộng",
+        "D": "Mạng toàn cầu"
+      },
+      "answer": ""
+    },
+    {
+      "id": 33,
+      "text": "Phát biểu nào sau đây là đúng về LAN và WAN?",
+      "options": {
+        "A": "Người sở hữu và vận hành subnet khác nhau",
+        "B": "Subnet của WAN kết nối máy tính riêng lẻ",
+        "C": "Tất cả đều đúng",
+        "D": "WAN là mạng tổng hợp của nhiều LAN với công nghệ khác nhau"
+      },
+      "answer": ""
+    },
+    {
+      "id": 34,
+      "text": "Khi nói về các topo mạng, câu phát biểu nào sau đây là đúng?",
+      "options": {
+        "A": "Mạng mesh thường được sử dụng cho các mạng workstation",
+        "B": "Mạng sao khó mở rộng quy mô",
+        "C": "Mạng vòng sử dụng terminator tại mỗi nút mạng",
+        "D": "Mạng bus sử dụng ít cáp nhất"
+      },
+      "answer": ""
+    },
+    {
+      "id": 35,
+      "text": "Phát biẻu nào sau đây là đúng về liên mạng?",
+      "options": {
+        "A": "Liên mạng không bao gồm công nghệ LAN",
+        "B": "Liên mạng là một mạng có phạm vi rất lớn",
+        "C": "Liên mạng chỉ bao gồm công nghệ WAN",
+        "D": "Liên mạng sử dụng gateway để kết nối"
+      },
+      "answer": ""
+    },
+    {
+      "id": 36,
+      "text": "Khi nói về các topo mạng, câu phát biểu nào sau đây là đúng?",
+      "options": {
+        "A": "Mạng bus phổ biến nhất hiện nay",
+        "B": "Mạng sao có chi phí cao nhất",
+        "C": "Mạng mesh không đòi hỏi chuyên môn cao để thiết lập",
+        "D": "Mạng ring đáng tin cậy vì không xảy ra xung đột"
+      },
+      "answer": ""
+    },
+    {
+      "id": 37,
+      "text": "Một kiến trúc được mô tả như sau: “Đây là kiến trúc có ít nhất một nút mạng duy trì đa kết nối với các nút mạng khác để tạo độ dư thừa và khả năng chịu lỗi”. Hãy cho biết đây là kiến trúc gì?",
+      "options": {
+        "A": "Ring",
+        "B": "Bus",
+        "C": "Star",
+        "D": "Mesh"
+      },
+      "answer": ""
+    },
+    {
+      "id": 38,
+      "text": "Thiết bị nào được sử dụng tại trung tâm của mạng hình sao?",
+      "options": {
+        "A": "Switch",
+        "B": "Router",
+        "C": "Bridge",
+        "D": "Repeater"
+      },
+      "answer": ""
+    },
+    {
+      "id": 39,
+      "text": "Một kiến trúc được mô tả như sau: “Đây là kiến trúc dùng ít cáp, dễ lắp đặt, khi đoạn cáp đứt đôi thì toàn bộ hệ thống mạng sẽ ngưng hoạt động”. Hãy cho biết đây là kiến trúc gì?",
+      "options": {
+        "A": "Bus",
+        "B": "Ring",
+        "C": "Star",
+        "D": "Mesh"
+      },
+      "answer": ""
+    },
+    {
+      "id": 40,
+      "text": "Phát biểu nào sau đây là đúng về mô hình ngang hàng?",
+      "options": {
+        "A": "Tất cả các máy tính chỉ được nhận vai trò của máy khách",
+        "B": "Không có máy tính nào được phép truy cập vào một máy tính khác",
+        "C": "Một máy tính đóng vai trò làm máy chủ quản lý truy cập mạng của các máy khác",
+        "D": "Máy tính tham gia mạng vừa là máy khách vừa là máy chủ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 41,
+      "text": "Có mấy loại topo logic?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "2"
+      },
+      "answer": ""
+    },
+    {
+      "id": 42,
+      "text": "Thiết bị nào có thể kết nối vào mạng gia đình?",
+      "options": {
+        "A": "Tivi",
+        "B": "Thiết bị báo cháy",
+        "C": "Lò vi sóng",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 43,
+      "text": "Mạng LAN phân biệt với nhau dựa trên đặc tính nào?",
+      "options": {
+        "A": "Kích thước (khoảng cách)",
+        "B": "Công nghệ truyền",
+        "C": "Sắp xếp hình học (topo)",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 44,
+      "text": "Topo mắt lưới thường ứng dụng vào đâu?",
+      "options": {
+        "A": "Mạng cục bộ",
+        "B": "Mạng cá nhân",
+        "C": "Mạng backbone",
+        "D": "Mạng trạm làm việc"
+      },
+      "answer": ""
+    },
+    {
+      "id": 45,
+      "text": "LAN (Local Area Network) là gì?",
+      "options": {
+        "A": "Mạng văn phòng",
+        "B": "Mạng cục bộ",
+        "C": "Mạng diện rộng",
+        "D": "Mạng doanh nghiệp"
+      },
+      "answer": ""
+    },
+    {
+      "id": 46,
+      "text": "Đặc điểm nào là sai về topo mesh?",
+      "options": {
+        "A": "Thiết lập mạng không đòi hỏi chuyên môn cao",
+        "B": "Ít nhất có một nút duy trì đa kết nối với các nút khác",
+        "C": "Khả năng chịu lỗi cao",
+        "D": "Một nút mạng bị lỗi không ảnh hưởng đến toàn mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 47,
+      "text": "Mạng gia đình cần có tính chất nào?",
+      "options": {
+        "A": "Dễ lắp đặt",
+        "B": "Tất cả đều đúng",
+        "C": "Đa phương tiện",
+        "D": "An toàn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 48,
+      "text": "Phát biểu nào sau đây là đúng về mạng MAN?",
+      "options": {
+        "A": "Công nghệ tương tự mạng WAN",
+        "B": "Ví dụ về mạng MAN là phòng thực hành máy tính",
+        "C": "Phạm vi trong một thành phố",
+        "D": "Mạng MAN không sử dụng phương tiện truyền dẫn không dây"
+      },
+      "answer": ""
+    },
+    {
+      "id": 49,
+      "text": "Đặc điểm nào là sai về topo star?",
+      "options": {
+        "A": "Dễ dàng mở rộng mạng",
+        "B": "Thiết bị trung tâm bị lỗi thì toàn mạng ngừng hoạt động",
+        "C": "Một nút mạng bị lỗi không ảnh hưởng đến toàn mạng",
+        "D": "Lắp đặt đòi hỏi chuyên môn cao"
+      },
+      "answer": ""
+    }
+  ]
+}

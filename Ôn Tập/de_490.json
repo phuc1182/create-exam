@@ -1,0 +1,450 @@
+{
+  "id": "de_490",
+  "title": "Đề 490 - Mạng máy tính",
+  "subject": "Mạng máy tính",
+  "duration_minutes": 60,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Chuỗi số \"00-08-ac-41-5d-9f\" có thể là:",
+      "options": {
+        "A": "Địa chỉ port",
+        "B": "Địa chỉ IP",
+        "C": "Tất cả đều sai",
+        "D": "Địa chỉ MAC"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "text": "Giá trị byte đầu tiên trong địa chỉ IP lớp C nằm trong dải nào?",
+      "options": {
+        "A": "0-127",
+        "B": "128-191",
+        "C": "192-223",
+        "D": "224-239"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "text": "UDP làm việc ở lớp nào của mô hình OSI?",
+      "options": {
+        "A": "Layer 7",
+        "B": "Layer 5",
+        "C": "Layer 6",
+        "D": "Layer 4"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 4,
+      "text": "Một địa chỉ IP có byte đầu tiên là 11011011. Địa chỉ IP này thuộc lớp mạng nào?",
+      "options": {
+        "A": "Lớp D",
+        "B": "Lớp B",
+        "C": "Lớp A",
+        "D": "Lớp C"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 5,
+      "text": "Độ dài của địa chỉ MAC là?",
+      "options": {
+        "A": "24 bits",
+        "B": "8 bits",
+        "C": "36 bits",
+        "D": "48 bits"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "text": "Tên gọi của tầng 1 trong mô hình OSI là?",
+      "options": {
+        "A": "Data Link",
+        "B": "Physical",
+        "C": "Transport",
+        "D": "Network"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "text": "WWW là từ viết tắt của từ nào?",
+      "options": {
+        "A": "wesite world web",
+        "B": "world wide web",
+        "C": "wide with world",
+        "D": "wide world web"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "text": "Mặt nạ mạng mặc định của mạng lớp C là:",
+      "options": {
+        "A": "255.255.0.0",
+        "B": "255.255.255.0",
+        "C": "255.255.255.255",
+        "D": "255.0.0.0"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "text": "Địa chỉ IPv4 có độ dài bao nhiêu bit?",
+      "options": {
+        "A": "8 bit",
+        "B": "48 bit",
+        "C": "32 bit",
+        "D": "16 bit"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "text": "Đơn vị dữ liệu của tầng Network là",
+      "options": {
+        "A": "Packet",
+        "B": "Segment",
+        "C": "Bit",
+        "D": "Frame"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "text": "Câu phát biểu nào sau đây là đúng về phương tiện truyền dẫn?",
+      "options": {
+        "A": "Có hai loại phương tiện truyền dẫn: không dây và có dây",
+        "B": "Phương tiện truyền dẫn bao gồm các loại dây cáp",
+        "C": "Phương tiện truyền dẫn truyền dữ liệu giữa hai card mạng của hai máy tính",
+        "D": "Các phương tiện truyền dẫn có tốc độ truyền dữ liệu giống nhau"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "text": "Giao thức DHCP có thể cấp được các thông số sau cho máy trạm client?",
+      "options": {
+        "A": "Default Gateway",
+        "B": "IP Address, Subnet Mask",
+        "C": "DNS Server",
+        "D": "Tất cả các đáp án còn lại đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 13,
+      "text": "Tên viết tắt của giao thức phân giải địa chỉ là?",
+      "options": {
+        "A": "ERP",
+        "B": "IRP",
+        "C": "URP",
+        "D": "ARP"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 14,
+      "text": "Mạng có địa chỉ 191.12.0.0/16 sẽ có địa chỉ quảng bá là gì?",
+      "options": {
+        "A": "191.12.0.0",
+        "B": "191.12.0.255",
+        "C": "191.255.255.255",
+        "D": "191.12.255.255"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 15,
+      "text": "Xác định địa chỉ IPv4 hợp lệ trong số các địa chỉ sau:",
+      "options": {
+        "A": "192.168.261.8",
+        "B": "10.111.212.313",
+        "C": "17.16.270.100",
+        "D": "206.133.251.79"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 16,
+      "text": "Mạng Internet là sự phát triển của:",
+      "options": {
+        "A": "Các hệ thống mạng Intranet",
+        "B": "Các hệ thống mạng WAN",
+        "C": "Cả ba đáp án còn lại đều đúng",
+        "D": "Các hệ thống mạng LAN"
+      },
+      "answer": "C",
+      "note": "Câu này được giữ theo nội dung nhìn thấy trong ảnh; nếu thầy/cô có đáp án chính thức khác, có thể sửa lại dễ dàng trong tệp dữ liệu."
+    },
+    {
+      "id": 17,
+      "text": "Cho địa chỉ IP: 192.43.26.45 và Netmask: 255.255.255.0. Network Address của địa chỉ trên là:",
+      "options": {
+        "A": "192.43.255.255",
+        "B": "192.43.0.0",
+        "C": "192.43.26.0",
+        "D": "192.42.26.255"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "text": "Một kiến trúc được mô tả như sau: \"Dây là kiến trúc dùng ít cáp, dễ lắp đặt, khi đoạn cáp đứt đối thì toàn bộ hệ thống mạng sẽ ngưng hoạt động\". Hãy cho biết đây là kiến trúc gì?",
+      "options": {
+        "A": "Ring",
+        "B": "Star",
+        "C": "Bus",
+        "D": "Mesh"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 19,
+      "text": "Chức năng định tuyến được thực hiện bởi thiết bị nào?",
+      "options": {
+        "A": "Router",
+        "B": "Hub",
+        "C": "Switch",
+        "D": "NIC"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "text": "Mạng có địa chỉ 121.0.0.0/8 sẽ có địa chỉ quảng bá là gì?",
+      "options": {
+        "A": "121.0.255.255",
+        "B": "121.255.255.255",
+        "C": "121.0.0.0",
+        "D": "121.0.0.255"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 21,
+      "text": "Chiều dài trường \"Total Length\" trong IPv4 header là 16 bit thì sẽ quản lý được khung tin có chiều dài tối đa là bao nhiêu byte?",
+      "options": {
+        "A": "65535",
+        "B": "4095",
+        "C": "16383",
+        "D": "1023"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "text": "Cho một mạng có địa chỉ 212.12.12.0 và độ dài mặt nạ mạng là 24 bit. Mạng này được chia thành 4 mạng con. Xác định mạng con hợp lệ trong 4 mạng con sau:",
+      "options": {
+        "A": "212.12.12.0/26",
+        "B": "212.12.12.10/26",
+        "C": "212.12.12.30/26",
+        "D": "212.12.12.20/26"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 23,
+      "text": "Nêu đặc điểm đúng của cáp đồng?",
+      "options": {
+        "A": "Cáp quang sử dụng hai sợi song song để chống nhiễu",
+        "B": "Cáp đồng ít bị nhiễu hơn cáp quang",
+        "C": "Cáp đồng có đường kính nhỏ hơn cáp quang",
+        "D": "Cáp đồng rẻ hơn cáp quang"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 24,
+      "text": "Những phương tiện truyền dẫn nào là thuộc cùng một nhóm?",
+      "options": {
+        "A": "Cáp điện thoại, wifi, cáp quang",
+        "B": "Cáp đồng trục, cáp quang, vệ tinh",
+        "C": "Wifi, bluetooth, hồng ngoại, vệ tinh",
+        "D": "Cáp xoắn đôi, cáp quang, wifi"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "text": "Giao thức UDP có đặc điểm",
+      "options": {
+        "A": "Phù hợp với các ứng dụng thời gian thực",
+        "B": "Điều khiển luồng",
+        "C": "Sắp xếp lại gói tin theo đúng thứ tự ở đầu nhận",
+        "D": "Các phương án còn lại đều sai"
+      },
+      "answer": "A",
+      "note": "Trong ảnh, dòng chữ có thể nhìn giống UTP; ở đây chuẩn hóa lại thành UDP vì ngữ cảnh đáp án phù hợp với giao thức UDP."
+    },
+    {
+      "id": 26,
+      "text": "Giao thức mạng SMTP dùng để:",
+      "options": {
+        "A": "Cấp địa chỉ cho máy trạm",
+        "B": "Nhận thư điện tử",
+        "C": "Gửi thư điện tử",
+        "D": "Phân giải tên và địa chỉ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "text": "Đơn vị dữ liệu của tầng Transport là",
+      "options": {
+        "A": "Segment",
+        "B": "Packet",
+        "C": "Bit",
+        "D": "Frame"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "text": "Trong quá trình bắt tay trong giao thức TCP, máy A muốn kết nối tới máy B thì gói tin yêu cầu đầu tiên A gửi đến B có cờ nào?",
+      "options": {
+        "A": "ACK=0",
+        "B": "ACK=1",
+        "C": "SYN=1",
+        "D": "FIN=1"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "text": "Phát biểu nào sau đây mô tả đúng nhất cho cấu hình Star?",
+      "options": {
+        "A": "Khi cáp đứt tại một điểm nào đó làm toàn bộ mạng ngưng hoạt động",
+        "B": "Dễ kiểm soát và quản lý tập trung",
+        "C": "Khó tái lắp cấu hình hơn so với các cấu hình khác",
+        "D": "Cần ít cáp hơn nhiều so với các cấu hình khác"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "text": "Phương tiện truyền dẫn nào cho phép tốc độ truyền dữ liệu cao nhất?",
+      "options": {
+        "A": "Cáp quang",
+        "B": "Vệ tinh",
+        "C": "Cáp đồng trục",
+        "D": "Cáp xoắn đôi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "text": "Cho mạng con có địa chỉ host 172.160.3.6/22. Xác định địa chỉ mạng.",
+      "options": {
+        "A": "255.255.252.0",
+        "B": "172.160.0.0",
+        "C": "172.160.3.255",
+        "D": "172.160.0.1"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "text": "TCP sử dụng trường nào trong Header để thực hiện điều khiển luồng",
+      "options": {
+        "A": "Source port number",
+        "B": "Sequence number",
+        "C": "Windowsize",
+        "D": "ACK number"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 33,
+      "text": "Switch chuyển frame dựa vào thông tin gì?",
+      "options": {
+        "A": "Địa chỉ MAC đích",
+        "B": "Địa chỉ MAC nguồn",
+        "C": "Dựa trên kích thước frame",
+        "D": "Địa chỉ IP đích"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "text": "Cho mạng con có địa chỉ host 164.83.250.97/17. Xác định địa chỉ mạng.",
+      "options": {
+        "A": "164.83.250.255",
+        "B": "164.83.128.0",
+        "C": "164.83.250.0",
+        "D": "164.83.255.255"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "text": "Trường nào có trong UDP header",
+      "options": {
+        "A": "ACK number",
+        "B": "Source port number",
+        "C": "Windowsize",
+        "D": "Sequence number"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "text": "Loại cáp nào được sử dụng để kết nối router với switch (không phải switch lớp 3)?",
+      "options": {
+        "A": "Crossover cable (cáp chéo)",
+        "B": "Rollover cable (cáp đảo đầu)",
+        "C": "Straight-through cable (cáp thẳng)",
+        "D": "Console cable (cáp điều khiển)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 37,
+      "text": "Cho mạng có địa chỉ 192.168.175.0/24. Mượn 1 bit để chia mạng này thành 2 mạng con. Xác định địa chỉ quảng bá của mạng con chứa địa chỉ host 192.168.175.175/25.",
+      "options": {
+        "A": "192.168.175.255",
+        "B": "192.168.175.127",
+        "C": "192.168.175.128",
+        "D": "192.168.175.15"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 38,
+      "text": "TCP sử dụng trường nào trong Header để sắp xếp lại các gói tin theo đúng thứ tự",
+      "options": {
+        "A": "ACK number",
+        "B": "Sequence number",
+        "C": "Source port number",
+        "D": "Windowsize"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "text": "Khi sử dụng mạng máy tính ta sẽ được các lợi ích:",
+      "options": {
+        "A": "Chia sẻ tài nguyên (ổ cứng, cơ sở dữ liệu, máy in, các phần mềm tiện ích, ...)",
+        "B": "Tất cả đáp án còn lại đều đúng",
+        "C": "Sử dụng các dịch vụ mạng",
+        "D": "Quản lý tập trung, bảo mật và backup tốt"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "text": "Cho địa chỉ IP của host là 192.168.5.121 với subnet mask là 255.255.255.248. Tìm địa chỉ mạng?",
+      "options": {
+        "A": "192.168.5.192",
+        "B": "192.168.128.120",
+        "C": "192.168.5.224",
+        "D": "192.168.5.120"
+      },
+      "answer": "D"
+    }
+  ]
+}

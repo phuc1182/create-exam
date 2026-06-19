@@ -1,0 +1,1515 @@
+{
+  "id": "chuong2_3_2_6",
+  "title": "Chương 2.3 – 2.6",
+  "subject": "Mạng máy tính CSE101",
+  "duration_minutes": 45,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Thiết bị nào có thể kết nối vào mạng gia đình?",
+      "options": {
+        "A": "Thiết bị báo cháy",
+        "B": "Tất cả đều đúng",
+        "C": "Ti vi",
+        "D": "Lò vi sóng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 2,
+      "text": "Tầng nào của mô hình OSI xác định tiêu chuẩn cho cổng nối của bộ định tuyến?",
+      "options": {
+        "A": "Tầng 1",
+        "B": "Tầng 2",
+        "C": "Tầng 3",
+        "D": "Tầng 4"
+      },
+      "answer": ""
+    },
+    {
+      "id": 3,
+      "text": "NOC (Network Operation Center) sử dụng các công cụ quản lý mạng để xử lý các vấn đề gì?",
+      "options": {
+        "A": "Giám sát điều khoản dịch vụ",
+        "B": "Giám sát bảng định tuyến",
+        "C": "Tất cả đều đúng",
+        "D": "Giám sát lưu lượng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 4,
+      "text": "Phát biểu nào là đúng về NSFNET?",
+      "options": {
+        "A": "Ngừng hoạt động năm 1995",
+        "B": "Tất cả đều đúng",
+        "C": "Phát triển TCP/IP WAN",
+        "D": "Do Qũy Khoa học quốc gia Mỹ tài trợ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 5,
+      "text": "Phát biểu nào sau đây là đúng về LAN và WAN?",
+      "options": {
+        "A": "WAN là mạng tổng hợp của nhiều LAN với công nghệ khác nhau",
+        "B": "Người sở hữu và vận hành subnet khác nhau",
+        "C": "Subnet của WAN kết nối máy tính riêng lẻ",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 6,
+      "text": "Phát biểu nào là đúng về ARPANET?",
+      "options": {
+        "A": "Do Bộ Quốc phòng Mỹ tài trợ",
+        "B": "Đề xuất mạng chuyển gói",
+        "C": "Tất cả đều đúng",
+        "D": "Khắc phục nhược điểm của mạng điện thoại chuyển mạch"
+      },
+      "answer": ""
+    },
+    {
+      "id": 7,
+      "text": "Khái niệm giao thức mạng là gì?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Định nghĩa thao tác hoạt động của thực thể truyền thông",
+        "C": "Quy ước và quy tắc truyền thông trong cùng một tầng",
+        "D": "Xác định tham số đầu vào và kết quả đầu ra khi truy cập vào một tầng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "text": "Tầng nào trong mô hình TCP/IP định nghĩa tiêu chuẩn cho định dang dữ liệu và mã hóa?",
+      "options": {
+        "A": "Giao vận",
+        "B": "Trình diễn",
+        "C": "Liên mạng",
+        "D": "Ứng dụng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 9,
+      "text": "Chức năng của các giao thức tầng 3 OSI bao gồm?",
+      "options": {
+        "A": "Phát hiện lỗi",
+        "B": "Đánh địa chỉ logic",
+        "C": "Đánh địa chỉ vật lý",
+        "D": "Phân xử khi xảy ra xung đột"
+      },
+      "answer": ""
+    },
+    {
+      "id": 10,
+      "text": "Phát biểu nào là đúng về dịch vụ hướng kết nối?",
+      "options": {
+        "A": "Máy nhận phải chờ thiết lập kết nối và máy gửi",
+        "B": "Tất cả đều đúng",
+        "C": "Dữ liệu gửi sau có thể được nhận trước",
+        "D": "Hoạt động theo 3 giai đoạn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 11,
+      "text": "Tầng nào của mô hình OSI xác định tiêu chuẩn cho cổng nối của bộ chuyển mạch?",
+      "options": {
+        "A": "Tầng 3",
+        "B": "Tầng 4",
+        "C": "Tầng 2",
+        "D": "Tầng 1"
+      },
+      "answer": ""
+    },
+    {
+      "id": 12,
+      "text": "Phát biểu đúng về mạng không dây là?",
+      "options": {
+        "A": "Ví dụ về mạng LAN không dây là kết nối mạng thông qua RJ45",
+        "B": "Mạng không dây không sử dụng tại văn phòng cố định",
+        "C": "Ví dụ về mạng WAN không dây là dịch vụ 4G của điện thoại di động",
+        "D": "Mạng không dây không sử dụng rộng rãi bằng mạng có dây"
+      },
+      "answer": ""
+    },
+    {
+      "id": 13,
+      "text": "Phát biểu nào sau đây là đúng khi so sánh mạng không dây và mạng có dây?",
+      "options": {
+        "A": "Mạng có dây không cồng kểnh như mạng không dây",
+        "B": "Kết nối mạng có dây khó khăn hơn mạng không dây",
+        "C": "Mạng không dây có tính thẩm mỹ hơn",
+        "D": "Mạng có dây chi phí cao hơn mạng không dây"
+      },
+      "answer": ""
+    },
+    {
+      "id": 14,
+      "text": "Gỉa sử PC1 cần gửi dữ liệu đến PC2, phải đi qua vài router, thì thực thể dữ liệu lớn nhất mà PC1 gửi được cho PC2 là gì?",
+      "options": {
+        "A": "Đoạn (segment)",
+        "B": "Khung (frame)",
+        "C": "Bit",
+        "D": "Gói ( packet)"
+      },
+      "answer": ""
+    },
+    {
+      "id": 15,
+      "text": "Giao thức nào dưới đây thuộc về tầng giao vận của mô hình TCP/IP?",
+      "options": {
+        "A": "FTP",
+        "B": "HTTP",
+        "C": "TCP",
+        "D": "IP"
+      },
+      "answer": ""
+    },
+    {
+      "id": 16,
+      "text": "Một kiến trúc được mô tả như sau: “Đây là kiến trúc có ít nhất một nút mạng duy trì đa kết nối với các nút mạng khác để tạo độ dư thừa và khả năng chịu lỗi”. Hãy cho biết đây là kiến trúc gì?",
+      "options": {
+        "A": "Ring",
+        "B": "Bus",
+        "C": "Star",
+        "D": "Mesh"
+      },
+      "answer": ""
+    },
+    {
+      "id": 17,
+      "text": "Giao thức tầng ứng dụng mô hình TCP/IP bao gồm?",
+      "options": {
+        "A": "DNS",
+        "B": "FTP",
+        "C": "Telnet",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 18,
+      "text": "NOC (Network Operation Center) sử dụng các công cụ quản lý mạng để xử lý các vấn đề gì?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Bảng định tuyến thay đổi quá nhanh",
+        "C": "Lỗi card giao diện",
+        "D": "Phát hiện xâm nhập"
+      },
+      "answer": ""
+    },
+    {
+      "id": 19,
+      "text": "Tên gọi của tầng 5 OSI là?",
+      "options": {
+        "A": "Trình diễn",
+        "B": "Mạng",
+        "C": "Giao vận",
+        "D": "Phiên"
+      },
+      "answer": ""
+    },
+    {
+      "id": 20,
+      "text": "Phân mảnh dữ liệu truyền bao gồm?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Thực hiện tại cả hai đầu truyền nhận",
+        "C": "Tập hợp các thông điệp nhỏ và ghép thành thông điệp lớn",
+        "D": "Tách thông điệp lớn thành nhiều thông điệp nhỏ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 21,
+      "text": "Giao thức tầng 2 OSI thực hiện chức năng nào?",
+      "options": {
+        "A": "Định khung",
+        "B": "Mã hóa dữ liệu truyền",
+        "C": "Phân phát các bit từ thiết bị này đến thiết bị khác",
+        "D": "Xác định kích thước và hình dáng của card mạng Ethernet"
+      },
+      "answer": ""
+    },
+    {
+      "id": 22,
+      "text": "Tên gọi của tầng 4 OSI là?",
+      "options": {
+        "A": "Liên kết dữ liệu",
+        "B": "Phiên",
+        "C": "Giao vận",
+        "D": "Mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 23,
+      "text": "Phát biểu nào sau đây là đúng về mạng MAN?",
+      "options": {
+        "A": "Công nghệ tương tự mạng WAN",
+        "B": "Ví dụ về mạng MAN là phòng thực hành máy tính",
+        "C": "Mạng MAN không sử dụng phương tiện truyền dẫn không dây",
+        "D": "Phạm vi trong một thành phố"
+      },
+      "answer": ""
+    },
+    {
+      "id": 24,
+      "text": "Kiểm soát luồng là gì?",
+      "options": {
+        "A": "Sửa lỗi tự trị",
+        "B": "Phát hiện lỗi trong dữ liệu nhận đến để xử lý",
+        "C": "Đảm bảo bên gửi không làm ngập dữ liệu của bên nhận",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 25,
+      "text": "Phát biểu nào sau đây là đúng về liên mạng?",
+      "options": {
+        "A": "Liên mạng không bao gồm công nghệ LAN",
+        "B": "Liên mạng là một mạng có phạm vi rất lớn",
+        "C": "Liên mạng chỉ bao gồm công nghệ WAN",
+        "D": "Liên mạng sử dụng Gateway để kết nối"
+      },
+      "answer": ""
+    },
+    {
+      "id": 26,
+      "text": "Dịch vụ nào không phải là dịch vụ cơ bản của Internet?",
+      "options": {
+        "A": "Truyền file",
+        "B": "Đăng nhập từ xa",
+        "C": "Nhóm tin tức",
+        "D": "Dịch vụ tên miền"
+      },
+      "answer": ""
+    },
+    {
+      "id": 27,
+      "text": "Phát biểu nào sau đây là sai về mạng MAN?",
+      "options": {
+        "A": "Công nghệ tương tự mạng LAN",
+        "B": "Mạng MAN không dây sử dụng chuẩn IEEE 802.11",
+        "C": "Mạng MAN hoạt động trong một phạm vi một thành phố",
+        "D": "Ví dụ về mạng MAN là truyền hình cáp Hà Nội"
+      },
+      "answer": ""
+    },
+    {
+      "id": 28,
+      "text": "Có mấy loại dịch vụ tầng dưới có thể cung cấp cho tầng trên?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "5",
+        "D": "3"
+      },
+      "answer": ""
+    },
+    {
+      "id": 29,
+      "text": "Quy luật truyền dữ liệu gồm mấy loại?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "5 Cau 30: Đặc điểm nào là sai về topo bus? A.Có khả năng mở rộng B.Khi một nút mạng bị lỗi thì toàn mạng ngừng hoạt động C.Dễ dàng phát hiện nơi nào bị lỗi trong mạng D.Dễ lắp đặt"
+      },
+      "answer": ""
+    },
+    {
+      "id": 30,
+      "text": "Tên gọi của tầng 6 OSI là?",
+      "options": {
+        "A": "Ứng dụng",
+        "B": "Giao vận",
+        "C": "Phiên",
+        "D": "Trình diễn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 31,
+      "text": "Phát biểu nào là đúng về dịch vụ không kết nối?",
+      "options": {
+        "A": "Thông điệp bắt buộc phải đánh số thứ tự và địa chỉ",
+        "B": "Thông điệp phải nhận theo đúng thứ tự",
+        "C": "Nguồn và đích phải thỏa thuận về tuyến đường đi",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 32,
+      "text": "Đặc điểm nào là sai về topo ring?",
+      "options": {
+        "A": "Dễ xảy ra xung đột",
+        "B": "Có hai loại: topo vòng đơn và vòng đôi",
+        "C": "Một nút mạng bị lỗi gây ảnh hưởng đến toàn mạng",
+        "D": "Không cần sử dụng terminator"
+      },
+      "answer": ""
+    },
+    {
+      "id": 33,
+      "text": "Dịch vụ nào dịch vụ tầng 5 OSI?",
+      "options": {
+        "A": "Đồng bộ hóa",
+        "B": "Quản lý thẻ bài",
+        "C": "Quản lý hội thoại",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 34,
+      "text": "Phát biểu nào sau đây là đúng về mạng MAN?",
+      "options": {
+        "A": "Phạm vi trong một thành phố",
+        "B": "Công nghệ tương tự mạng WAN",
+        "C": "Mạng MAN không sử dụng phương tiện truyền dẫn không dây",
+        "D": "Ví dụ về mạng MAN là phòng thực hành máy tính"
+      },
+      "answer": ""
+    },
+    {
+      "id": 35,
+      "text": "Mạng LAN phân biệt với nhau dựa trên đặc tính nào?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Sắp xếp hình học (topo)",
+        "C": "Kích thước (khoảng cách)",
+        "D": "Công nghệ truyền"
+      },
+      "answer": ""
+    },
+    {
+      "id": 36,
+      "text": "Phát biểu nào là đúng về kiểm soát lỗi?",
+      "options": {
+        "A": "Mã sửa lỗi được sử dụng nhiều hơn mã phát hiện lỗi",
+        "B": "Kiểm soát lỗi gồm mã phát hiện lỗi và mã sửa lỗi",
+        "C": "Mã phát hiện lỗi quan trọng hơn mã sửa lỗi",
+        "D": "Kiểm soát lỗi không cần thiết mạng hiện đại ngày nay"
+      },
+      "answer": ""
+    },
+    {
+      "id": 37,
+      "text": "Dịch vụ cơ bản của Internet là gì?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Nhóm tin tức",
+        "C": "Truyền file",
+        "D": "Đăng nhập từ xa"
+      },
+      "answer": ""
+    },
+    {
+      "id": 38,
+      "text": "Mạng Internet là gì?",
+      "options": {
+        "A": "Hệ thống WWW",
+        "B": "Hệ thống máy chủ cài đặt thư điện tử toàn cầu",
+        "C": "Hệ thống Google",
+        "D": "Hệ thống toàn cầu liên kết nối các mạng để chia sẻ thông tin"
+      },
+      "answer": ""
+    },
+    {
+      "id": 39,
+      "text": "Mạng gia đình cần có tính chất nào?",
+      "options": {
+        "A": "Dễ sử dụng",
+        "B": "Tất cả đều đúng",
+        "C": "Khả năng mở rộng trong nhiều năm",
+        "D": "Giá thành thấp"
+      },
+      "answer": ""
+    },
+    {
+      "id": 40,
+      "text": "Khi nói về các topo mạng. câu phát biểu nào sau đây là đúng?",
+      "options": {
+        "A": "Mạng sao có chi phí cao nhất",
+        "B": "Mạng bus phổ biến nhất hiện nay",
+        "C": "Mạng mesh không đòi hỏi chuyên môn cao để thiết lập",
+        "D": "Mạng ring đáng tin cậy vì không xảy ra xung đột"
+      },
+      "answer": ""
+    },
+    {
+      "id": 41,
+      "text": "Dịch vụ không kết nối có nghĩa là?",
+      "options": {
+        "A": "Thông điệp được định tuyến độc lập với nhau",
+        "B": "Máy nhận phải chờ thiết lập kết nối với máy gửi",
+        "C": "Dữ liệu truyền nhận đúng thứ tự",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 42,
+      "text": "Chức năng của các giao thức tầng Máy chủ - Mạng bao gồm?",
+      "options": {
+        "A": "Kiểm soát luồng",
+        "B": "Xác định tùy theo cơ sở hạ tầng mạng",
+        "C": "Bộ tiêu chuẩn giao diện kết nối vật lý",
+        "D": "Chọn đường"
+      },
+      "answer": ""
+    },
+    {
+      "id": 43,
+      "text": "Mạng gia đình cần có tính chất nào?",
+      "options": {
+        "A": "An toàn",
+        "B": "Đa phương tiện",
+        "C": "Dễ lắp đặt",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 44,
+      "text": "Thuật ngữ truyền bán song công là?",
+      "options": {
+        "A": "Half communication",
+        "B": "Full – duplex communication",
+        "C": "Half – duplex communication",
+        "D": "Half double communication"
+      },
+      "answer": ""
+    },
+    {
+      "id": 45,
+      "text": "Mạng con truyền thông(communication subnet) gồm những thành phần gì?",
+      "options": {
+        "A": "Đường truyền và thành phần chuyển mạch",
+        "B": "Đường truyền và dữ liệu",
+        "C": "Đường truyền không dây và có dây",
+        "D": "Thành phần chuyển mạch và đóng gói dữ liệu"
+      },
+      "answer": ""
+    },
+    {
+      "id": 46,
+      "text": "Phát biểu nào là đúng về tầng Liên mạng?",
+      "options": {
+        "A": "Chọn đường",
+        "B": "Không kết nối",
+        "C": "Kiểm soát tắc nghẽn",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 47,
+      "text": "Thiết bị nào thường kết nối trong mạng PAN?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Máy in",
+        "C": "Thiết bị đo nhịp tim",
+        "D": "Tai nghe"
+      },
+      "answer": ""
+    },
+    {
+      "id": 48,
+      "text": "Phát biểu nào sau đây là đúng về mạng WAN?",
+      "options": {
+        "A": "Tất cả đều đúng",
+        "B": "Phạm vi bao trùm một lục địa",
+        "C": "Công nghệ tương tự mạng MAN",
+        "D": "Thành phần mạng WAN chỉ bao gồm các server"
+      },
+      "answer": ""
+    },
+    {
+      "id": 49,
+      "text": "Mô hình TCP/IP tầng được phát triển từ ban đầu do tổ chức nào?",
+      "options": {
+        "A": "Us DoD",
+        "B": "ISO",
+        "C": "IEEE",
+        "D": "Microsoft"
+      },
+      "answer": ""
+    },
+    {
+      "id": 50,
+      "text": "Phát biểu nào là đúng về chọn đường?",
+      "options": {
+        "A": "Chọn đường đi tính bảo mật cao nhất",
+        "B": "Chọn đường đi ngắn nhất giữa nguồn và đích",
+        "C": "Chọn đường đi hợp lý do có nhiều đường dẫn giữa nguồn và đích",
+        "D": "Chọn đường đi có băng thông cao nhất giữa nguồn và đích"
+      },
+      "answer": ""
+    },
+    {
+      "id": 51,
+      "text": "Giao thức tầng 2 OSI thực hiện chức năng nào?",
+      "options": {
+        "A": "Mã hóa dữ liệu truyền",
+        "B": "Phân phát các bit từ thiết bị này đến thiết bị khác",
+        "C": "Đánh địa chỉ vật lý",
+        "D": "Kiểm soát luồng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 52,
+      "text": "Đặc điểm nào là sai về topo star?",
+      "options": {
+        "A": "Dễ dàng mở rộng mạng",
+        "B": "Thiết bị trung tâm bị lỗi mạng thì toàn mạng ngừng hoạt động",
+        "C": "Lắp đặt đòi hỏi chuyên môn cao",
+        "D": "Một nút mạng bị lỗi không ảnh hưởng đến toàn mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 53,
+      "text": "Sắp xếp thứ tự của các tầng trong mô hình OSI. Trình tự nào là đúng?",
+      "options": {
+        "A": "Application, Session, Presentation, Transport, Network, Datalink, Physical",
+        "B": "Application, Presentation, Session, Network, Transport, Datalink, Physical",
+        "C": "Application, Network, Presentation, Session, Transport, Datalink, Physical",
+        "D": "Application, Presentation, Session, Transport, Network, Datalink, Physical"
+      },
+      "answer": ""
+    },
+    {
+      "id": 54,
+      "text": "Đặc điểm nào là sai về topo mesh?",
+      "options": {
+        "A": "Một nút mạng bị lỗi không ảnh hưởng đến toàn mạng",
+        "B": "Dễ xảy ra xung đột",
+        "C": "Chi phí cao",
+        "D": "Kết nối dư thừa giữa các nút mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 55,
+      "text": "Tên gọi của dữ liệu từ tầng trên xuống tầng dưới trong mô hình OSI?",
+      "options": {
+        "A": "Data, packet, segment, Frame, bit",
+        "B": "Data, segment, frame, packet, bit",
+        "C": "Data, segment, packet, frame, bit",
+        "D": "Data, frame, packet, segment, bit"
+      },
+      "answer": ""
+    },
+    {
+      "id": 56,
+      "text": "Topo mạng là gì?",
+      "options": {
+        "A": "Mô tả sự sắp xếp đi dây, thiết bị và phương thức truyền dữ liệu",
+        "B": "Mô tả cấu tạo của thiết bị mạng",
+        "C": "Cơ chế truyền dữ liệu giữa các thiết bị trong mạng",
+        "D": "Mô tả hoạt động của giao thức mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 57,
+      "text": "Đặc điểm nào là sai về topo bus?",
+      "options": {
+        "A": "Sử dụng ít cáp",
+        "B": "Chi phí rẻ",
+        "C": "Ít gặp sự cố nhất",
+        "D": "Dễ lắp đặt"
+      },
+      "answer": ""
+    },
+    {
+      "id": 58,
+      "text": "Phát biểu nào sau đây là đúng về mạng PAN?",
+      "options": {
+        "A": "Phạm vi hoạt động của PAN lớn nhất trong các mạng",
+        "B": "Thường sử dụng phương tiện truyền dẫn không dây",
+        "C": "Tốc độ truyền dữ liệu của PAN lớn hơn WAN",
+        "D": "Thuộc sở hữu của doanh nghiệp"
+      },
+      "answer": ""
+    },
+    {
+      "id": 59,
+      "text": "Phát biểu nào sau đây là đúng về mô hình tham chiếu OSI và TCP/IP?",
+      "options": {
+        "A": "Mô hình OSI được sử dụng rộng rãi hơn",
+        "B": "Mô hình TCP/IP mang tính thực tiễn cao hơn",
+        "C": "Mô hình TCP/IP có nhiều tầng hơn",
+        "D": "Mô hình TCP/IP định nghĩa các khái niệm rõ ràng hơn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 60,
+      "text": "WAN (Wide Arrea Network) là gì?",
+      "options": {
+        "A": "Mạng diện rộng",
+        "B": "Mạng toàn cầu",
+        "C": "Mạng cục bộ",
+        "D": "Mạng doanh nghiệp"
+      },
+      "answer": ""
+    },
+    {
+      "id": 61,
+      "text": "Đặc điểm nào là sai về topo star?",
+      "options": {
+        "A": "Thiết bị trung tâm bị lỗi thì toàn mạng ngừng hoạt động",
+        "B": "Hạn chế khả năng mở rộng mạng",
+        "C": "Chi phí cao hơn topo bus",
+        "D": "Sử dụng nhiều cáp"
+      },
+      "answer": ""
+    },
+    {
+      "id": 62,
+      "text": "Một kiến trúc được mô tả như sau: “Đây là kiến trúc không bao giờ xảy ra xung đột dữ liệu tuy nhiên khi một nút mạng gặp sự cố thì gây ảnh hưởng đến toàn bộ mạng”. Hãy cho biết đây là kiến trúc gì?",
+      "options": {
+        "A": "Ring",
+        "B": "Star",
+        "C": "Mesh",
+        "D": "Bus"
+      },
+      "answer": ""
+    },
+    {
+      "id": 63,
+      "text": "Lý do phân tầng/lớp giao thức mạng là gì?",
+      "options": {
+        "A": "Tăng tốc độ truyền tải",
+        "B": "Giảm chi phí",
+        "C": "Giảm độ phức tạp",
+        "D": "Tăng hiệu suất làm việc"
+      },
+      "answer": ""
+    },
+    {
+      "id": 64,
+      "text": "Ứng dụng phổ biến trên Internet là?",
+      "options": {
+        "A": "Thư điện tử",
+        "B": "Tất cả đều đúng",
+        "C": "Truyền file",
+        "D": "Đăng nhập từ xa"
+      },
+      "answer": ""
+    },
+    {
+      "id": 65,
+      "text": "Tầng nào của mô hình OSI xác định tiêu chuẩn cho việc mã hóa dữ liệu?",
+      "options": {
+        "A": "Phiên",
+        "B": "Giao vận",
+        "C": "Ứng dụng",
+        "D": "Trình diễn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 66,
+      "text": "Tên gọi của tầng 7 OSI là?",
+      "options": {
+        "A": "Giao vận",
+        "B": "Phiên",
+        "C": "Ứng dụng",
+        "D": "Trình diễn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 67,
+      "text": "Những thiết bị nào có thể kết nối vào mạng gia đình?",
+      "options": {
+        "A": "Camera",
+        "B": "Điều hòa",
+        "C": "Máy in",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 68,
+      "text": "Thiết bị nào được sử dụng tại trung tâm của mạng hình sao?",
+      "options": {
+        "A": "Switch",
+        "B": "Repeater",
+        "C": "Brigde",
+        "D": "Router"
+      },
+      "answer": ""
+    },
+    {
+      "id": 69,
+      "text": "Chức năng của các tầng giao thức tầng 4 OSI bao gồm?",
+      "options": {
+        "A": "Đánh địa chỉ logic",
+        "B": "Ghép kênh",
+        "C": "Kiểm soát lỗi",
+        "D": "Đồng bộ hóa quá trình truyền dẫn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 70,
+      "text": "LAN (Local Area Network) là gì?",
+      "options": {
+        "A": "Mạng văn phòng",
+        "B": "Mạng doanh nghiệp",
+        "C": "Mạng cục bộ",
+        "D": "Mạng diện rộng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 71,
+      "text": "Phát biểu nào sau đây là đúng về địa chỉ?",
+      "options": {
+        "A": "Số định danh mạng truyền thông",
+        "B": "Số hiệu đánh dấu đường đi trên mạng",
+        "C": "Số định danh để xác định nguồn và đích",
+        "D": "Số lượng tiến trình thực hiện truyền thông"
+      },
+      "answer": ""
+    },
+    {
+      "id": 72,
+      "text": "Tên gọi của tầng 3 OSI là?",
+      "options": {
+        "A": "Internet",
+        "B": "Transport",
+        "C": "Network",
+        "D": "Data link"
+      },
+      "answer": ""
+    },
+    {
+      "id": 73,
+      "text": "Quy luật truyền dữ liệu song công nghĩa là?",
+      "options": {
+        "A": "Truyền hai hướng không đồng thời",
+        "B": "Truyền hai hướng đồng thời",
+        "C": "Tất cả đều đúng",
+        "D": "Chỉ truyền theo một hướng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 74,
+      "text": "Topo logic nào được sử dụng phổ biến nhất trong LAN?",
+      "options": {
+        "A": "Token passing",
+        "B": "Hybrid",
+        "C": "Broadcast",
+        "D": "Star ring"
+      },
+      "answer": ""
+    },
+    {
+      "id": 75,
+      "text": "Tên gọi của tầng 1 OSI là?",
+      "options": {
+        "A": "Trình diễn",
+        "B": "Vật lý",
+        "C": "Mạng",
+        "D": "Liên kết dữ liệu"
+      },
+      "answer": ""
+    },
+    {
+      "id": 76,
+      "text": "Khi nói về các topo mạng, câu phát biểu nào sau đây là đúng?",
+      "options": {
+        "A": "Mạng vòng sử dụng terminator tại mỗi nút mạng",
+        "B": "Mạng mesh thường được sử dụng cho các mạng workstation",
+        "C": "Mạng sao khó mở rộng quy mô",
+        "D": "Mạng bus sử dụng ít cáp nhất"
+      },
+      "answer": ""
+    },
+    {
+      "id": 77,
+      "text": "Lĩnh vực quản lý mạng bao gồm?",
+      "options": {
+        "A": "Quản lý hiệu năng",
+        "B": "Quản lý lỗi",
+        "C": "Quản lý tài khoản",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 78,
+      "text": "Chức năng của các giao thức tầng 4 OSI bao gồm?",
+      "options": {
+        "A": "Quy định tiêu chuẩn cổng nối",
+        "B": "Đồng bộ hóa quá trình truyền dẫn",
+        "C": "Thiết lập kết nối từ điểm cuối đến điểm cuối",
+        "D": "Kiểm soát lỗi"
+      },
+      "answer": ""
+    },
+    {
+      "id": 79,
+      "text": "Tên gọi của tầng 7 OSI là?",
+      "options": {
+        "A": "Session",
+        "B": "Transport",
+        "C": "Presentation",
+        "D": "Application"
+      },
+      "answer": ""
+    },
+    {
+      "id": 80,
+      "text": "Tầng nào của mô hình OSI xác định tiêu chuẩn cho việc đi cáp và đầu nối?",
+      "options": {
+        "A": "Tầng 4",
+        "B": "Tầng 2",
+        "C": "Tầng 1",
+        "D": "Tầng 3"
+      },
+      "answer": ""
+    },
+    {
+      "id": 81,
+      "text": "Chức năng của các giao thức tầng 6 OSI bao gồm?",
+      "options": {
+        "A": "Kiểm soát luồng đi",
+        "B": "Tìm đường đi tốt nhất",
+        "C": "Thiết lập kênh truyền",
+        "D": "Mã hóa dữ liệu"
+      },
+      "answer": ""
+    },
+    {
+      "id": 82,
+      "text": "Ứng dụng của mạng không dây là?",
+      "options": {
+        "A": "Thao tác với máy tính từ xa",
+        "B": "Trên đất liền, trên biển hoặc trên không",
+        "C": "Văn phòng di động",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 83,
+      "text": "Đặc điểm nào là sai về topo mesh?",
+      "options": {
+        "A": "Thiết lập mạng không đòi hỏi chuyên môn cao",
+        "B": "Khả năng chịu lỗi cao",
+        "C": "Ít nhất có một nút duy trì đa kết nối với các nút khác",
+        "D": "Một nút mạng bị lỗi không ảnh hưởng đến toàn mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 84,
+      "text": "Tầng nào của mô hình OSI xác định tiêu chuẩn cho việc mã hóa dữ liệu?",
+      "options": {
+        "A": "Tầng 5",
+        "B": "Tầng 4",
+        "C": "Tầng 7",
+        "D": "Tầng 6"
+      },
+      "answer": ""
+    },
+    {
+      "id": 85,
+      "text": "Phát biều nào sau đây là đúng về mô hình khách/chủ?",
+      "options": {
+        "A": "Máy chủ đáp ứng các yêu cầu từ máy khách",
+        "B": "Máy khách và máy chủ có vai trò tương đương nhau",
+        "C": "Máy khách đáp ứng yêu cầu từ máy chủ",
+        "D": "Máy chủ chỉ đáp ứng yêu cầu từ máy chủ khác"
+      },
+      "answer": ""
+    },
+    {
+      "id": 86,
+      "text": "Dịch vụ nào không phải là dịch vụ cơ bản của Internet?",
+      "options": {
+        "A": "Truyền file",
+        "B": "Thư điện tử",
+        "C": "Dịch vụ tên miền",
+        "D": "Nhóm tin tức"
+      },
+      "answer": ""
+    },
+    {
+      "id": 87,
+      "text": "Chức năng của các giao thức tầng 7 OSI bao gồm?",
+      "options": {
+        "A": "Truyền tệp tin",
+        "B": "Tất cả đều đúng",
+        "C": "Thư điện tử",
+        "D": "Quản lý thiết bị đầu cuối"
+      },
+      "answer": ""
+    },
+    {
+      "id": 88,
+      "text": "Phát biểu nào sau đây là đúng về mạng WAN?",
+      "options": {
+        "A": "Thành phần mạng WAN bao gồm mạng con và các host",
+        "B": "Công nghệ tương tự mạng LAN",
+        "C": "Tất cả đều đúng",
+        "D": "Phạm vi giới hạn trong 100 km"
+      },
+      "answer": ""
+    },
+    {
+      "id": 89,
+      "text": "Tên gọi của tầng 4 OSI là?",
+      "options": {
+        "A": "Presentation",
+        "B": "Transport",
+        "C": "Session",
+        "D": "Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 90,
+      "text": "Phát biểu nào là đúng về ARPANET và NSFNET?",
+      "options": {
+        "A": "Cả hai mạng đều do bộ Quốc phòng Mỹ tài trợ",
+        "B": "NSFNET thiết lập mạng trục chính(backbone) tốc độ cao",
+        "C": "ARPANET ngừng hoạt động năm 1995",
+        "D": "NSFNET thương mại hóa ngay từ ban đầu"
+      },
+      "answer": ""
+    },
+    {
+      "id": 91,
+      "text": "Dịch vụ nào là dịch vụ tầng 5 OSI?",
+      "options": {
+        "A": "Đăng nhập",
+        "B": "Quản lý hội thoại",
+        "C": "Quản lý thẻ bài",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 92,
+      "text": "Mô hình OSI 7 tầng được phát triển bởi tổ chức nào?",
+      "options": {
+        "A": "ISO",
+        "B": "Intel",
+        "C": "Microsoft",
+        "D": "IEEE"
+      },
+      "answer": ""
+    },
+    {
+      "id": 93,
+      "text": "Topo mắt lưới thường ứng dụng vào đâu?",
+      "options": {
+        "A": "Mạng cục bộ",
+        "B": "Mạng trạm làm việc",
+        "C": "Mạng cá nhân",
+        "D": "Mạng backbone"
+      },
+      "answer": ""
+    },
+    {
+      "id": 94,
+      "text": "Gỉa sử PC1 cần gửi dữ liệu đến PC2, phải đi qua vài router, thì thực thể dữ liệu lớn nhất mà PC1 gửi được cho PC2 là gì?",
+      "options": {
+        "A": "Đoạn (segment)",
+        "B": "PDU tầng 3",
+        "C": "Khung (frame)",
+        "D": "PDU tầng 5"
+      },
+      "answer": ""
+    },
+    {
+      "id": 95,
+      "text": "Giao thức nào dưới đây thuộc về tầng liên mạng của mô hình TCP/IP?",
+      "options": {
+        "A": "Ethernet",
+        "B": "TCP",
+        "C": "IP",
+        "D": "SMTP"
+      },
+      "answer": ""
+    },
+    {
+      "id": 96,
+      "text": "Chức năng của các giao thức tầng 3 OSI bao gồm?",
+      "options": {
+        "A": "Phân xử khi xảy ra xung đột",
+        "B": "Đánh địa chỉ vật lý",
+        "C": "Kiểm soát luồng",
+        "D": "Chọn đường"
+      },
+      "answer": ""
+    },
+    {
+      "id": 97,
+      "text": "Quy luật truyền dữ liệu đơn công nghĩa là?",
+      "options": {
+        "A": "Chỉ truyền theo 1 hướng",
+        "B": "Tất cả đều đúng",
+        "C": "Truyền hai hướng đồng thời",
+        "D": "Truyền hai hường không đồng thời"
+      },
+      "answer": ""
+    },
+    {
+      "id": 98,
+      "text": "Thuật ngữ truyền song công là?",
+      "options": {
+        "A": "Half-duplex communication",
+        "B": "Two-way communication",
+        "C": "Double communication",
+        "D": "Full-duplex communication"
+      },
+      "answer": ""
+    },
+    {
+      "id": 99,
+      "text": "Khi nói về các topo mạng, câu phát biểu nào sau đây là sai?",
+      "options": {
+        "A": "Mạng bus sử dụng terminator ở hai đầu đoạn cáp chính",
+        "B": "LAN sử dụng kiến trúc star nhiều nhất",
+        "C": "Mạng mesh thường được sử dụng cho các mạng workstation",
+        "D": "Chất lượng truyền dữ liệu của mạng ring là tốt nhất"
+      },
+      "answer": ""
+    },
+    {
+      "id": 100,
+      "text": "Lý do phân kênh và ghép kênh là?",
+      "options": {
+        "A": "Giảm chi phí sử dụng cơ sở hạ tầng",
+        "B": "Tiết kiệm băng thông",
+        "C": "Tăng lưu lượng truyền dẫn",
+        "D": "Giảm độ phức tạp của ứng dụng mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 101,
+      "text": "Chức năng của các giao thức tầng Máy chủ - Mạng bao gồm?",
+      "options": {
+        "A": "Bộ tiêu chuẩn giao diện kết nối vật lý",
+        "B": "Kiểm soát lỗi",
+        "C": "Kiểm soát luồng",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 102,
+      "text": "Khi nói về các topo mạng, câu phát biểu nào sau đây là sai?",
+      "options": {
+        "A": "Chất lượng truyền dữ liệu của mạng ring là tốt nhất",
+        "B": "Mạng mesh có tính chuyên nghiệp cao",
+        "C": "Mạng bus sử dụng ít cáp nhất",
+        "D": "Khó mở rộng quy mô mạng star *"
+      },
+      "answer": ""
+    },
+    {
+      "id": 103,
+      "text": "Một kiến trúc được mô tả như sau: “Đây là kiến trúc dễ dàng lắp đặt và mở rộng mạng, mạng chỉ bị lỗi khi thiết bị trung tâm gặp sự cố”. Hãy cho biết đây là kiến trúc gì?",
+      "options": {
+        "A": "Mesh",
+        "B": "Ring",
+        "C": "Star",
+        "D": "Bus"
+      },
+      "answer": ""
+    },
+    {
+      "id": 104,
+      "text": "Phát biểu nào sau đây là đúng khi so sánh mạng không dây và mạng có dây?",
+      "options": {
+        "A": "Mạng không dây không tiện lợi như mạng có dây",
+        "B": "Mạng có dây không cồng kềnh như mạng không dây",
+        "C": "Mạng không dây có chi phí cao hơn",
+        "D": "Mạng có dây kém an toàn hơn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 105,
+      "text": "Phát biểu nào là đúng về kiểm soát luồng là gì?",
+      "options": {
+        "A": "Kiểm soát luồng không giới hạn được tốc độ truyền dẫn",
+        "B": "Kiểm soát luồng cho phép tốc độ truyền tối đa",
+        "C": "Phản hồi của máy nhận đến máy gửi là một giải pháp kiểm soát luồng",
+        "D": "Kiểm soát luồng chỉ cho phép truyền dữ liệu có kích thước nhỏ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 106,
+      "text": "Phát biểu nào là đúng về tầng Giao vận mô hình TCP/IP?",
+      "options": {
+        "A": "Hướng kết nối và không kết nối",
+        "B": "Chất lượng dịch vụ tin cậy và không tin cậy",
+        "C": "Tất cả đều đúng",
+        "D": "Tương tự tầng Giao vận của mô hình OSI"
+      },
+      "answer": ""
+    },
+    {
+      "id": 107,
+      "text": "Tính chất nào không đúng với mạng gia đình?",
+      "options": {
+        "A": "Đào tạo chuyên nghiệp",
+        "B": "Dễ sử dụng",
+        "C": "Dễ lắp đặt",
+        "D": "Đa phương tiện"
+      },
+      "answer": ""
+    },
+    {
+      "id": 108,
+      "text": "Quy luật truyền dữ liệu bán song công nghĩa là?",
+      "options": {
+        "A": "Truyền hai hướng không đồng thời",
+        "B": "Truyền hai hướng đồng thời",
+        "C": "Chỉ truyền theo một hướng",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 109,
+      "text": "Dịch vụ cơ bản của Internet là gì?",
+      "options": {
+        "A": "Nhóm tin tức",
+        "B": "Tất cả đều đúng",
+        "C": "Đăng nhập từ xa",
+        "D": "Thư điện tử"
+      },
+      "answer": ""
+    },
+    {
+      "id": 110,
+      "text": "Lĩnh vực quản lý mạng bao gồm?",
+      "options": {
+        "A": "Quản lý cấu hình",
+        "B": "Quản lý an ninh",
+        "C": "Quản lý tài khoản",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 111,
+      "text": "Tiến trình TCP trên một máy đánh dấu phân đoạn 1 và máy tính đầu nhận sau đó báo nhận phân đoạn 1, là ví dụ của",
+      "options": {
+        "A": "Mô hình OSI",
+        "B": "Tương tác tầng kề nhau",
+        "C": "Truyền thông vật lý",
+        "D": "Tương tác cùng tầng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 112,
+      "text": "Tên gọi của tầng 3 OSI là?",
+      "options": {
+        "A": "Liên mạng",
+        "B": "Mạng",
+        "C": "Liên kết dữ liệu",
+        "D": "Giao vận"
+      },
+      "answer": ""
+    },
+    {
+      "id": 113,
+      "text": "Topo logic nào được sử dụng phổ biến trong WAN?",
+      "options": {
+        "A": "Token passing",
+        "B": "Broadcast",
+        "C": "Star ring",
+        "D": "Hybrid"
+      },
+      "answer": ""
+    },
+    {
+      "id": 114,
+      "text": "Hiện nay, thiết bị nào có thể kết nối Internet?",
+      "options": {
+        "A": "Điện thoại di động",
+        "B": "Máy tính bảng",
+        "C": "Tivi",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 115,
+      "text": "Chức năng của các giao thức tầng 3 OSI bao gồm?",
+      "options": {
+        "A": "Kiểm soát tắc nghẽn",
+        "B": "Kiểm soát luồng",
+        "C": "Khắc phục sự cố",
+        "D": "Đánh địa chỉ vật lý"
+      },
+      "answer": ""
+    },
+    {
+      "id": 116,
+      "text": "Giao thức tầng 2 OSI thực hiện chức năng nào?",
+      "options": {
+        "A": "Xác định kích thước và hình dáng của card mạng Ethernet",
+        "B": "Phân phát các bit từ thiết bị này đến thiết bị khác",
+        "C": "Xử lý lỗi",
+        "D": "Đánh địa chỉ vật lý"
+      },
+      "answer": ""
+    },
+    {
+      "id": 117,
+      "text": "Đặc điểm nào là sai về topo ring?",
+      "options": {
+        "A": "Các nút mạng nối với nhau thành một vòng khép kín",
+        "B": "Không xảy ra xung đột",
+        "C": "Nút mạng tùy ý gửi/nhận dữ liệu",
+        "D": "Một nút mạng bị lỗi gây ảnh hưởng đến toàn mạng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 118,
+      "text": "Tiến trình HTTP yêu câu TCP gửi dữ liệu và đảm bảo rằng dữ liệu đó được chính xác là",
+      "options": {
+        "A": "Truyền thông vật lý",
+        "B": "Mô hình OSI",
+        "C": "Tương tác cùng tầng",
+        "D": "Tương tác tầng kề nhau"
+      },
+      "answer": ""
+    },
+    {
+      "id": 119,
+      "text": "Tên gọi của tầng 2 OSI là?",
+      "options": {
+        "A": "Vật lý",
+        "B": "Liên kết dữ liệu",
+        "C": "Mạng",
+        "D": "Trình diễn"
+      },
+      "answer": ""
+    },
+    {
+      "id": 120,
+      "text": "Có mấy loại topo logic?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "2"
+      },
+      "answer": ""
+    },
+    {
+      "id": 121,
+      "text": "Tên gọi của tầng 1 OSI là?",
+      "options": {
+        "A": "Physical",
+        "B": "Data link",
+        "C": "Network",
+        "D": "Transport"
+      },
+      "answer": ""
+    },
+    {
+      "id": 122,
+      "text": "Phân biệt khái niệm giao thức, dịch vụ, giao diện. Phát biểu nào là đúng?",
+      "options": {
+        "A": "Giao thức là hoạt động bên trong của một tầng",
+        "B": "Tất cả đều đúng",
+        "C": "Dịch vụ định nghĩa thao tác hoạt động của một tầng",
+        "D": "Giao diện chỉ ra cách thức truy cập vào tầng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 123,
+      "text": "Dịch vụ hướng kết nối có nghĩa là?",
+      "options": {
+        "A": "Máy gửi phải chờ thiết lập kết nối với máy nhận",
+        "B": "Dữ liệu truyền nhận đúng thứ tự",
+        "C": "Hoạt động như đường ống nước",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 124,
+      "text": "Phát biểu nào là đúng về ARPANET và NSFNET?",
+      "options": {
+        "A": "ARPANET sử dụng họ giao thức TCP/IP",
+        "B": "Cả hai mạng đều sử dụng dịch vụ leadsed line cáp quang",
+        "C": "NSFNET do Bộ quốc phòng Mỹ tài trợ",
+        "D": "ARPANET phát triển bùng nổ và những năm 1990"
+      },
+      "answer": ""
+    },
+    {
+      "id": 125,
+      "text": "Phát biểu nào sau đây là đúng về mô hình ngang hàng?",
+      "options": {
+        "A": "Tất cả các máy tính chỉ được nhận vai trò của máy khách",
+        "B": "Không có máy tính nào được phép truy cập vào một máy tính khác",
+        "C": "Một máy tính đóng vai trò làm máy chủ quản lý truy cập mạng của các máy khác",
+        "D": "Máy tính tham gia mạng vừa là máy khách vừa là máy chủ"
+      },
+      "answer": ""
+    },
+    {
+      "id": 126,
+      "text": "Những thiết bị nào có thể kết nối vào mạng gia đình?",
+      "options": {
+        "A": "Laptop",
+        "B": "Tivi",
+        "C": "Đồng hồ",
+        "D": "Tất cả đều đúng"
+      },
+      "answer": ""
+    },
+    {
+      "id": 127,
+      "text": "Tầng nào của mô hình OSI xác định tiêu chuẩn cho giao diện card mạng?",
+      "options": {
+        "A": "Tầng 1",
+        "B": "Tầng 3",
+        "C": "Tầng 2",
+        "D": "Tầng 4"
+      },
+      "answer": ""
+    },
+    {
+      "id": 128,
+      "text": "Phát biểu nào đúng về NSFNET?",
+      "options": {
+        "A": "Phát triển mạng backbone",
+        "B": "Tất cả đều đúng",
+        "C": "Ban đầu được tài trợ, về sau thương mại hóa",
+        "D": "Sử dụng dịch vụ leased cáp quang"
+      },
+      "answer": ""
+    },
+    {
+      "id": 129,
+      "text": "Phát biểu nào sau đây là đúng về LAN và WAN?",
+      "options": {
+        "A": "Kích thước LAN thường nhỏ hơn WAN",
+        "B": "Tất cả đều đúng",
+        "C": "Mạng LAN và WAN đều do doanh nghiệp sở hữu",
+        "D": "Tốc độ truyền dữ liệu của LAN nhỏ hơn WAN"
+      },
+      "answer": ""
+    },
+    {
+      "id": 130,
+      "text": "Tên gọi của tầng 6 OSI là?",
+      "options": {
+        "A": "Transport",
+        "B": "Presentation",
+        "C": "Application",
+        "D": "Session"
+      },
+      "answer": ""
+    },
+    {
+      "id": 131,
+      "text": "Sắp xếp thứ tự của các tầng trong mô hình TCP/IP. Trình tự nào là đúng?",
+      "options": {
+        "A": "Application, Transport, Internet, Network Interface",
+        "B": "Application, Presentation, Network, Physical",
+        "C": "Application, Transport, Network, Physical",
+        "D": "Application, Presentation, Internet, Network Interface"
+      },
+      "answer": ""
+    },
+    {
+      "id": 132,
+      "text": "Phát biểu nào là đúng về ARPANET?",
+      "options": {
+        "A": "Ngừng hoạt động năm 1990",
+        "B": "Tất cả đều đúng",
+        "C": "Mạng chuyển gói lưu và chuyển tiếp đầu tiên trên thế giới",
+        "D": "Phát triển mô hình TCP/IP"
+      },
+      "answer": ""
+    },
+    {
+      "id": 133,
+      "text": "Giao thức nào dưới đây thuộc về tầng Giao vận của mô hình TCP/IP?",
+      "options": {
+        "A": "UDP",
+        "B": "FTP",
+        "C": "SNMP",
+        "D": "IP"
+      },
+      "answer": ""
+    },
+    {
+      "id": 134,
+      "text": "Một kiến trúc được mô tả như sau: “Đây là kiến trúc dùng ít cáp, dễ lắp đặt, khi đoạn cáp đứt đôi thì toàn bộ hệ thống mạng sẽ ngưng hoạt động”. Hãy cho biết đây là kiến trúc gì?",
+      "options": {
+        "A": "Bus",
+        "B": "Mesh",
+        "C": "Star",
+        "D": "Ring"
+      },
+      "answer": ""
+    },
+    {
+      "id": 135,
+      "text": "Tên gọi của tầng 5 OSI là?",
+      "options": {
+        "A": "Session",
+        "B": "Transport",
+        "C": "Presentation",
+        "D": "Network"
+      },
+      "answer": ""
+    },
+    {
+      "id": 136,
+      "text": "Thuật ngữ truyền đơn công là?",
+      "options": {
+        "A": "Unicast communication",
+        "B": "Simple communication",
+        "C": "Simplex communication",
+        "D": "Duplex communication"
+      },
+      "answer": ""
+    },
+    {
+      "id": 137,
+      "text": "Tên gọi của tầng 2 OSI là?",
+      "options": {
+        "A": "Data link",
+        "B": "Network",
+        "C": "Physical",
+        "D": "Presentation"
+      },
+      "answer": ""
+    }
+  ]
+}

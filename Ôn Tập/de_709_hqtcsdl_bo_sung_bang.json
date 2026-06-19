@@ -1,0 +1,504 @@
+{
+  "id": "de_709_hqtcsdl_bo_sung_bang",
+  "title": "Mã đề 709 - Hệ quản trị cơ sở dữ liệu (bổ sung ảnh + hiển thị bảng)",
+  "subject": "Hệ quản trị cơ sở dữ liệu",
+  "course_code": "7080211",
+  "exam_code": "709",
+  "duration_minutes": 60,
+  "question_count_on_paper": 40,
+  "source_note": "Bản JSON này đã ghép từ các ảnh trang 1/6, 2/6, 3/6, 4/6 và phần cuối đề. Những câu có bảng dữ liệu được lưu theo cấu trúc bảng riêng (table.columns + table.rows) để phần mềm có thể hiển thị đủ cả bảng. Hiện vẫn thiếu các câu 35-38 do chưa nhìn rõ đầy đủ trên ảnh.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Cú pháp nào dưới đây được sử dụng để xóa bảng?",
+      "options": {
+        "A": "DROP COLUMN",
+        "B": "DROP TABLE",
+        "C": "DELETE TABLE",
+        "D": "ALTER TABLE"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "text": "Cho biết phương án nào sau đây là cú pháp câu lệnh nhập dữ liệu trong SQL?",
+      "options": {
+        "A": "INSERT INTO VALUES()",
+        "B": "INSERT INTO",
+        "C": "SELECT INTO",
+        "D": "INSERT VALUES"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "text": "Cú pháp câu lệnh nào xóa dữ liệu trong các phương án dưới đây?",
+      "options": {
+        "A": "DROP",
+        "B": "DELETE",
+        "C": "DELETE WHERE <điều kiện>",
+        "D": "DROP WHERE <điều kiện>"
+      },
+      "answer": "B",
+      "note": "Đề gốc không hiển thị dạng đầy đủ 'DELETE FROM ... WHERE ...'; ở đây giữ theo đúng lựa chọn nhìn thấy trong ảnh."
+    },
+    {
+      "id": 4,
+      "text": "Trong SQL, câu lệnh nào dưới đây được sử dụng để tạo Database?",
+      "options": {
+        "A": "Update database tên_database",
+        "B": "Create database tên_database",
+        "C": "Create table tên_database",
+        "D": "Create data tên_database"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "text": "Trong toán tử Like, kí tự đại diện [ ] có ý nghĩa gì sau đây?",
+      "options": {
+        "A": "Bắt buộc chỉ được 1 kí tự",
+        "B": "Thể hiện nhiều kí tự trong xâu",
+        "C": "Một kí tự bất kì nằm trong giới hạn được chỉ định",
+        "D": "Một kí tự không nằm trong giới hạn được chỉ định"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "text": "Tạo cấu trúc bảng trong SQL, nếu tại Data Type của cột tương ứng người dùng chọn kiểu 'Datetime' thì dữ liệu của cột đó nhận giá trị dạng thế nào trong các phương án dưới đây?",
+      "options": {
+        "A": "Thời gian (dd/mm/yyyy)",
+        "B": "Thời gian (hh:mm:ss)",
+        "C": "Thời gian (mm/dd/yyyy:hh:mm:ss)",
+        "D": "Thời gian (mm/dd/yyyy)"
+      },
+      "answer": "C",
+      "note": "Giữ đúng nội dung nhìn thấy trên ảnh; định dạng mô tả trong đáp án gốc có thể là quy ước của môn học hoặc hệ quản trị cơ sở dữ liệu cụ thể."
+    },
+    {
+      "id": 7,
+      "text": "Cho biết phương án nào sau đây là cú pháp câu lệnh tạo cấu trúc bảng trong SQL?",
+      "options": {
+        "A": "insert into Table",
+        "B": "creat New Table",
+        "C": "creat Table",
+        "D": "creat into Table"
+      },
+      "answer": "C",
+      "note": "Đề gốc in là 'creat' thay vì 'create'; tệp JSON giữ nguyên để bám sát đề."
+    },
+    {
+      "id": 8,
+      "text": "Trong câu lệnh select ta sử dụng mệnh đề nào dưới đây, để hiển thị bảng theo thứ tự tăng dần của cột 'Ten'?",
+      "options": {
+        "A": "Order by ten asc",
+        "B": "Order by ten desc",
+        "C": "Having ten asc",
+        "D": "Group by ten asc"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "text": "Lệnh DROP PROC[EDURE] tên_thủ_tục dùng để:",
+      "options": {
+        "A": "Thêm mới một thủ tục",
+        "B": "Cập nhật đi một thủ tục",
+        "C": "Sửa một thủ tục theo điều kiện nào đó",
+        "D": "Xóa đi một thủ tục đã có"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 10,
+      "text": "Cho biết phương án nào sau đây là cú pháp câu lệnh cập nhật (hoặc sửa) dữ liệu?",
+      "options": {
+        "A": "UPDATE <ten bảng> SET <cột> = <giá trị> FROM WHERE",
+        "B": "UPDATE SET = FROM WHERE",
+        "C": "UPDATE INTO SET = FROM WHERE",
+        "D": "UPDATE SET () FROM WHERE"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "text": "Trong toán tử Like, kí tự đại diện % có ý nghĩa gì sau đây?",
+      "options": {
+        "A": "Chuỗi ký tự bất kỳ gồm không hoặc nhiều ký tự",
+        "B": "Một kí tự bất kỳ nằm trong giới hạn được chỉ định",
+        "C": "Một kí tự không nằm trong giới hạn được chỉ định",
+        "D": "Bắt buộc chỉ được 1 kí tự"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "text": "Trong khai báo thủ tục, thân thủ tục chính bắt đầu sau từ khóa nào trong các phương án sau?",
+      "options": {
+        "A": "as",
+        "B": "create",
+        "C": "begin",
+        "D": "create procedure"
+      },
+      "answer": "A",
+      "note": "Theo cú pháp thủ tục trong SQL Server: CREATE PROCEDURE ... AS <thân thủ tục>."
+    },
+    {
+      "id": 13,
+      "text": "Trong SQL ta có 3 thành phần: Column Name, Data Type, Allow Nulls để tạo cấu trúc bảng. Cho biết phương án nào dưới đây là tác dụng của Data Type?",
+      "options": {
+        "A": "Chọn kiểu dữ liệu cho cột tương ứng",
+        "B": "Tạo mới kiểu dữ liệu cho cột tương ứng",
+        "C": "Tạo mới kiểu cột tương ứng",
+        "D": "Chọn kiểu cột tương ứng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "text": "Cho biết phương án nào sau đây là cú pháp câu lệnh xóa thủ tục?",
+      "options": {
+        "A": "drop procedure",
+        "B": "delete procedure",
+        "C": "drop store procedure",
+        "D": "delete store procedure"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "text": "Trong SQL ta có 3 thành phần: Column Name, Data Type, Allow Nulls để tạo cấu trúc bảng. Cho biết phương án nào dưới đây là tác dụng của Allow Nulls?",
+      "options": {
+        "A": "Bắt buộc người dùng nhập dữ liệu",
+        "B": "Không bắt buộc người dùng nhập dữ liệu",
+        "C": "Ràng buộc người dùng bắt buộc nhập dữ liệu cho cột tương ứng hoặc không",
+        "D": "Người dùng không được để trống tất cả các cột trong bảng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "text": "Tạo cấu trúc bảng trong SQL, nếu tại mục Data Type của cột tương ứng người dùng chọn kiểu 'Nvarchar(50)' thì dữ liệu của cột đó nhận giá trị ở dạng nào trong các phương án sau?",
+      "options": {
+        "A": "Chuỗi với độ dài chính xác hỗ trợ Unicode",
+        "B": "Chuỗi với độ dài chính xác .Vntime",
+        "C": "Chuỗi với độ dài cố định",
+        "D": "Chuỗi với độ dài cố định hỗ trợ Unicode"
+      },
+      "answer": "A",
+      "note": "Ảnh hơi mờ; đề gốc dùng mô tả 'độ dài chính xác hỗ trợ Unicode'. Về khái niệm chuẩn, NVARCHAR là chuỗi Unicode có độ dài biến đổi tối đa n ký tự."
+    },
+    {
+      "id": 17,
+      "text": "Cho câu truy vấn sau: Select congty, sodonhang From donhang ORDER BY congty. Ý nghĩa của câu truy vấn trên là gì?",
+      "options": {
+        "A": "Lấy số đơn hàng của một công ty company, sắp xếp theo tên công ty",
+        "B": "Lấy số đơn hàng của mỗi công ty, sắp xếp theo số công ty",
+        "C": "Lấy số đơn hàng của mỗi công ty",
+        "D": "Lấy số đơn hàng của mỗi công ty, sắp xếp theo tên công ty"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 18,
+      "text": "Trong câu lệnh Select, từ khóa 'Having' là gì? Hãy chọn phương án đúng trong các phương án dưới đây:",
+      "options": {
+        "A": "Ràng buộc bản ghi trong bảng",
+        "B": "Ràng buộc cột trong nhóm",
+        "C": "Biểu thức điều kiện của lệnh select",
+        "D": "Biểu thức điều kiện của nhóm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 19,
+      "text": "Hãy chọn phương án đúng ứng với kết quả của câu lệnh dưới đây: Select Right(N'Hà Nội', 3)",
+      "options": {
+        "A": "Hiển thị ra màn hình chuỗi: Hà",
+        "B": "Hiển thị ra màn hình chuỗi: NHà",
+        "C": "Câu lệnh lỗi không chạy được",
+        "D": "Hiển thị ra màn hình chuỗi: Nội"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "text": "Ràng buộc nào dùng để giới hạn hay kiểm soát giá trị được phép nhập vào một cột?",
+      "options": {
+        "A": "Manage Constraints",
+        "B": "Check Constraint",
+        "C": "Unique Constraint",
+        "D": "Default Constraint"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 21,
+      "text": "Cho bảng Khoa gồm (makhoa char(10), tenkhoa char(30), dienthoai char(11)). Để tạo bảng GiangVien gồm (magv int, hotengv char(30), luong decimal(5,2), makhoa char(10)) trong đó magv là khóa chính, makhoa là khóa phụ ta thực hiện lệnh nào dưới đây:",
+      "options": {
+        "A": "Create table GiangVien (magv int not null primary key, hotengv char(30), luong decimal(5,2), makhoa char(10), constraint fk_makhoa khoaphu (makhoa) references Khoa(makhoa))",
+        "B": "Create table GiangVien (magv int not null primary key, hotengv char(30), luong decimal(5,2), makhoa char(10), constraint fk_makhoa foreign key (makhoa) references Khoa(makhoa))",
+        "C": "Create table GiangVien (magv int not null primary key, hotengv char(30), luong decimal(5,2), makhoa char(10), constraint fk_makhoa foreign key(makhoa) references Giangvien (makhoa))",
+        "D": "Create table GiangVien (magv int not null primary key, hotengv char(30), luong decimal(5,2), makhoa char(10), constraint fk_makhoa primary key(makhoa) references Khoa(makhoa))"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "text": "Bạn có thể tạo một bảng mới có cấu trúc giống với một bảng đang tồn tại và dữ liệu được lấy từ bảng đó sang bảng câu lệnh",
+      "options": {
+        "A": "Cả 3 đều không đúng",
+        "B": "SELECT INTO",
+        "C": "INSERT INTO .... SELECT",
+        "D": "INSERT INTO .... VALUES"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "text": "Cú pháp nào dưới đây được sử dụng để tạo ràng buộc Check?",
+      "options": {
+        "A": "CHECK tên ràng buộc CONSTRAINT (điều kiện)",
+        "B": "CONSTRAINT tên ràng buộc CHK (điều kiện)",
+        "C": "CONSTRAINT tên ràng buộc CHECK (điều kiện)",
+        "D": "CONSTRAINT thuộc tính CHECK (điều kiện)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "text": "Cho biết phương án nào sau đây là cú pháp câu lệnh khai báo biến?",
+      "options": {
+        "A": "var",
+        "B": "declare @",
+        "C": "var @",
+        "D": "@"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "text": "Khi tạo cấu trúc bảng trong SQL, nếu tại Data Type của cột tương ứng người dùng chọn kiểu 'Nchar(n)' thì dữ liệu của cột đó nhận giá trị ở dạng nào trong các phương án sau?",
+      "options": {
+        "A": "Chuỗi với độ dài cố định.",
+        "B": "Chuỗi với độ dài cố định hỗ trợ Unicode.",
+        "C": "Chuỗi với độ dài chính xác hỗ trợ Unicode.",
+        "D": "Chuỗi với độ dài chính xác."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "text": "Các phát biểu nào sau đây là đúng về khung nhìn (View)?",
+      "options": {
+        "A": "Nội dung của khung nhìn dựa trên một truy vấn (query), nó chỉ tồn tại trong bộ nhớ",
+        "B": "Cả 3 đều đúng",
+        "C": "Dữ liệu trong một khung nhìn có thể đến từ một hoặc nhiều bảng trong CSDL",
+        "D": "Khung nhìn (View) là một bảng tạm thời, có cấu trúc như một bảng"
+      },
+      "answer": "B",
+      "note": "Đáp án được giữ theo logic của đề in trong ảnh; mô tả về View trong giáo trình có thể diễn đạt khác nhau tùy môn học."
+    },
+    {
+      "id": 27,
+      "text": "Cơ sở dữ liệu 'QuanLyTuyenSinh' có bảng: DiemKhoiA(SoBaoDanh, DiemToan, DiemLy, DiemHoa, DiemUuTien, TongDiem, KetQua). Câu lệnh nào dưới đây đếm tổng số thí sinh có kết quả 'đỗ'?",
+      "options": {
+        "A": "Select count(*) From DiemKhoiA Having KetQua = N'Đỗ'",
+        "B": "Select count(*) From DiemKhoiA Where KetQua = N'TRƯỢT'",
+        "C": "Select count(*) From DiemKhoiA Order KetQua = N'Đỗ'",
+        "D": "Select count(*) From DiemKhoiA Where KetQua = N'Đỗ'"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 28,
+      "text": "Để gán giá trị cho biến ta thực hiện lệnh:",
+      "options": {
+        "A": "Set @biến = giá trị Hoặc Sel @biến = tên_cột From tên_bảng",
+        "B": "Gán @biến = giá trị Hoặc Select @biến = tên_cột From tên_bảng",
+        "C": "Set @biến = giá trị Hoặc Select @biến = tên_cột From tên_bảng",
+        "D": "Se @biến = giá trị Hoặc Select @biến = tên_cột From tên_bảng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "text": "Hãy chọn câu lệnh Select thực hiện đúng trong các câu lệnh Select dưới đây:",
+      "options": {
+        "A": "SELECT * WHERE t1 ORDER BY id ASC",
+        "B": "SELECT % FROM t1 WHERE BY id",
+        "C": "SELECT * FROM t1 ORDER BY id DESC",
+        "D": "SELECT * FROM t1 WHERE BY id"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "text": "Phát biểu nào sau đây là đúng về Inner Join?",
+      "options": {
+        "A": "Công việc của Inner Join là trả về tất cả các dòng từ một bảng, sau đó so khớp những dòng này với các dòng trong những bảng tương ứng mà các cột liên kết có cùng giá trị. Các cột còn lại của bảng kia trong cột kết quả trả về sẽ có giá trị NULL.",
+        "B": "Cả 2 đều đúng",
+        "C": "Cả 2 đều sai",
+        "D": "Mục đích của Inner Join là so khớp các dòng trong một bảng với các dòng tương ứng trong bảng khác mà ở đó các cột liên kết chứa cùng giá trị"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 31,
+      "text": "Cho biết phương án nào sau đây là cú pháp câu lệnh thêm một cột vào bảng trong SQL?",
+      "options": {
+        "A": "add [ràng buộc]",
+        "B": "alter table Add [ràng buộc]",
+        "C": "add table [ràng buộc]",
+        "D": "insert table [ràng buộc]"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "text": "Inner Join là kiểu liên kết gì trong các phương án sau?",
+      "options": {
+        "A": "Liên kết đầy đủ",
+        "B": "Liên kết phải",
+        "C": "Liên kết bằng",
+        "D": "Liên kết trái"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 33,
+      "text": "Câu lệnh ALTER TABLE được sử dụng để làm gì trong các phương án sau?",
+      "options": {
+        "A": "Tạo ra một bảng trong một cơ sở dữ liệu",
+        "B": "Thêm, sửa, xóa các cột trong bảng hiện tại",
+        "C": "Xóa một bảng trong một cơ sở dữ liệu",
+        "D": "Tất cả đáp án đều đúng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "text": "Cho câu lệnh truy vấn sau: select * from KhachHang where Ten Like '[^HL]%' . Câu truy vấn này có ý nghĩa là gì?",
+      "options": {
+        "A": "Để hiển thị thông tin của những khách hàng có tên không bắt đầu bởi kí tự 'H' hoặc 'L'",
+        "B": "Để hiển thị thông tin của những khách hàng có tên bắt đầu bởi kí tự 'H' hoặc 'L'",
+        "C": "Để hiển thị thông tin của những khách hàng có tên chứa kí tự 'H' hoặc 'L'",
+        "D": "Để hiển thị thông tin của những khách hàng có tên kết thúc bởi kí tự 'H' hoặc 'L'"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 39,
+      "text": "Cho bảng Cungcap như sau. Câu truy vấn SQL nào sau đây tính tổng số lượng của từng mặt hàng?",
+      "table": {
+        "title": "Bảng Cungcap",
+        "columns": [
+          "Mancc",
+          "Mahang",
+          "Soluong"
+        ],
+        "rows": [
+          [
+            101,
+            1,
+            20
+          ],
+          [
+            101,
+            2,
+            30
+          ],
+          [
+            102,
+            2,
+            14
+          ],
+          [
+            103,
+            4,
+            50
+          ],
+          [
+            104,
+            2,
+            5
+          ],
+          [
+            104,
+            4,
+            6
+          ],
+          [
+            101,
+            3,
+            100
+          ]
+        ]
+      },
+      "options": {
+        "A": "select mahang, count(soluong) from cungcap group by mahang",
+        "B": "select mahang, count(soluong) from cungcap",
+        "C": "select mahang, sum(soluong) from cungcap",
+        "D": "select mahang, sum(soluong) from cungcap group by mahang"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 40,
+      "text": "Cho bảng Cungcap như sau. Kết quả của câu truy vấn SQL sau là gì?\nselect Mahang from Cungcap\ngroup by Mahang\nhaving COUNT(*) >= all(select COUNT(*) from Cungcap group by Mahang)",
+      "table": {
+        "title": "Bảng Cungcap",
+        "columns": [
+          "Mancc",
+          "Mahang",
+          "Soluong"
+        ],
+        "rows": [
+          [
+            101,
+            1,
+            20
+          ],
+          [
+            101,
+            2,
+            30
+          ],
+          [
+            102,
+            2,
+            14
+          ],
+          [
+            103,
+            4,
+            50
+          ],
+          [
+            104,
+            2,
+            5
+          ],
+          [
+            104,
+            4,
+            6
+          ],
+          [
+            101,
+            3,
+            100
+          ]
+        ]
+      },
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "answer": "C"
+    }
+  ]
+}
